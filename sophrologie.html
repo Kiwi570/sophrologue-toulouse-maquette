@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sophrologie à Toulouse : émotions, stress, sommeil, acouphènes</title>
+<meta name="description" content="Comment se passe une séance, les onze domaines d’accompagnement, le protocole acouphènes et les ateliers en entreprise.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://sophrologue-toulouse-maquette.vercel.app/sophrologie">
+<style>:root{--fond:#F4F5F2;--texte:#1E1D2B;--voile-fond:#2A2740;--menu-fond:#F4F5F2}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4F5F2">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Marianne Meyzen Récalde">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Sophrologie à Toulouse : émotions, stress, sommeil, acouphènes">
+<meta property="og:description" content="Comment se passe une séance, les onze domaines d’accompagnement, le protocole acouphènes et les ateliers en entreprise.">
+<meta property="og:url" content="https://sophrologue-toulouse-maquette.vercel.app/sophrologie">
+<meta property="og:image" content="https://sophrologue-toulouse-maquette.vercel.app/assets/partage/sophrologie-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="La sophrologie avec Marianne Meyzen Récalde">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Marianne Meyzen Récalde, sophrologue","url":"https://sophrologue-toulouse-maquette.vercel.app/","telephone":"+33643700110","description":"Sophrologue certifiée à Toulouse et en ligne : gestion du stress et des émotions, deuil animalier (Les Amis de Buck), acouphènes, hypnose thérapeutique.","address":{"@type":"PostalAddress","streetAddress":"3 rue Ledru-Rollin","postalCode":"31300","addressLocality":"Toulouse","addressCountry":"FR"},"sameAs":["https://facebook.com/deuilanimalierlesamisdeBuck"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair-240.webp" alt="" width="56" height="59"><span data-voile-libelle>Sophrologie</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="intro-scene">
+    <span class="intro-anneau"></span><span class="intro-anneau"></span>
+    <div class="intro-disque" data-ouverture-objet><img src="/assets/images/logo-240.webp" alt="" width="72" height="75"></div>
+  </div>
+  <p class="intro-mots"><span class="intro-mot intro-mot--in">Inspirez</span><span class="intro-mot intro-mot--ex">Expirez</span></p>
+  <p class="ouverture-nom">Marianne Meyzen Récalde<span>Sophrologue à Toulouse</span></p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-240.webp" alt="" width="40" height="42"><span class="entete-nom">Marianne Meyzen Récalde<small>Sophrologue · Toulouse</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie" aria-current="page">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs et rendez-vous">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/les-amis-de-buck" class="menu-lien" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li style="--i:2"><a href="/sophrologie" class="menu-lien" data-libelle="Sophrologie" aria-current="page">Sophrologie</a></li><li style="--i:3"><a href="/hypnose" class="menu-lien" data-libelle="Hypnose">Hypnose</a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+  <p><a class="bouton" href="tel:+33643700110">Appeler 06 43 70 01 10</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-bandeau" id="debut">
+  <div class="conteneur ouv-bandeau-tete">
+    <p class="surtitre" data-anime="gsap">Sophrologie · émotions, stress, sommeil, acouphènes</p>
+    <h1 class="ouv-titre" data-anime="gsap">Savoir gérer l’émotion pour nourrir son corps <em>et son mental</em></h1>
+    <div class="ouv-bandeau-bas" data-anime="gsap">
+      <p class="ouv-texte masque-ecran-bas">La sophrologie est un enseignement psycho-physique : vous pratiquez en séance des exercices que je guide, puis vous vous les appropriez pour votre quotidien.</p>
+      <div class="ouv-actions">
+        <a href="/rendez-vous?sujet=sophrologie#demande" class="bouton" data-libelle="Tarifs et rendez-vous" data-action-principale data-survol="magnetique">Prendre rendez-vous</a>
+        <p class="ouv-info" data-info-cle>50 € la séance · 1 h 30 la première, puis 1 h</p>
+      </div>
+    </div>
+  </div>
+  <div class="bandeau-zone">
+    <figure class="media bandeau-media" data-grok data-effet="bandeau-ouvre" data-iris-centre style="--cadrage:50% 60%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/sophro-ouverture-mobile-640.webp 640w, /assets/images/grok/sophro-ouverture-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/sophro-ouverture-1280.webp" srcset="/assets/images/grok/sophro-ouverture-640.webp 640w, /assets/images/grok/sophro-ouverture-1280.webp 1280w, /assets/images/grok/sophro-ouverture-1920.webp 1920w" sizes="100vw" alt="Collines vertes au lever du jour, brume dans les vallons et un chemin d’herbe" width="1280" height="549" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="section definition" id="definition">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Le mot</p>
+      <h2 data-anime="lignes">Le mental en harmonie <em>avec le corps</em></h2>
+      <p class="chapo" data-anime>Discipline fondée en 1960 par le neuropsychiatre Alfonso Caycedo, la sophrologie associe trois mots du grec ancien. Son but : mettre en valeur ce qui vous rend heureux, et apprendre à prendre du recul sur ce qui vous met mal à l’aise.</p>
+    </div>
+    <ul class="mots-grecs" data-anime="cascade">
+      <li><span class="mot-grec" lang="grc-Latn">sôs</span><span>harmonie, équilibre, sérénité</span></li><li><span class="mot-grec" lang="grc-Latn">phren</span><span>conscience, cerveau</span></li><li><span class="mot-grec" lang="grc-Latn">logos</span><span>étude, discours</span></li>
+    </ul>
+    <p class="encart centre-bloc" data-anime>La sophrologie ne remplace pas un suivi médical : elle le complète.</p>
+  </div>
+</section>
+<section class="section techniques fond-ciel" id="techniques">
+  <div class="conteneur techniques-grille">
+    <figure class="media techniques-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/seance-eau-960.webp" srcset="/assets/images/grok/seance-eau-480.webp 480w, /assets/images/grok/seance-eau-640.webp 640w, /assets/images/grok/seance-eau-960.webp 960w" sizes="(max-width: 760px) 100vw, 36vw" alt="Un verre d’eau sur une table en bois clair, dans la lumière du matin" width="960" height="1200" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div>
+      <p class="surtitre" data-anime>Des techniques essentielles</p>
+      <h2 data-anime="lignes">Respirer, bouger, <em>imaginer</em></h2>
+      <ul class="techniques-liste" data-anime="cascade">
+        <li><h3>La relaxation dynamique</h3><p>Des exercices de mobilité corporelle qui alternent tension douce et relâchement musculaire.</p></li><li><h3>La respiration</h3><p>Bien respirer, c’est assurer à l’ensemble de son corps un bon fonctionnement et détenir la clé de l’apaisement.</p></li><li><h3>La visualisation</h3><p>Utilisée dans un état de détente, pour vivre des expériences positives par l’imagination.</p></li>
+      </ul>
+      <p class="note" data-anime>Inspirée de la contemplation et de la méditation : prendre du recul, être présent(e) à soi-même, accueillir ses émotions et les laisser traverser, centré(e) sur sa respiration.</p>
+    </div>
+  </div>
+</section>
+<section class="section domaines" id="domaines">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Onze domaines</p>
+      <h2 data-anime="lignes">Pour quoi <em>venir me voir</em> ?</h2>
+    </div>
+    <div class="filtres" role="group" aria-label="Filtrer les domaines" data-filtres data-anime>
+      <button type="button" class="filtre" data-filtre="tous" aria-pressed="true">Tous</button>
+      <button type="button" class="filtre" data-filtre="emotions" aria-pressed="false">Émotions et relations</button><button type="button" class="filtre" data-filtre="sante" aria-pressed="false">Corps et santé</button><button type="button" class="filtre" data-filtre="pro" aria-pressed="false">Travail et projets</button><button type="button" class="filtre" data-filtre="moments" aria-pressed="false">Grands moments</button>
+    </div>
+    <p class="visuellement-cache" aria-live="polite" data-filtre-compte="{n} domaines affichés"></p>
+    <ul class="domaines-grille" data-anime="cascade">
+      <li class="domaine" data-famille="emotions" id="domaine-emotions"><span class="domaine-num" aria-hidden="true">01</span><h3>Accueillir et gérer ses émotions</h3><p>Comprendre comment nous vivons certains événements et les émotions qui s’y rattachent, pour s’en libérer en douceur.</p><span class="domaine-famille">Émotions et relations</span></li><li class="domaine" data-famille="sante" id="domaine-acouphenes"><span class="domaine-num" aria-hidden="true">02</span><h3>Acouphènes et hyperacousie</h3><p>Agir sur le cerveau émotionnel avec un protocole court de 6 à 8 séances.</p><span class="domaine-famille">Corps et santé</span></li><li class="domaine" data-famille="emotions" id="domaine-soi"><span class="domaine-num" aria-hidden="true">03</span><h3>Relation à soi-même</h3><p>Faire la paix avec son histoire, cultiver une relation bienveillante avec soi-même et la confiance en soi.</p><span class="domaine-famille">Émotions et relations</span></li><li class="domaine" data-famille="emotions" id="domaine-communiquer"><span class="domaine-num" aria-hidden="true">04</span><h3>Bien communiquer</h3><p>Être en harmonie avec son cercle social, s’émanciper du regard des autres, communiquer aisément.</p><span class="domaine-famille">Émotions et relations</span></li><li class="domaine" data-famille="moments" id="domaine-naissance"><span class="domaine-num" aria-hidden="true">05</span><h3>Préparation à la naissance</h3><p>Préparer en douceur l’arrivée d’un enfant, en soutien du suivi de grossesse, puis prendre soin de soi.</p><span class="domaine-famille">Grands moments</span></li><li class="domaine" data-famille="sante" id="domaine-nutrition"><span class="domaine-num" aria-hidden="true">06</span><h3>Sophrologie et nutrition</h3><p>Avec Maïté Noez, diététicienne toulousaine : gérer son stress et adopter de bonnes habitudes alimentaires.</p><span class="domaine-famille">Corps et santé</span></li><li class="domaine" data-famille="pro" id="domaine-pro"><span class="domaine-num" aria-hidden="true">07</span><h3>Vie professionnelle</h3><p>Des ateliers en entreprise pour le développement émotionnel de chacun et les relations entre collaborateurs.</p><span class="domaine-famille">Travail et projets</span></li><li class="domaine" data-famille="sante" id="domaine-soins"><span class="domaine-num" aria-hidden="true">08</span><h3>Sophrologie et soins médicaux</h3><p>Aborder des examens médicaux, vivre au mieux un traitement de longue durée.</p><span class="domaine-famille">Corps et santé</span></li><li class="domaine" data-famille="pro" id="domaine-preparation"><span class="domaine-num" aria-hidden="true">09</span><h3>Préparation mentale</h3><p>Optimiser sa participation à un événement à venir, avec la préparation mentale alliée à la sophrologie.</p><span class="domaine-famille">Travail et projets</span></li><li class="domaine" data-famille="moments" id="domaine-mariage"><span class="domaine-num" aria-hidden="true">10</span><h3>Préparer sereinement son mariage</h3><p>Quelques séances, en solo ou en duo, pour vivre pleinement chaque moment du grand jour.</p><span class="domaine-famille">Grands moments</span></li><li class="domaine" data-famille="sante" id="domaine-sommeil"><span class="domaine-num" aria-hidden="true">11</span><h3>Bien dormir</h3><p>Retrouver un sommeil réparateur et se réveiller plein(e) d’énergie.</p><span class="domaine-famille">Corps et santé</span></li>
+    </ul>
+  </div>
+</section>
+<section class="section acouphenes acouphenes--page" id="acouphenes">
+  <div class="conteneur acouphenes-grille">
+    <div class="acouphenes-texte">
+      <p class="surtitre" data-anime>Protocole acouphènes</p>
+      <h2 data-anime="lignes">Intégrer l’acouphène aux <em>sons de votre quotidien</em></h2>
+      <p data-anime>Les acouphènes sont des sons ou des sensations auditives sans bruit extérieur. Ils peuvent suivre une exposition prolongée à un bruit intense, une pathologie de l’oreille interne, ou n’avoir aucune cause identifiée. Le protocole, court, se construit selon vos symptômes.</p>
+      <p class="grand-chiffre" data-anime><strong>6 à 8</strong> séances, selon la méthodologie de Patricia Grévin</p>
+      <ul class="coches" data-anime="cascade"><li>Libérer les pensées négatives</li><li>Redécouvrir des sensations physiques</li><li>Apaiser les émotions</li><li>Intégrer peu à peu l’acouphène aux sons habituels</li></ul>
+      <p class="note" data-anime>Les séances peuvent aussi aider en cas d’hyperacousie, de syndrome de Ménière, d’anxiété avec vertiges, de fatigue ou de troubles du sommeil.</p>
+    </div>
+    <figure class="media acouphenes-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/acouphenes-eau-1280.webp" srcset="/assets/images/grok/acouphenes-eau-640.webp 640w, /assets/images/grok/acouphenes-eau-1280.webp 1280w, /assets/images/grok/acouphenes-eau-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 50vw" alt="Surface d’un lac calme à l’aube, quelques ronds dans l’eau" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+  <svg class="onde" viewBox="0 0 1200 160" preserveAspectRatio="none" aria-hidden="true" data-effet="onde-apaisee"><path d="M0 80 L1200 80"/><path class="onde-2" d="M0 80 L1200 80"/></svg>
+  <div class="conteneur parcours">
+    <h3 data-anime>Un parcours à plusieurs</h3>
+    <ol class="parcours-liste" data-anime="cascade">
+      <li><strong>Médecin généraliste</strong><span>la consultation de départ</span></li><li><strong>ORL</strong><span>le bilan auditif</span></li><li><strong>Audioprothésiste</strong><span>en cas de déficit auditif</span></li><li><strong>Psychologue</strong><span>les répercussions sur la pensée et le comportement</span></li><li class="parcours-moi"><strong>Sophrologue</strong><span>identifier ses émotions, intégrer l’acouphène à sa vie</span></li>
+    </ol>
+    <p class="encart" data-anime>La sophrologie se pratique toujours en accompagnement d’un suivi ou d’un traitement médical.</p>
+  </div>
+</section>
+<section class="section seance fond-ciel" id="seance">
+  <div class="conteneur seance-grille">
+    <div class="seance-tete">
+      <p class="surtitre" data-anime>Comment se passe une séance</p>
+      <h2 data-anime="lignes">Une heure pour soi, <em>par le corps et la parole</em></h2>
+      <div class="durees" data-anime="cascade">
+        <p><strong>1 h 30</strong> la première séance</p>
+        <p><strong>1 h</strong> les suivantes</p>
+      </div>
+      <blockquote class="petite-citation" data-anime><svg class="guillemet" viewBox="0 0 64 48" aria-hidden="true" data-visuel><path d="M4 44V28C4 14 11 6 25 4l2 6c-8 2-12 7-12 14h10v20H4Zm34 0V28c0-14 7-22 21-24l2 6c-8 2-12 7-12 14h10v20H38Z" fill="currentColor"/></svg><p>Sophrologue super, elle m’a fortement aidé à me préparer pour une opération chirurgicale cardiaque.</p><footer>Jean-Baptiste B.</footer></blockquote>
+    </div>
+    <div class="temps">
+      <svg class="temps-fil" viewBox="0 0 4 600" preserveAspectRatio="none" aria-hidden="true" data-visuel data-fx="trace"><path d="M2 0 V600" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      <ol class="temps-liste" data-anime="cascade">
+        <li><span class="temps-num" aria-hidden="true">1</span><h3>Un temps d’échange</h3><p>Chaque séance commence par un échange. La première fois, vous me dites en quoi la sophrologie peut vous aider et ce sur quoi il est important pour vous de travailler.</p></li><li><span class="temps-num" aria-hidden="true">2</span><h3>Le corps se relâche</h3><p>Le corps se détend progressivement, l’activité du mental ralentit : vous êtes présent(e) à vos ressentis.</p></li><li><span class="temps-num" aria-hidden="true">3</span><h3>Respiration et mouvement</h3><p>Quelques exercices corporels doux alternent respiration, contractions légères et mouvement.</p></li><li><span class="temps-num" aria-hidden="true">4</span><h3>La visualisation</h3><p>Vous vous projetez dans une situation agréable, au présent, dans l’avenir ou dans un souvenir de votre histoire.</p></li><li><span class="temps-num" aria-hidden="true">5</span><h3>L’intégration</h3><p>Un dernier exercice vous fait accueillir en vous les sensations et émotions agréables qui se sont dégagées.</p></li><li><span class="temps-num" aria-hidden="true">6</span><h3>Le carnet</h3><p>Vous notez votre vécu dans un carnet dédié à la sophrologie, puis partagez avec moi ce que vous souhaitez.</p></li>
+      </ol>
+      <p class="note" data-anime>Chaque séance est un moment d’allègement et de liberté, protégé par la bienveillance et le caractère secret de nos échanges.</p>
+    </div>
+  </div>
+</section>
+<section class="section entreprise" id="entreprise">
+  <div class="conteneur entreprise-grille">
+    <div>
+      <p class="surtitre" data-anime>Seul(e), à deux ou en groupe</p>
+      <h2 data-anime="lignes">Des séances <em>sur mesure</em></h2>
+      <div class="duo" data-anime="cascade">
+        <div><h3>En individuel ou en couple</h3><p>Un accompagnement sur mesure, au cabinet ou en ligne.</p></div>
+        <div><h3>Ateliers en entreprise</h3><p>Proposer à ses collaborateurs des ateliers de sophrologie pour améliorer la qualité de vie professionnelle et personnelle : développement émotionnel de chacun, relations entre les personnes.</p><p class="prix-ligne" data-prix>17 € par personne en groupe</p></div>
+      </div>
+      <p data-anime><a href="/rendez-vous?sujet=entreprise#demande" class="bouton bouton--contour" data-libelle="Tarifs et rendez-vous">Proposer un atelier</a></p>
+    </div>
+    <figure class="media entreprise-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/sophro-entreprise-960.webp" srcset="/assets/images/grok/sophro-entreprise-480.webp 480w, /assets/images/grok/sophro-entreprise-640.webp 640w, /assets/images/grok/sophro-entreprise-960.webp 960w" sizes="(max-width: 760px) 100vw, 45vw" alt="Un ordinateur portable, une tasse et des fleurs sur une table claire près d’une fenêtre" width="960" height="640" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="section tarifs-bloc fond-ciel" id="tarifs">
+  <div class="conteneur tarifs-bloc-grille">
+    <div>
+      <p class="surtitre" data-anime>Tarifs</p>
+      <h2 data-anime="lignes">Une séance, <em>ou dix</em></h2>
+      <p class="note" data-anime>Première séance d’1 h 30, puis séances d’1 h. Le protocole acouphènes suit les mêmes tarifs.</p>
+      <p data-anime><a href="/rendez-vous?accompagnement=sophrologie#tarifs" class="lien-fleche" data-libelle="Tarifs et rendez-vous">Tous les tarifs</a></p>
+    </div>
+    <table class="table-prix" data-anime>
+      <caption class="visuellement-cache">Sophrologie et acouphènes</caption>
+      <thead><tr><th scope="col">Situation</th><th scope="col">Séance</th><th scope="col">10 séances</th></tr></thead>
+      <tbody><tr><th scope="row">Séance individuelle</th><td data-prix>50 €</td><td data-prix>450 €</td></tr><tr><th scope="row">Étudiant</th><td data-prix>35 €</td><td data-prix>300 €</td></tr><tr><th scope="row">Personne en reconversion</th><td data-prix>35 €</td><td data-prix>300 €</td></tr><tr><th scope="row">Groupe, par personne</th><td data-prix>17 €</td><td data-prix>–</td></tr></tbody>
+    </table>
+  </div>
+</section>
+<section class="appel" id="appel">
+  <figure class="media appel-media" data-grok data-fx="zoom" data-fx-force="12" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/appel-aube-1280.webp" srcset="/assets/images/grok/appel-aube-640.webp 640w, /assets/images/grok/appel-aube-1280.webp 1280w, /assets/images/grok/appel-aube-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="appel-contenu conteneur">
+    <span class="appel-souffle" aria-hidden="true" data-effet="souffle-appel" data-grille="fil"><span></span><span></span><span></span></span>
+    <blockquote class="appel-citation">
+      <p class="appel-titre" data-anime="lignes">Le changement est une porte qui ne s’ouvre que de <em>l’intérieur</em>.</p>
+      <footer data-anime>Tom Peters, auteur américain</footer>
+    </blockquote>
+    <p class="appel-texte" data-anime>Quand vous serez prêt(e), je serai là pour vous écouter : au cabinet à Toulouse ou en ligne.</p>
+    <p class="appel-actions" data-anime>
+      <a href="/rendez-vous#choisir" class="bouton" data-libelle="Tarifs et rendez-vous" data-survol="magnetique">Prendre rendez-vous</a>
+      <a class="bouton bouton--contour" href="tel:+33643700110" data-survol="magnetique">Appeler 06 43 70 01 10</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-240.webp" alt="" width="56" height="59" loading="lazy">
+      <p><strong>Marianne Meyzen Récalde</strong><br>Sophrologue certifiée · Toulouse et en ligne</p>
+      <p><a class="pied-tel" href="tel:+33643700110">06 43 70 01 10</a></p>
+    </div>
+    <div>
+      <p class="pied-titre">Le cabinet</p>
+      <p>Centre Paramédical et de Santé Naturelle des Fontaines<br>3 rue Ledru-Rollin, 31300 Toulouse</p>
+      <p class="pied-titre">Quand</p>
+      <p>Au cabinet : le vendredi après-midi<br>En ligne : mardi et jeudi après-midi, vendredi et samedi matin</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie" aria-current="page">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre</p>
+      <ul>
+        <li><a href="https://facebook.com/deuilanimalierlesamisdeBuck" target="_blank" rel="noopener">Les Amis de Buck sur Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=33643700110" target="_blank" rel="noopener">Écrire sur WhatsApp<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>Maquette de présentation : le formulaire et la demande de rendez-vous sont simulés.</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33643700110">Appeler</a>
+  <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs et rendez-vous">Rendez-vous</a>
+</div>
+</body>
+</html>

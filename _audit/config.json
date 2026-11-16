@@ -1,0 +1,6 @@
+{
+  "siteActuel": "sophrologue-toulouse.com",
+  "pagesTypes": ["/", "/les-amis-de-buck", "/sophrologie", "/hypnose", "/rendez-vous"],
+  "effets": ["souffle", "souffle-appel", "respiration", "etoiles", "onde-apaisee", "bandeau-ouvre", "mise-au-point", "choix"],
+  "grille": { "dispenses": {} }
+}

@@ -1,0 +1,18 @@
+{
+ "@context": "https://schema.org",
+ "@type": "HealthAndBeautyBusiness",
+ "name": "Marianne Meyzen Récalde, sophrologue",
+ "url": "https://sophrologue-toulouse-maquette.vercel.app/",
+ "telephone": "+33643700110",
+ "description": "Sophrologue certifiée à Toulouse et en ligne : gestion du stress et des émotions, deuil animalier (Les Amis de Buck), acouphènes, hypnose thérapeutique.",
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "3 rue Ledru-Rollin",
+  "postalCode": "31300",
+  "addressLocality": "Toulouse",
+  "addressCountry": "FR"
+ },
+ "sameAs": [
+  "https://facebook.com/deuilanimalierlesamisdeBuck"
+ ]
+}

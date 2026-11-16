@@ -1,0 +1,68 @@
+[
+ {
+  "cle": "emotions",
+  "famille": "emotions",
+  "titre": "Accueillir et gérer ses émotions",
+  "texte": "Comprendre comment nous vivons certains événements et les émotions qui s’y rattachent, pour s’en libérer en douceur."
+ },
+ {
+  "cle": "acouphenes",
+  "famille": "sante",
+  "titre": "Acouphènes et hyperacousie",
+  "texte": "Agir sur le cerveau émotionnel avec un protocole court de 6 à 8 séances."
+ },
+ {
+  "cle": "soi",
+  "famille": "emotions",
+  "titre": "Relation à soi-même",
+  "texte": "Faire la paix avec son histoire, cultiver une relation bienveillante avec soi-même et la confiance en soi."
+ },
+ {
+  "cle": "communiquer",
+  "famille": "emotions",
+  "titre": "Bien communiquer",
+  "texte": "Être en harmonie avec son cercle social, s’émanciper du regard des autres, communiquer aisément."
+ },
+ {
+  "cle": "naissance",
+  "famille": "moments",
+  "titre": "Préparation à la naissance",
+  "texte": "Préparer en douceur l’arrivée d’un enfant, en soutien du suivi de grossesse, puis prendre soin de soi."
+ },
+ {
+  "cle": "nutrition",
+  "famille": "sante",
+  "titre": "Sophrologie et nutrition",
+  "texte": "Avec Maïté Noez, diététicienne toulousaine : gérer son stress et adopter de bonnes habitudes alimentaires."
+ },
+ {
+  "cle": "pro",
+  "famille": "pro",
+  "titre": "Vie professionnelle",
+  "texte": "Des ateliers en entreprise pour le développement émotionnel de chacun et les relations entre collaborateurs."
+ },
+ {
+  "cle": "soins",
+  "famille": "sante",
+  "titre": "Sophrologie et soins médicaux",
+  "texte": "Aborder des examens médicaux, vivre au mieux un traitement de longue durée."
+ },
+ {
+  "cle": "preparation",
+  "famille": "pro",
+  "titre": "Préparation mentale",
+  "texte": "Optimiser sa participation à un événement à venir, avec la préparation mentale alliée à la sophrologie."
+ },
+ {
+  "cle": "mariage",
+  "famille": "moments",
+  "titre": "Préparer sereinement son mariage",
+  "texte": "Quelques séances, en solo ou en duo, pour vivre pleinement chaque moment du grand jour."
+ },
+ {
+  "cle": "sommeil",
+  "famille": "sante",
+  "titre": "Bien dormir",
+  "texte": "Retrouver un sommeil réparateur et se réveiller plein(e) d’énergie."
+ }
+]

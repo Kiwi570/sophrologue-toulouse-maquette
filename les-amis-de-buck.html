@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Les Amis de Buck : accompagnement au deuil animalier, Toulouse et en ligne</title>
+<meta name="description" content="Un protocole de 6 séances sur 3 mois pour traverser le deuil d’un animal avec douceur, en cabinet à Toulouse ou en ligne. Premier échange offert.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://sophrologue-toulouse-maquette.vercel.app/les-amis-de-buck">
+<style>:root{--fond:#F4F5F2;--texte:#1E1D2B;--voile-fond:#2A2740;--menu-fond:#F4F5F2}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4F5F2">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Marianne Meyzen Récalde">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Les Amis de Buck : accompagnement au deuil animalier, Toulouse et en ligne">
+<meta property="og:description" content="Un protocole de 6 séances sur 3 mois pour traverser le deuil d’un animal avec douceur, en cabinet à Toulouse ou en ligne. Premier échange offert.">
+<meta property="og:url" content="https://sophrologue-toulouse-maquette.vercel.app/les-amis-de-buck">
+<meta property="og:image" content="https://sophrologue-toulouse-maquette.vercel.app/assets/partage/les-amis-de-buck-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Les Amis de Buck, accompagnement au deuil animalier">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Marianne Meyzen Récalde, sophrologue","url":"https://sophrologue-toulouse-maquette.vercel.app/","telephone":"+33643700110","description":"Sophrologue certifiée à Toulouse et en ligne : gestion du stress et des émotions, deuil animalier (Les Amis de Buck), acouphènes, hypnose thérapeutique.","address":{"@type":"PostalAddress","streetAddress":"3 rue Ledru-Rollin","postalCode":"31300","addressLocality":"Toulouse","addressCountry":"FR"},"sameAs":["https://facebook.com/deuilanimalierlesamisdeBuck"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair-240.webp" alt="" width="56" height="59"><span data-voile-libelle>Les Amis de Buck</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="intro-scene">
+    <span class="intro-anneau"></span><span class="intro-anneau"></span>
+    <div class="intro-disque" data-ouverture-objet><img src="/assets/images/logo-240.webp" alt="" width="72" height="75"></div>
+  </div>
+  <p class="intro-mots"><span class="intro-mot intro-mot--in">Inspirez</span><span class="intro-mot intro-mot--ex">Expirez</span></p>
+  <p class="ouverture-nom">Marianne Meyzen Récalde<span>Sophrologue à Toulouse</span></p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-240.webp" alt="" width="40" height="42"><span class="entete-nom">Marianne Meyzen Récalde<small>Sophrologue · Toulouse</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck" aria-current="page">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs et rendez-vous">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/les-amis-de-buck" class="menu-lien" data-libelle="Les Amis de Buck" aria-current="page">Les Amis de Buck</a></li><li style="--i:2"><a href="/sophrologie" class="menu-lien" data-libelle="Sophrologie">Sophrologie</a></li><li style="--i:3"><a href="/hypnose" class="menu-lien" data-libelle="Hypnose">Hypnose</a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+  <p><a class="bouton" href="tel:+33643700110">Appeler 06 43 70 01 10</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-plein sombre" id="debut">
+  <figure class="media ouv-plein-media" data-grok data-fx="parallaxe" data-fx-force="10" style="--cadrage:40% 60%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/buck-nuit-mobile-640.webp 640w" sizes="100vw">
+    <img src="/assets/images/grok/buck-nuit-1280.webp" srcset="/assets/images/grok/buck-nuit-640.webp 640w, /assets/images/grok/buck-nuit-1280.webp 1280w, /assets/images/grok/buck-nuit-1920.webp 1920w" sizes="100vw" alt="Prairie sous un ciel étoilé, un vieux chêne sur la colline" width="1280" height="854" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <svg class="etoiles" viewBox="0 0 100 62" preserveAspectRatio="xMidYMid slice" aria-hidden="true" data-effet="etoiles"><circle cx="33.09" cy="13.46" r="0.29" style="--i:0"/><circle cx="38.39" cy="40.81" r="0.14" style="--i:1"/><circle cx="96.23" cy="26.68" r="0.16" style="--i:2"/><circle cx="48.28" cy="58.90" r="0.24" style="--i:3"/><circle cx="36.22" cy="39.32" r="0.23" style="--i:4"/><circle cx="1.70" cy="55.76" r="0.24" style="--i:5"/><circle cx="86.39" cy="10.05" r="0.13" style="--i:6"/><circle cx="31.96" cy="52.04" r="0.22" style="--i:7"/><circle cx="80.08" cy="21.55" r="0.15" style="--i:8"/><circle cx="72.41" cy="6.41" r="0.24" style="--i:9"/><circle cx="50.62" cy="32.46" r="0.14" style="--i:10"/><circle cx="56.38" cy="1.54" r="0.16" style="--i:11"/><circle cx="31.35" cy="1.47" r="0.18" style="--i:12"/><circle cx="17.20" cy="58.10" r="0.28" style="--i:13"/><circle cx="55.60" cy="11.25" r="0.12" style="--i:14"/><circle cx="88.21" cy="10.75" r="0.22" style="--i:15"/><circle cx="56.69" cy="20.44" r="0.25" style="--i:16"/><circle cx="2.73" cy="4.16" r="0.29" style="--i:17"/><circle cx="67.98" cy="49.73" r="0.21" style="--i:18"/><circle cx="94.11" cy="58.99" r="0.11" style="--i:19"/><circle cx="22.78" cy="57.78" r="0.29" style="--i:20"/><circle cx="95.67" cy="9.92" r="0.19" style="--i:21"/><circle cx="54.43" cy="3.25" r="0.12" style="--i:22"/><circle cx="40.75" cy="1.61" r="0.17" style="--i:23"/><circle cx="96.27" cy="30.82" r="0.22" style="--i:24"/><circle cx="62.68" cy="54.72" r="0.13" style="--i:25"/><circle cx="81.63" cy="37.15" r="0.22" style="--i:26"/><circle cx="94.79" cy="3.93" r="0.14" style="--i:27"/><circle cx="43.84" cy="42.90" r="0.19" style="--i:28"/><circle cx="70.43" cy="55.89" r="0.26" style="--i:29"/><circle cx="16.23" cy="6.74" r="0.21" style="--i:30"/><circle cx="22.92" cy="45.28" r="0.14" style="--i:31"/><circle cx="32.15" cy="11.35" r="0.13" style="--i:32"/><circle cx="85.59" cy="54.77" r="0.29" style="--i:33"/><circle cx="24.91" cy="15.38" r="0.25" style="--i:34"/><circle cx="91.78" cy="43.01" r="0.11" style="--i:35"/><circle cx="27.86" cy="39.50" r="0.19" style="--i:36"/><circle cx="74.82" cy="30.68" r="0.13" style="--i:37"/><circle cx="74.33" cy="42.38" r="0.25" style="--i:38"/><circle cx="68.05" cy="38.44" r="0.20" style="--i:39"/><circle cx="97.65" cy="44.69" r="0.28" style="--i:40"/><circle cx="4.80" cy="24.96" r="0.16" style="--i:41"/><circle cx="31.16" cy="5.09" r="0.14" style="--i:42"/><circle cx="18.40" cy="10.90" r="0.10" style="--i:43"/><circle cx="8.18" cy="6.25" r="0.13" style="--i:44"/><circle cx="42.18" cy="16.94" r="0.09" style="--i:45"/><circle cx="62.06" cy="6.83" r="0.08" style="--i:46"/><circle cx="9.48" cy="1.74" r="0.20" style="--i:47"/><circle cx="26.12" cy="27.51" r="0.08" style="--i:48"/><circle cx="53.63" cy="47.97" r="0.28" style="--i:49"/><circle cx="33.70" cy="26.95" r="0.20" style="--i:50"/><circle cx="7.97" cy="52.28" r="0.18" style="--i:51"/><circle cx="18.13" cy="25.81" r="0.30" style="--i:52"/><circle cx="5.83" cy="35.36" r="0.21" style="--i:53"/><circle cx="12.75" cy="44.76" r="0.22" style="--i:54"/><circle cx="80.54" cy="17.86" r="0.21" style="--i:55"/><circle cx="50.88" cy="42.48" r="0.26" style="--i:56"/><circle cx="65.44" cy="20.46" r="0.26" style="--i:57"/><circle cx="65.87" cy="39.62" r="0.28" style="--i:58"/><circle cx="93.85" cy="1.81" r="0.21" style="--i:59"/></svg>
+  <div class="conteneur ouv-plein-contenu">
+    <img class="badge-buck badge-buck--grand" src="/assets/images/logo-amis-de-buck-240.webp" alt="" width="120" height="136" data-iris-centre>
+    <p class="surtitre" data-anime="gsap">Deuil animalier · Toulouse et en ligne</p>
+    <h1 class="ouv-titre" data-anime="gsap">Les Amis de Buck, quand nos animaux <em>s’en vont</em>…</h1>
+    <p class="ouv-texte masque-ecran-tres-bas" data-anime="gsap">Un accompagnement doux pour traverser le deuil d’un animal, ou la souffrance de le voir gravement malade, à votre rythme.</p>
+    <div class="ouv-actions" data-anime="gsap">
+      <a href="/rendez-vous?sujet=buck#demande" class="bouton bouton--clair" data-libelle="Tarifs et rendez-vous" data-action-principale data-survol="magnetique">Réserver le premier échange offert</a>
+      <p class="ouv-info" data-info-cle>6 séances d’1 h 30 sur 3 mois · 40 € la séance</p>
+    </div>
+  </div>
+</section>
+<section class="section histoire" id="histoire">
+  <div class="conteneur histoire-grille">
+    <div>
+      <p class="surtitre" data-anime>L’histoire de Buck</p>
+      <h2 data-anime="lignes">Un labrador abandonné trois fois, <em>resté joyeux</em></h2>
+      <p class="chapo" data-anime>Buck était mon labrador. Abandonné trois fois avant de me rencontrer, il est resté gentil et joyeux, avec les autres animaux comme avec sa famille. Grâce aux soins de plusieurs vétérinaires, il a partagé près de douze ans de ma vie, jusqu’à près de 17 ans.</p>
+      <p data-anime>Nous nous sommes séparés à la fin de ma formation de sophrologue. Son deuil a été très douloureux, et une introspection m’a aidée à retrouver le calme. J’ai aussi vécu le deuil de deux chats adorés.</p>
+      <p data-anime>C’est pour cela que je vous propose de traverser ce moment avec humanité, bienveillance et douceur. Les séances portent le nom de Buck.</p>
+    </div>
+    <div class="polaroid-zone">
+      <figure class="polaroid" data-fx="vitesse" data-fx-force="5">
+        <figure class="media polaroid-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/chien-noir-640.webp" srcset="/assets/images/chien-noir-480.webp 480w, /assets/images/chien-noir-640.webp 640w" sizes="(max-width: 760px) 70vw, 300px" alt="Un labrador noir allongé, la gueule ouverte, l’air heureux" width="640" height="512" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <figcaption>Photo du site actuel</figcaption>
+      </figure>
+      <img class="badge-buck badge-buck--flottant" src="/assets/images/logo-amis-de-buck-240.webp" alt="" width="110" height="125" loading="lazy" data-fx="vitesse" data-fx-force="8">
+    </div>
+  </div>
+</section>
+<section class="section vivre fond-ciel" id="vivre">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Tout au long de l’accompagnement</p>
+      <h2 data-anime="lignes">Ce que vous pourrez <em>vivre</em></h2>
+      <p class="chapo" data-anime>Alléger son cœur, renforcer son lien d’amour à son animal, aller à la rencontre de soi-même grâce aux techniques douces de la sophrologie.</p>
+    </div>
+    <ol class="vivre-liste" data-anime="cascade">
+      <li><span class="vivre-num" aria-hidden="true">01</span><span>Libérer votre corps de ses tensions</span></li><li><span class="vivre-num" aria-hidden="true">02</span><span>Accepter la réalité de l’absence</span></li><li><span class="vivre-num" aria-hidden="true">03</span><span>Vous autoriser à ressentir vos émotions, à les exprimer librement</span></li><li><span class="vivre-num" aria-hidden="true">04</span><span>Renforcer le lien d’amour éternel à votre animal</span></li><li><span class="vivre-num" aria-hidden="true">05</span><span>Vous adapter peu à peu à votre quotidien modifié</span></li><li><span class="vivre-num" aria-hidden="true">06</span><span>Ouvrir votre cœur à un nouveau chapitre</span></li>
+    </ol>
+  </div>
+</section>
+<section class="section protocole" id="protocole">
+  <div class="conteneur protocole-grille">
+    <div>
+      <p class="surtitre" data-anime>Le protocole</p>
+      <h2 data-anime="lignes">Six séances pour <em>dire ce qui reste à dire</em></h2>
+      <p class="chapo" data-anime>Des séances qui associent la sophrologie européenne et le coaching anglo-saxon. Avec la mémoire, les cinq sens et la conscience, vous revivez les meilleurs moments, vous revoyez son regard, vous lui dites ce qui reste à dire. Votre animal est présent, symboliquement ou réellement.</p>
+      <p data-anime>L’expérience que vous traversez vous est absolument personnelle : le protocole s’adapte à vous, et peut être prolongé.</p>
+      <ul class="chiffres-cles" data-anime="cascade">
+        <li><strong><span data-compteur="6">6</span></strong> séances</li>
+        <li><strong>1 h 30</strong> par séance</li>
+        <li><strong><span data-compteur="3">3</span></strong> mois</li>
+        <li><strong>Offert</strong> le premier échange, avec ou sans séances réservées</li>
+      </ul>
+      <p class="encart" data-anime>Pour les enfants : des exercices simples et ludiques pour exprimer leurs émotions et retrouver leur équilibre.</p>
+    </div>
+    <figure class="media protocole-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/buck-souvenirs-960.webp" srcset="/assets/images/grok/buck-souvenirs-480.webp 480w, /assets/images/grok/buck-souvenirs-640.webp 640w, /assets/images/grok/buck-souvenirs-960.webp 960w" sizes="(max-width: 760px) 100vw, 40vw" alt="Une boîte en bois pleine de photos souvenirs, posée sur un plaid au soleil" width="960" height="1200" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="section citations sombre" id="citations">
+  <svg class="etoiles" viewBox="0 0 100 62" preserveAspectRatio="xMidYMid slice" aria-hidden="true" data-effet="etoiles"><circle cx="64.99" cy="56.07" r="0.15" style="--i:0"/><circle cx="10.41" cy="14.15" r="0.25" style="--i:1"/><circle cx="19.48" cy="20.30" r="0.26" style="--i:2"/><circle cx="33.88" cy="38.37" r="0.27" style="--i:3"/><circle cx="95.27" cy="32.18" r="0.15" style="--i:4"/><circle cx="45.32" cy="27.57" r="0.21" style="--i:5"/><circle cx="25.69" cy="50.37" r="0.11" style="--i:6"/><circle cx="78.05" cy="2.41" r="0.15" style="--i:7"/><circle cx="44.07" cy="33.54" r="0.21" style="--i:8"/><circle cx="65.42" cy="45.58" r="0.16" style="--i:9"/><circle cx="83.75" cy="2.36" r="0.09" style="--i:10"/><circle cx="40.74" cy="53.72" r="0.10" style="--i:11"/><circle cx="78.06" cy="39.49" r="0.27" style="--i:12"/><circle cx="37.37" cy="47.51" r="0.25" style="--i:13"/><circle cx="60.33" cy="41.61" r="0.15" style="--i:14"/><circle cx="88.62" cy="47.62" r="0.26" style="--i:15"/><circle cx="63.90" cy="29.37" r="0.24" style="--i:16"/><circle cx="27.84" cy="12.71" r="0.19" style="--i:17"/><circle cx="22.10" cy="23.45" r="0.19" style="--i:18"/><circle cx="88.35" cy="25.44" r="0.12" style="--i:19"/><circle cx="68.26" cy="44.51" r="0.28" style="--i:20"/><circle cx="3.49" cy="44.49" r="0.12" style="--i:21"/><circle cx="35.71" cy="51.22" r="0.16" style="--i:22"/><circle cx="6.59" cy="28.53" r="0.26" style="--i:23"/><circle cx="57.80" cy="2.25" r="0.10" style="--i:24"/><circle cx="30.99" cy="60.21" r="0.19" style="--i:25"/><circle cx="67.85" cy="42.25" r="0.18" style="--i:26"/><circle cx="10.02" cy="36.20" r="0.18" style="--i:27"/><circle cx="99.19" cy="5.90" r="0.27" style="--i:28"/><circle cx="77.02" cy="39.18" r="0.10" style="--i:29"/><circle cx="85.17" cy="37.87" r="0.20" style="--i:30"/><circle cx="65.31" cy="27.81" r="0.24" style="--i:31"/><circle cx="59.10" cy="34.82" r="0.28" style="--i:32"/><circle cx="8.23" cy="22.75" r="0.22" style="--i:33"/><circle cx="54.34" cy="17.42" r="0.14" style="--i:34"/><circle cx="39.11" cy="44.67" r="0.14" style="--i:35"/><circle cx="4.20" cy="6.33" r="0.29" style="--i:36"/><circle cx="91.29" cy="52.24" r="0.27" style="--i:37"/><circle cx="42.03" cy="22.22" r="0.15" style="--i:38"/><circle cx="98.10" cy="4.12" r="0.25" style="--i:39"/><circle cx="1.15" cy="23.77" r="0.22" style="--i:40"/><circle cx="92.87" cy="44.99" r="0.15" style="--i:41"/><circle cx="14.90" cy="31.62" r="0.14" style="--i:42"/><circle cx="8.93" cy="9.50" r="0.28" style="--i:43"/><circle cx="16.62" cy="4.46" r="0.21" style="--i:44"/><circle cx="79.63" cy="42.33" r="0.25" style="--i:45"/><circle cx="39.63" cy="24.95" r="0.28" style="--i:46"/><circle cx="38.29" cy="40.14" r="0.15" style="--i:47"/><circle cx="17.27" cy="51.75" r="0.20" style="--i:48"/><circle cx="18.25" cy="23.60" r="0.27" style="--i:49"/></svg>
+  <div class="conteneur citations-contenu">
+    <blockquote class="citation-geante">
+      <p data-anime="lignes">Nous n’avons pas deux cœurs, un pour les animaux et un pour les humains. Nous avons un cœur ou nous n’en avons pas.</p>
+      <footer data-anime>Alphonse de Lamartine</footer>
+    </blockquote>
+    <blockquote class="citation-petite" data-anime>
+      <p>« Dire sa peine, c’est déjà commencer à la déposer. »</p>
+      <footer>Jean Racine</footer>
+    </blockquote>
+  </div>
+</section>
+<section class="section temoignages" id="temoignages">
+  <div class="conteneur">
+    <div class="tete-section">
+      <svg class="guillemet" viewBox="0 0 64 48" aria-hidden="true" data-visuel><path d="M4 44V28C4 14 11 6 25 4l2 6c-8 2-12 7-12 14h10v20H4Zm34 0V28c0-14 7-22 21-24l2 6c-8 2-12 7-12 14h10v20H38Z" fill="currentColor"/></svg>
+      <p class="surtitre" data-anime>Témoignages</p>
+      <h2 data-anime="lignes">Ils ont traversé ce deuil <em>avec moi</em></h2>
+    </div>
+    <ul class="avis avis--mur" data-anime="cascade">
+      <li class="avis-carte"><blockquote><p>Pendant notre première séance, j’ai été accueillie dans un cadre agréable et un espace sécurisant. Je suis déjà apaisée sur ce deuil.</p><footer><strong>Victoria H.</strong></footer></blockquote></li><li class="avis-carte"><blockquote><p>J’ai adopté un Malinois auprès d’une association dédiée à la protection de ces chiens magnifiques… Le lien que nous avons créé est juste magique.</p><footer><strong>Michel</strong></footer></blockquote></li><li class="avis-carte"><blockquote><p>Accompagnée par Marianne, je ne peux que la recommander pour son grand investissement professionnel, son écoute…</p><footer><strong>Christine C.</strong></footer></blockquote></li><li class="avis-carte"><blockquote><p>Marianne, merci pour votre accompagnement durant toutes ces semaines.</p><footer><strong>Manon</strong></footer></blockquote></li><li class="avis-carte"><blockquote><p>Je n’ai malheureusement plus de chien, le mien est mort il y a 2 ans. Je regrette de ne pas vous avoir connue…</p><footer><strong>Jeff</strong></footer></blockquote></li><li class="avis-carte"><blockquote><p>Bonjour Marianne, je suis vétérinaire en région PACA et je viens de découvrir votre activité grâce à Facebook.</p><footer><strong>Philippe</strong> · Vétérinaire en région PACA</footer></blockquote></li>
+    </ul>
+  </div>
+</section>
+<section class="section engagements fond-ciel" id="engagements">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Engagements et rencontres</p>
+      <h2 data-anime="lignes">Une cause qui me <em>tient à cœur</em></h2>
+    </div>
+    <ul class="engag-grille" data-anime="cascade">
+      <li class="engag"><span class="engag-icone" aria-hidden="true">♥</span><h3>Fondation Brigitte Bardot</h3><p>Je suis donatrice de la fondation.</p><a class="lien-fleche" href="https://www.fondationbrigittebardot.fr/" target="_blank" rel="noopener">Visiter le site <span aria-hidden="true">↗</span><span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+      <li class="engag"><span class="engag-icone" aria-hidden="true">♥</span><h3>Fondation 30 Millions d’Amis</h3><p>Je suis « Maître de Cœur » de la fondation.</p><a class="lien-fleche" href="https://www.30millionsdamis.fr/" target="_blank" rel="noopener">Visiter le site <span aria-hidden="true">↗</span><span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+      <li class="engag"><span class="engag-icone" aria-hidden="true">▶</span><h3>Toumaï Chroniques Animalières</h3><p>Interview avec Michel Fareng, créateur de la chaîne, sur l’accompagnement au deuil animalier.</p></li>
+      <li class="engag"><span class="engag-icone" aria-hidden="true">✚</span><h3>Clinique vétérinaire des Acacias</h3><p>Échange avec le Docteur Leclerc à la Toussaint 2022, et l’article « Comment faire le deuil de son animal ? ».</p><a class="lien-fleche" href="https://clinique-veterinaire-acacias.com/comment-faire-deuil-animal-compagnie/" target="_blank" rel="noopener">Lire l’article <span aria-hidden="true">↗</span><span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+    </ul>
+    <p class="centre" data-anime><a class="lien-fleche" href="https://facebook.com/deuilanimalierlesamisdeBuck" target="_blank" rel="noopener">Suivre Les Amis de Buck sur Facebook <span aria-hidden="true">↗</span><span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+  </div>
+</section>
+<section class="section tarifs-bloc" id="tarifs">
+  <div class="conteneur tarifs-bloc-grille">
+    <div>
+      <p class="surtitre" data-anime>Tarifs</p>
+      <h2 data-anime="lignes">Le protocole, <em>séance par séance</em></h2>
+      <p class="note" data-anime>Les séances individuelles complémentaires à ce protocole sont au même tarif. Paiement en 3 ou 4 fois sans frais possible sur demande.</p>
+      <p data-anime><a href="/rendez-vous?accompagnement=buck#tarifs" class="lien-fleche" data-libelle="Tarifs et rendez-vous">Tous les tarifs</a></p>
+    </div>
+    <table class="table-prix" data-anime>
+      <caption class="visuellement-cache">Les Amis de Buck</caption>
+      <tbody><tr><th scope="row">Individuel et couple</th><td data-prix>40 €</td></tr><tr><th scope="row">Étudiant</th><td data-prix>30 €</td></tr><tr><th scope="row">Personne en reconversion</th><td data-prix>30 €</td></tr><tr><th scope="row">Enfant</th><td data-prix>20 €</td></tr><tr><th scope="row">Groupe (5 personnes au plus), par personne</th><td data-prix>10 €</td></tr></tbody>
+    </table>
+  </div>
+</section>
+<section class="appel" id="appel">
+  <figure class="media appel-media" data-grok data-fx="zoom" data-fx-force="12" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/appel-aube-1280.webp" srcset="/assets/images/grok/appel-aube-640.webp 640w, /assets/images/grok/appel-aube-1280.webp 1280w, /assets/images/grok/appel-aube-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="appel-contenu conteneur">
+    <span class="appel-souffle" aria-hidden="true" data-effet="souffle-appel" data-grille="fil"><span></span><span></span><span></span></span>
+    <blockquote class="appel-citation">
+      <p class="appel-titre" data-anime="lignes">Le changement est une porte qui ne s’ouvre que de <em>l’intérieur</em>.</p>
+      <footer data-anime>Tom Peters, auteur américain</footer>
+    </blockquote>
+    <p class="appel-texte" data-anime>Quand vous serez prêt(e), je serai là pour vous écouter : au cabinet à Toulouse ou en ligne.</p>
+    <p class="appel-actions" data-anime>
+      <a href="/rendez-vous#choisir" class="bouton" data-libelle="Tarifs et rendez-vous" data-survol="magnetique">Prendre rendez-vous</a>
+      <a class="bouton bouton--contour" href="tel:+33643700110" data-survol="magnetique">Appeler 06 43 70 01 10</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-240.webp" alt="" width="56" height="59" loading="lazy">
+      <p><strong>Marianne Meyzen Récalde</strong><br>Sophrologue certifiée · Toulouse et en ligne</p>
+      <p><a class="pied-tel" href="tel:+33643700110">06 43 70 01 10</a></p>
+    </div>
+    <div>
+      <p class="pied-titre">Le cabinet</p>
+      <p>Centre Paramédical et de Santé Naturelle des Fontaines<br>3 rue Ledru-Rollin, 31300 Toulouse</p>
+      <p class="pied-titre">Quand</p>
+      <p>Au cabinet : le vendredi après-midi<br>En ligne : mardi et jeudi après-midi, vendredi et samedi matin</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck" aria-current="page">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre</p>
+      <ul>
+        <li><a href="https://facebook.com/deuilanimalierlesamisdeBuck" target="_blank" rel="noopener">Les Amis de Buck sur Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=33643700110" target="_blank" rel="noopener">Écrire sur WhatsApp<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>Maquette de présentation : le formulaire et la demande de rendez-vous sont simulés.</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33643700110">Appeler</a>
+  <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs et rendez-vous">Rendez-vous</a>
+</div>
+</body>
+</html>

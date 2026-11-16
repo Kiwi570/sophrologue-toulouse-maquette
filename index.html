@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Marianne Meyzen Récalde, sophrologue à Toulouse et en ligne</title>
+<meta name="description" content="Sophrologue certifiée à Toulouse (Purpan) et en ligne : stress et émotions, sommeil, deuil animalier avec Les Amis de Buck, acouphènes, hypnose thérapeutique.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://sophrologue-toulouse-maquette.vercel.app/">
+<style>:root{--fond:#F4F5F2;--texte:#1E1D2B;--voile-fond:#2A2740;--menu-fond:#F4F5F2}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4F5F2">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Marianne Meyzen Récalde">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Marianne Meyzen Récalde, sophrologue à Toulouse et en ligne">
+<meta property="og:description" content="Sophrologue certifiée à Toulouse (Purpan) et en ligne : stress et émotions, sommeil, deuil animalier avec Les Amis de Buck, acouphènes, hypnose thérapeutique.">
+<meta property="og:url" content="https://sophrologue-toulouse-maquette.vercel.app/">
+<meta property="og:image" content="https://sophrologue-toulouse-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Marianne Meyzen Récalde, sophrologue : retrouver son souffle, à son rythme">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Marianne Meyzen Récalde, sophrologue","url":"https://sophrologue-toulouse-maquette.vercel.app/","telephone":"+33643700110","description":"Sophrologue certifiée à Toulouse et en ligne : gestion du stress et des émotions, deuil animalier (Les Amis de Buck), acouphènes, hypnose thérapeutique.","address":{"@type":"PostalAddress","streetAddress":"3 rue Ledru-Rollin","postalCode":"31300","addressLocality":"Toulouse","addressCountry":"FR"},"sameAs":["https://facebook.com/deuilanimalierlesamisdeBuck"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair-240.webp" alt="" width="56" height="59"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="intro-scene">
+    <span class="intro-anneau"></span><span class="intro-anneau"></span>
+    <div class="intro-disque" data-ouverture-objet><img src="/assets/images/logo-240.webp" alt="" width="72" height="75"></div>
+  </div>
+  <p class="intro-mots"><span class="intro-mot intro-mot--in">Inspirez</span><span class="intro-mot intro-mot--ex">Expirez</span></p>
+  <p class="ouverture-nom">Marianne Meyzen Récalde<span>Sophrologue à Toulouse</span></p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo-240.webp" alt="" width="40" height="42"><span class="entete-nom">Marianne Meyzen Récalde<small>Sophrologue · Toulouse</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs et rendez-vous">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/les-amis-de-buck" class="menu-lien" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li style="--i:2"><a href="/sophrologie" class="menu-lien" data-libelle="Sophrologie">Sophrologie</a></li><li style="--i:3"><a href="/hypnose" class="menu-lien" data-libelle="Hypnose">Hypnose</a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+  <p><a class="bouton" href="tel:+33643700110">Appeler 06 43 70 01 10</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero" id="debut">
+  <div class="hero-texte">
+    <p class="surtitre hero-sur" data-anime="gsap">Sophrologue certifiée · Toulouse et en ligne</p>
+    <h1 class="hero-titre" data-anime="gsap">
+      <span class="ligne-masque"><span class="hero-ligne">Retrouver</span></span>
+      <span class="ligne-masque"><span class="hero-ligne">son <em>souffle</em>,</span></span>
+      <span class="ligne-masque"><span class="hero-ligne">à son rythme.</span></span>
+    </h1>
+    <p class="hero-intro masque-ecran-tres-bas" data-anime="gsap">Stress, émotions, sommeil, deuil d’un animal, acouphènes : je vous accompagne en douceur avec la sophrologie et l’hypnose, au cabinet à Toulouse ou en ligne.</p>
+    <div class="hero-actions" data-anime="gsap">
+      <a href="/rendez-vous#choisir" class="bouton" data-libelle="Tarifs et rendez-vous" data-action-principale data-survol="magnetique">Prendre rendez-vous</a>
+      <a class="bouton bouton--contour" href="#accompagnements">Mes accompagnements</a>
+    </div>
+    <p class="hero-info" data-info-cle data-anime="gsap"><span class="point-vert" aria-hidden="true"></span>Cabinet le vendredi après-midi · en ligne quatre demi-journées par semaine</p>
+  </div>
+  <div class="hero-visuel">
+    <div class="souffle" data-effet="souffle" aria-hidden="true"><span></span><span></span><span></span></div>
+    <figure class="media souffle-media" data-grok data-iris-centre="disque" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/accueil-souffle-1280.webp" srcset="/assets/images/grok/accueil-souffle-640.webp 640w, /assets/images/grok/accueil-souffle-960.webp 960w, /assets/images/grok/accueil-souffle-1280.webp 1280w" sizes="(max-width: 760px) 80vw, 42vw" alt="Ciel clair du matin au-dessus de collines dans la brume" width="1280" height="1280" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <figure class="medaillon" data-anime="gsap">
+      <figure class="media medaillon-media" style="--cadrage:50% 30%">
+  <picture>
+    <img src="/assets/images/marianne-576.webp" srcset="/assets/images/marianne-320.webp 320w, /assets/images/marianne-480.webp 480w, /assets/images/marianne-576.webp 576w" sizes="120px" alt="Marianne Meyzen Récalde, sophrologue, souriante" width="576" height="768" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figcaption>Marianne Meyzen Récalde</figcaption>
+    </figure>
+  </div>
+</section>
+<section class="section accompagnements" id="accompagnements">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Ce que j’accompagne</p>
+      <h2 data-anime="lignes">Quatre chemins vers un <em>mieux-être</em></h2>
+      <p class="chapo" data-anime>Chaque accompagnement part de votre histoire et avance à votre rythme, dans la bienveillance et le secret de nos échanges.</p>
+    </div>
+    <p class="glisser" aria-hidden="true">Faites glisser →</p>
+    <div class="rangee" data-galerie tabindex="0" role="region" aria-label="Ce que j’accompagne">
+    <ul class="cartes-acc" data-anime="cascade">
+      <li class="carte-acc" data-survol="incline" data-survol-force="4">
+        <a href="/les-amis-de-buck" data-libelle="Les Amis de Buck" class="carte-acc-lien">
+          <figure class="media carte-acc-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/buck-souvenirs-960.webp" srcset="/assets/images/grok/buck-souvenirs-480.webp 480w, /assets/images/grok/buck-souvenirs-640.webp 640w, /assets/images/grok/buck-souvenirs-960.webp 960w" sizes="(max-width: 760px) 86vw, (max-width: 1100px) 45vw, 22vw" alt="Une boîte en bois pleine de photos souvenirs, posée sur un plaid au soleil" width="960" height="1200" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+          <span class="carte-acc-corps">
+            <span class="surtitre">Deuil animalier</span>
+            <span class="carte-acc-titre">Les Amis de Buck</span>
+            <span class="carte-acc-texte">Traverser le deuil d’un animal, ou la souffrance de le voir gravement malade, avec douceur et sans jugement.</span>
+            <span class="carte-acc-repere">6 séances sur 3 mois · premier échange offert</span>
+            <span class="carte-acc-plus">Découvrir <span aria-hidden="true">→</span></span>
+          </span>
+        </a>
+      </li><li class="carte-acc" data-survol="incline" data-survol-force="4">
+        <a href="/sophrologie#domaines" data-libelle="Sophrologie" class="carte-acc-lien">
+          <figure class="media carte-acc-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/carte-emotions-784.webp" srcset="/assets/images/grok/carte-emotions-480.webp 480w, /assets/images/grok/carte-emotions-640.webp 640w, /assets/images/grok/carte-emotions-784.webp 784w" sizes="(max-width: 760px) 86vw, (max-width: 1100px) 45vw, 22vw" alt="Une tasse et un plaid près de fleurs des champs, dans la lumière du matin" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+          <span class="carte-acc-corps">
+            <span class="surtitre">Sophrologie</span>
+            <span class="carte-acc-titre">Émotions, stress et sommeil</span>
+            <span class="carte-acc-texte">Accueillir ses émotions, retrouver le sommeil, se préparer à un examen, une naissance ou un mariage.</span>
+            <span class="carte-acc-repere">1re séance 1 h 30 · 50 € la séance</span>
+            <span class="carte-acc-plus">Découvrir <span aria-hidden="true">→</span></span>
+          </span>
+        </a>
+      </li><li class="carte-acc" data-survol="incline" data-survol-force="4">
+        <a href="/sophrologie#acouphenes" data-libelle="Sophrologie" class="carte-acc-lien">
+          <figure class="media carte-acc-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/carte-acouphenes-784.webp" srcset="/assets/images/grok/carte-acouphenes-480.webp 480w, /assets/images/grok/carte-acouphenes-640.webp 640w, /assets/images/grok/carte-acouphenes-784.webp 784w" sizes="(max-width: 760px) 86vw, (max-width: 1100px) 45vw, 22vw" alt="Herbes hautes et fleurs sauvages couvertes de rosée, vallée dans la brume" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+          <span class="carte-acc-corps">
+            <span class="surtitre">Protocole court</span>
+            <span class="carte-acc-titre">Acouphènes</span>
+            <span class="carte-acc-texte">Mieux vivre la présence de l’acouphène chronique en l’intégrant aux sons de votre quotidien.</span>
+            <span class="carte-acc-repere">6 à 8 séances · méthodologie Patricia Grévin</span>
+            <span class="carte-acc-plus">Découvrir <span aria-hidden="true">→</span></span>
+          </span>
+        </a>
+      </li><li class="carte-acc" data-survol="incline" data-survol-force="4">
+        <a href="/hypnose" data-libelle="Hypnose" class="carte-acc-lien">
+          <figure class="media carte-acc-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/carte-hypnose-784.webp" srcset="/assets/images/grok/carte-hypnose-480.webp 480w, /assets/images/grok/carte-hypnose-640.webp 640w, /assets/images/grok/carte-hypnose-784.webp 784w" sizes="(max-width: 760px) 86vw, (max-width: 1100px) 45vw, 22vw" alt="Un fauteuil en lin et un plaid dans une pièce calme et lumineuse" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+          <span class="carte-acc-corps">
+            <span class="surtitre">Thérapie brève</span>
+            <span class="carte-acc-titre">Hypnose thérapeutique</span>
+            <span class="carte-acc-texte">Un dialogue avec l’inconscient pour vous aider à résoudre une problématique précise.</span>
+            <span class="carte-acc-repere">Séance d’1 h 30 · 60 €</span>
+            <span class="carte-acc-plus">Découvrir <span aria-hidden="true">→</span></span>
+          </span>
+        </a>
+      </li>
+    </ul>
+    </div>
+  </div>
+</section>
+<section class="section respirer fond-ciel" id="respirer">
+  <div class="conteneur respirer-grille">
+    <div>
+      <p class="surtitre" data-anime>À essayer tout de suite</p>
+      <h2 data-anime="lignes">Respirez une minute <em>avec moi</em></h2>
+      <p data-anime>La sophrologie travaille beaucoup avec le souffle. Inspirez quand le cercle grandit, expirez quand il se resserre : six respirations, une minute.</p>
+      <blockquote class="petite-citation" data-anime><p>« Bien respirer, c’est assurer à l’ensemble de son corps un bon fonctionnement et détenir la clé de l’apaisement. »</p></blockquote>
+      <p class="note" data-anime>Un petit exercice de découverte : il ne remplace pas une séance.</p>
+    </div>
+    <div class="respiration" data-effet="respiration" data-grille="manipuler" data-repos="Prêt(e) ?" data-inspirez="Inspirez" data-expirez="Expirez" data-fini="Merci" data-cycle="Respiration {n} sur 6">
+      <div class="respiration-cercle" aria-hidden="true" data-visuel><span class="respiration-halo"></span><span class="respiration-disque"></span></div>
+      <p class="respiration-consigne" aria-live="polite"><span data-consigne>Prêt(e) ?</span><small data-compte>&nbsp;</small></p>
+      <button type="button" class="bouton respiration-bouton" data-commencer="Commencer" data-arreter="Arrêter" aria-pressed="false">Commencer</button>
+    </div>
+  </div>
+</section>
+<section class="section buck-bande sombre" id="amis-de-buck">
+  <figure class="media buck-bande-fond" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/buck-nuit-mobile-640.webp 640w" sizes="100vw">
+    <img src="/assets/images/grok/buck-nuit-1280.webp" srcset="/assets/images/grok/buck-nuit-640.webp 640w, /assets/images/grok/buck-nuit-1280.webp 1280w, /assets/images/grok/buck-nuit-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <svg class="etoiles" viewBox="0 0 100 62" preserveAspectRatio="xMidYMid slice" aria-hidden="true" data-effet="etoiles"><circle cx="49.04" cy="34.77" r="0.11" style="--i:0"/><circle cx="24.40" cy="27.48" r="0.19" style="--i:1"/><circle cx="7.86" cy="54.49" r="0.21" style="--i:2"/><circle cx="41.08" cy="17.64" r="0.25" style="--i:3"/><circle cx="65.74" cy="4.75" r="0.19" style="--i:4"/><circle cx="23.51" cy="41.66" r="0.11" style="--i:5"/><circle cx="56.04" cy="30.21" r="0.12" style="--i:6"/><circle cx="5.01" cy="58.23" r="0.29" style="--i:7"/><circle cx="12.08" cy="27.54" r="0.29" style="--i:8"/><circle cx="18.91" cy="25.99" r="0.20" style="--i:9"/><circle cx="67.19" cy="17.41" r="0.12" style="--i:10"/><circle cx="98.56" cy="27.63" r="0.13" style="--i:11"/><circle cx="54.71" cy="20.48" r="0.11" style="--i:12"/><circle cx="77.28" cy="21.81" r="0.16" style="--i:13"/><circle cx="7.96" cy="57.43" r="0.13" style="--i:14"/><circle cx="88.41" cy="29.18" r="0.13" style="--i:15"/><circle cx="60.30" cy="24.91" r="0.25" style="--i:16"/><circle cx="65.28" cy="8.43" r="0.13" style="--i:17"/><circle cx="45.04" cy="5.59" r="0.09" style="--i:18"/><circle cx="41.23" cy="42.22" r="0.22" style="--i:19"/><circle cx="95.52" cy="20.15" r="0.18" style="--i:20"/><circle cx="49.58" cy="27.21" r="0.26" style="--i:21"/><circle cx="45.07" cy="27.24" r="0.14" style="--i:22"/><circle cx="23.67" cy="46.07" r="0.11" style="--i:23"/><circle cx="27.04" cy="47.53" r="0.27" style="--i:24"/><circle cx="96.84" cy="57.46" r="0.27" style="--i:25"/><circle cx="74.74" cy="39.70" r="0.20" style="--i:26"/><circle cx="2.41" cy="20.07" r="0.16" style="--i:27"/><circle cx="21.52" cy="24.40" r="0.23" style="--i:28"/><circle cx="73.72" cy="16.54" r="0.29" style="--i:29"/><circle cx="0.70" cy="22.31" r="0.21" style="--i:30"/><circle cx="44.11" cy="5.54" r="0.30" style="--i:31"/><circle cx="45.63" cy="54.08" r="0.21" style="--i:32"/><circle cx="46.91" cy="7.76" r="0.25" style="--i:33"/><circle cx="89.63" cy="16.40" r="0.09" style="--i:34"/><circle cx="15.44" cy="43.84" r="0.23" style="--i:35"/><circle cx="66.03" cy="53.91" r="0.13" style="--i:36"/><circle cx="83.06" cy="10.46" r="0.09" style="--i:37"/><circle cx="8.18" cy="1.30" r="0.20" style="--i:38"/><circle cx="83.07" cy="52.28" r="0.11" style="--i:39"/><circle cx="49.40" cy="3.23" r="0.14" style="--i:40"/><circle cx="48.83" cy="3.97" r="0.16" style="--i:41"/><circle cx="23.03" cy="18.36" r="0.25" style="--i:42"/><circle cx="13.66" cy="10.20" r="0.08" style="--i:43"/><circle cx="62.40" cy="5.35" r="0.17" style="--i:44"/><circle cx="10.90" cy="29.64" r="0.17" style="--i:45"/><circle cx="0.84" cy="46.89" r="0.18" style="--i:46"/><circle cx="73.89" cy="20.94" r="0.28" style="--i:47"/><circle cx="71.70" cy="39.63" r="0.14" style="--i:48"/><circle cx="35.94" cy="4.78" r="0.27" style="--i:49"/><circle cx="8.29" cy="4.24" r="0.12" style="--i:50"/><circle cx="30.40" cy="1.83" r="0.21" style="--i:51"/><circle cx="43.95" cy="23.39" r="0.20" style="--i:52"/><circle cx="90.61" cy="32.74" r="0.17" style="--i:53"/><circle cx="12.03" cy="55.74" r="0.23" style="--i:54"/><circle cx="49.88" cy="56.20" r="0.23" style="--i:55"/><circle cx="45.84" cy="59.96" r="0.27" style="--i:56"/><circle cx="41.57" cy="30.85" r="0.23" style="--i:57"/><circle cx="78.73" cy="56.72" r="0.20" style="--i:58"/><circle cx="98.99" cy="39.38" r="0.26" style="--i:59"/><circle cx="44.03" cy="4.68" r="0.29" style="--i:60"/><circle cx="55.49" cy="40.44" r="0.17" style="--i:61"/><circle cx="75.06" cy="48.51" r="0.19" style="--i:62"/><circle cx="44.40" cy="54.71" r="0.24" style="--i:63"/><circle cx="5.17" cy="22.88" r="0.18" style="--i:64"/><circle cx="99.05" cy="40.85" r="0.11" style="--i:65"/><circle cx="67.69" cy="10.45" r="0.12" style="--i:66"/><circle cx="52.77" cy="19.52" r="0.08" style="--i:67"/><circle cx="95.95" cy="31.90" r="0.09" style="--i:68"/><circle cx="38.90" cy="11.40" r="0.22" style="--i:69"/></svg>
+  <div class="conteneur buck-bande-grille">
+    <div class="buck-bande-texte">
+      <img class="badge-buck" src="/assets/images/logo-amis-de-buck-240.webp" alt="Logo Les Amis de Buck" width="96" height="109" loading="lazy" data-anime>
+      <p class="surtitre" data-anime>Deuil animalier</p>
+      <h2 data-anime="lignes">Les Amis de Buck, quand nos animaux <em>s’en vont</em>…</h2>
+      <p data-anime>Buck, mon labrador, a partagé près de douze ans de ma vie. Abandonné trois fois avant notre rencontre, il est resté joyeux et doux jusqu’à près de 17 ans. Son départ, à la fin de ma formation, m’a appris combien ce deuil peut être douloureux : les séances portent son nom.</p>
+      <p data-anime><a href="/les-amis-de-buck" class="bouton bouton--clair" data-libelle="Les Amis de Buck" data-survol="magnetique">Découvrir l’accompagnement</a></p>
+    </div>
+    <div class="buck-bande-cote">
+      <ul class="points-buck" data-anime="cascade">
+        <li>6 séances d’1 h 30 sur 3 mois</li>
+        <li>Un premier échange offert</li>
+        <li>Votre animal présent, symboliquement ou réellement</li>
+        <li>Des exercices ludiques pour les enfants</li>
+      </ul>
+      <blockquote class="citation-nuit" data-anime>
+        <p>« Nous n’avons pas deux cœurs, un pour les animaux et un pour les humains. Nous avons un cœur ou nous n’en avons pas. »</p>
+        <footer>Alphonse de Lamartine</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+<section class="section acouphenes" id="acouphenes">
+  <div class="conteneur acouphenes-grille">
+    <div class="acouphenes-texte">
+      <p class="surtitre" data-anime>Acouphène chronique</p>
+      <h2 data-anime="lignes">Que le bruit redevienne un son <em>parmi d’autres</em></h2>
+      <p data-anime>Un protocole court de 6 à 8 séances, selon la méthodologie de Patricia Grévin, pour libérer les pensées négatives, apaiser les émotions et intégrer peu à peu l’acouphène aux sons de votre quotidien.</p>
+      <p class="grand-chiffre" data-anime><strong><span data-compteur="8">8</span> millions</strong> de personnes touchées par les acouphènes en France</p>
+      <p class="note" data-anime>Toujours en complément de votre suivi : médecin, ORL, audioprothésiste, psychologue.</p>
+      <p data-anime><a href="/sophrologie#acouphenes" class="bouton bouton--contour" data-libelle="Sophrologie">Le protocole acouphènes</a></p>
+    </div>
+    <figure class="media acouphenes-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/acouphenes-eau-1280.webp" srcset="/assets/images/grok/acouphenes-eau-640.webp 640w, /assets/images/grok/acouphenes-eau-1280.webp 1280w, /assets/images/grok/acouphenes-eau-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 55vw" alt="Surface d’un lac calme à l’aube, quelques ronds dans l’eau" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+  <svg class="onde" viewBox="0 0 1200 160" preserveAspectRatio="none" aria-hidden="true" data-effet="onde-apaisee"><path d="M0 80 L1200 80"/><path class="onde-2" d="M0 80 L1200 80"/></svg>
+</section>
+<section class="section seance fond-ciel" id="seance">
+  <div class="conteneur seance-grille">
+    <div class="seance-tete">
+      <p class="surtitre" data-anime>Comment se passe une séance</p>
+      <h2 data-anime="lignes">Une heure pour soi, <em>par le corps et la parole</em></h2>
+      <div class="durees" data-anime="cascade">
+        <p><strong>1 h 30</strong> la première séance</p>
+        <p><strong>1 h</strong> les suivantes</p>
+      </div>
+      <figure class="media seance-media masque-ecran-tres-bas" data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/seance-eau-960.webp" srcset="/assets/images/grok/seance-eau-480.webp 480w, /assets/images/grok/seance-eau-640.webp 640w, /assets/images/grok/seance-eau-960.webp 960w" sizes="(max-width: 760px) 100vw, 30vw" alt="Un verre d’eau sur une table en bois clair, dans la lumière du matin" width="960" height="1200" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    </div>
+    <div class="temps">
+      <svg class="temps-fil" viewBox="0 0 4 600" preserveAspectRatio="none" aria-hidden="true" data-visuel data-fx="trace"><path d="M2 0 V600" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      <ol class="temps-liste" data-anime="cascade">
+        <li><span class="temps-num" aria-hidden="true">1</span><h3>Un temps d’échange</h3><p>Chaque séance commence par un échange. La première fois, vous me dites en quoi la sophrologie peut vous aider et ce sur quoi il est important pour vous de travailler.</p></li><li><span class="temps-num" aria-hidden="true">2</span><h3>Le corps se relâche</h3><p>Le corps se détend progressivement, l’activité du mental ralentit : vous êtes présent(e) à vos ressentis.</p></li><li><span class="temps-num" aria-hidden="true">3</span><h3>Respiration et mouvement</h3><p>Quelques exercices corporels doux alternent respiration, contractions légères et mouvement.</p></li><li><span class="temps-num" aria-hidden="true">4</span><h3>La visualisation</h3><p>Vous vous projetez dans une situation agréable, au présent, dans l’avenir ou dans un souvenir de votre histoire.</p></li><li><span class="temps-num" aria-hidden="true">5</span><h3>L’intégration</h3><p>Un dernier exercice vous fait accueillir en vous les sensations et émotions agréables qui se sont dégagées.</p></li><li><span class="temps-num" aria-hidden="true">6</span><h3>Le carnet</h3><p>Vous notez votre vécu dans un carnet dédié à la sophrologie, puis partagez avec moi ce que vous souhaitez.</p></li>
+      </ol>
+      <p class="note" data-anime>Chaque séance est un moment d’allègement et de liberté, protégé par la bienveillance et le caractère secret de nos échanges.</p>
+    </div>
+  </div>
+</section>
+<section class="section qui" id="qui">
+  <div class="conteneur qui-grille">
+    <div class="qui-portrait">
+      <figure class="media qui-media" data-anime="rideau" style="--cadrage:50% 30%">
+  <picture>
+    <img src="/assets/images/marianne-576.webp" srcset="/assets/images/marianne-320.webp 320w, /assets/images/marianne-480.webp 480w, /assets/images/marianne-576.webp 576w" sizes="(max-width: 760px) 70vw, 28vw" alt="Marianne Meyzen Récalde, sophrologue, souriante" width="576" height="768" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <span class="qui-cercle" aria-hidden="true" data-fx="vitesse" data-fx-force="4"></span>
+    </div>
+    <div>
+      <p class="surtitre" data-anime>Faisons connaissance</p>
+      <h2 data-anime="lignes">Marianne Meyzen Récalde, <em>sophrologue certifiée</em></h2>
+      <p class="chapo" data-anime>Formée pendant deux ans à l’Institut de Sophrologie du Sud-Ouest, je me suis spécialisée dans l’accompagnement du deuil animalier, des acouphènes et dans l’hypnose thérapeutique.</p>
+      <ul class="formations" data-anime="cascade">
+        <li><strong>Institut de Sophrologie du Sud-Ouest</strong><span>Formation certifiante de deux ans, avec Régine Philip et Yann Cormier.</span></li><li><strong>La Bulle de Repos</strong><span>Formation avec Florence Parot, The Sophrology Academy, Londres.</span></li><li><strong>Institut de formation Caplain</strong><span>Hypnose thérapeutique.</span></li><li><strong>Spécialisations</strong><span>Deuil animalier, acouphènes chroniques.</span></li>
+      </ul>
+      <p class="engagements" data-anime><span aria-hidden="true">♥</span> Donatrice de la Fondation Brigitte Bardot et « Maître de Cœur » de la Fondation 30 Millions d’Amis.</p>
+    </div>
+  </div>
+</section>
+<section class="section temoignages" id="temoignages">
+  <div class="conteneur">
+    <div class="tete-section">
+      <svg class="guillemet" viewBox="0 0 64 48" aria-hidden="true" data-visuel><path d="M4 44V28C4 14 11 6 25 4l2 6c-8 2-12 7-12 14h10v20H4Zm34 0V28c0-14 7-22 21-24l2 6c-8 2-12 7-12 14h10v20H38Z" fill="currentColor"/></svg>
+      <p class="surtitre" data-anime>Ils en parlent</p>
+      <h2 data-anime="lignes">Des mots qui <em>font du bien</em></h2>
+    </div>
+    <p class="glisser" aria-hidden="true">Faites glisser →</p>
+    <div class="rangee" data-galerie tabindex="0" role="region" aria-label="Ils en parlent">
+    <ul class="avis" data-anime="cascade">
+      <li class="avis-carte"><blockquote><p>Accompagnée par Marianne depuis plusieurs mois, je recommande ! Les séances sont l’occasion de prendre un temps pour moi, un moment de pause dans les périodes mouvementées.</p><footer><strong>Léa G.</strong> · Sophrologie</footer></blockquote></li><li class="avis-carte"><blockquote><p>Sophrologue super, elle m’a fortement aidé à me préparer pour une opération chirurgicale cardiaque.</p><footer><strong>Jean-Baptiste B.</strong> · Préparation à une opération</footer></blockquote></li><li class="avis-carte"><blockquote><p>Pendant notre première séance, j’ai été accueillie dans un cadre agréable et un espace sécurisant. Je suis déjà apaisée sur ce deuil.</p><footer><strong>Victoria H.</strong> · Les Amis de Buck</footer></blockquote></li><li class="avis-carte"><blockquote><p>J’ai adopté un Malinois auprès d’une association dédiée à la protection de ces chiens magnifiques… Le lien que nous avons créé est juste magique.</p><footer><strong>Michel</strong> · Les Amis de Buck</footer></blockquote></li>
+    </ul>
+    </div>
+    <p class="centre" data-anime><a class="lien-fleche" href="https://share.google/FnNHBPywux7ZwUBBL" target="_blank" rel="noopener">Lire les avis Google <span aria-hidden="true">↗</span><span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+  </div>
+</section>
+<section class="section pratique fond-ciel" id="pratique">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Tarifs et lieux</p>
+      <h2 data-anime="lignes">Simple et <em>clair</em></h2>
+    </div>
+    <ul class="prix-tuiles" data-anime="cascade">
+      <li><span class="prix-nom">Sophrologie</span><strong class="prix" data-prix><span data-compteur="50">50</span> €</strong><span>la séance, ou 450 € les 10 séances</span></li>
+      <li><span class="prix-nom">Les Amis de Buck</span><strong class="prix" data-prix><span data-compteur="40">40</span> €</strong><span>la séance, 6 séances d’1 h 30</span></li>
+      <li><span class="prix-nom">Hypnose</span><strong class="prix" data-prix><span data-compteur="60">60</span> €</strong><span>la séance, séance d’1 h 30</span></li>
+    </ul>
+    <div class="lieux" data-anime="cascade">
+      <div class="lieu">
+        <figure class="media lieu-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/cabinet-1280.webp" srcset="/assets/images/cabinet-640.webp 640w, /assets/images/cabinet-960.webp 960w, /assets/images/cabinet-1280.webp 1280w" sizes="(max-width: 760px) 90vw, 20vw" alt="Le cabinet : deux fauteuils gris, un tapis rond et une étagère en bois clair" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div><h3>Au cabinet, à Purpan</h3><p>Le vendredi après-midi, au Centre Paramédical et de Santé Naturelle des Fontaines. Parking gratuit, métro Patte d’Oie.</p></div>
+      </div>
+      <div class="lieu lieu--ligne">
+        <span class="lieu-icone" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="6" y="10" width="36" height="24" rx="4" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M18 40h12M24 34v6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="22" r="5" fill="currentColor"/></svg></span>
+        <div><h3>En ligne, où que vous soyez</h3><p>Mardi et jeudi après-midi, vendredi et samedi matin, en France et dans les pays francophones.</p></div>
+      </div>
+    </div>
+    <p class="centre" data-anime><a href="/rendez-vous" class="bouton" data-libelle="Tarifs et rendez-vous" data-survol="magnetique">Tarifs et rendez-vous</a></p>
+  </div>
+</section>
+<section class="appel" id="appel">
+  <figure class="media appel-media" data-grok data-fx="zoom" data-fx-force="12" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/appel-aube-1280.webp" srcset="/assets/images/grok/appel-aube-640.webp 640w, /assets/images/grok/appel-aube-1280.webp 1280w, /assets/images/grok/appel-aube-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="appel-contenu conteneur">
+    <span class="appel-souffle" aria-hidden="true" data-effet="souffle-appel" data-grille="fil"><span></span><span></span><span></span></span>
+    <blockquote class="appel-citation">
+      <p class="appel-titre" data-anime="lignes">Le changement est une porte qui ne s’ouvre que de <em>l’intérieur</em>.</p>
+      <footer data-anime>Tom Peters, auteur américain</footer>
+    </blockquote>
+    <p class="appel-texte" data-anime>Quand vous serez prêt(e), je serai là pour vous écouter : au cabinet à Toulouse ou en ligne.</p>
+    <p class="appel-actions" data-anime>
+      <a href="/rendez-vous#choisir" class="bouton" data-libelle="Tarifs et rendez-vous" data-survol="magnetique">Prendre rendez-vous</a>
+      <a class="bouton bouton--contour" href="tel:+33643700110" data-survol="magnetique">Appeler 06 43 70 01 10</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-240.webp" alt="" width="56" height="59" loading="lazy">
+      <p><strong>Marianne Meyzen Récalde</strong><br>Sophrologue certifiée · Toulouse et en ligne</p>
+      <p><a class="pied-tel" href="tel:+33643700110">06 43 70 01 10</a></p>
+    </div>
+    <div>
+      <p class="pied-titre">Le cabinet</p>
+      <p>Centre Paramédical et de Santé Naturelle des Fontaines<br>3 rue Ledru-Rollin, 31300 Toulouse</p>
+      <p class="pied-titre">Quand</p>
+      <p>Au cabinet : le vendredi après-midi<br>En ligne : mardi et jeudi après-midi, vendredi et samedi matin</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre</p>
+      <ul>
+        <li><a href="https://facebook.com/deuilanimalierlesamisdeBuck" target="_blank" rel="noopener">Les Amis de Buck sur Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=33643700110" target="_blank" rel="noopener">Écrire sur WhatsApp<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>Maquette de présentation : le formulaire et la demande de rendez-vous sont simulés.</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33643700110">Appeler</a>
+  <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs et rendez-vous">Rendez-vous</a>
+</div>
+</body>
+</html>

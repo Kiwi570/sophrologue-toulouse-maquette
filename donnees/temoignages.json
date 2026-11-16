@@ -1,0 +1,50 @@
+[
+ {
+  "cle": "lea",
+  "nom": "Léa G.",
+  "sujet": "Sophrologie",
+  "texte": "Accompagnée par Marianne depuis plusieurs mois, je recommande ! Les séances sont l’occasion de prendre un temps pour moi, un moment de pause dans les périodes mouvementées."
+ },
+ {
+  "cle": "jean-baptiste",
+  "nom": "Jean-Baptiste B.",
+  "sujet": "Préparation à une opération",
+  "texte": "Sophrologue super, elle m’a fortement aidé à me préparer pour une opération chirurgicale cardiaque."
+ },
+ {
+  "cle": "victoria",
+  "nom": "Victoria H.",
+  "sujet": "Les Amis de Buck",
+  "texte": "Pendant notre première séance, j’ai été accueillie dans un cadre agréable et un espace sécurisant. Je suis déjà apaisée sur ce deuil."
+ },
+ {
+  "cle": "michel",
+  "nom": "Michel",
+  "sujet": "Les Amis de Buck",
+  "texte": "J’ai adopté un Malinois auprès d’une association dédiée à la protection de ces chiens magnifiques… Le lien que nous avons créé est juste magique."
+ },
+ {
+  "cle": "christine",
+  "nom": "Christine C.",
+  "sujet": "Les Amis de Buck",
+  "texte": "Accompagnée par Marianne, je ne peux que la recommander pour son grand investissement professionnel, son écoute…"
+ },
+ {
+  "cle": "manon",
+  "nom": "Manon",
+  "sujet": "Les Amis de Buck",
+  "texte": "Marianne, merci pour votre accompagnement durant toutes ces semaines."
+ },
+ {
+  "cle": "jeff",
+  "nom": "Jeff",
+  "sujet": "Les Amis de Buck",
+  "texte": "Je n’ai malheureusement plus de chien, le mien est mort il y a 2 ans. Je regrette de ne pas vous avoir connue…"
+ },
+ {
+  "cle": "philippe",
+  "nom": "Philippe",
+  "sujet": "Vétérinaire en région PACA",
+  "texte": "Bonjour Marianne, je suis vétérinaire en région PACA et je viens de découvrir votre activité grâce à Facebook."
+ }
+]

@@ -1,0 +1,252 @@
+[
+ {
+  "source": "recu/grok/accueil-souffle.png",
+  "nom": "grok/accueil-souffle",
+  "role": "galerie",
+  "ratio": "1:1",
+  "largeurs": [
+   640,
+   960,
+   1280
+  ],
+  "gabarit": "section-fond",
+  "page": "accueil",
+  "emplacement": "ouverture, image dans le grand cercle qui respire",
+  "priorite": "Indispensable",
+  "consigne_scene": "A soft pale blue morning sky with a few light airy clouds above a low misty horizon of gentle green hills, luminous and very calm, the horizon in the lower third",
+  "alt": "Ciel clair du matin au-dessus de collines dans la brume",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/carte-emotions.png",
+  "nom": "grok/carte-emotions",
+  "role": "carte-service",
+  "gabarit": "portrait-generique",
+  "page": "Accueil",
+  "emplacement": "carte Émotions, stress et sommeil",
+  "priorite": "Indispensable",
+  "alt": "Une tasse et un plaid près de fleurs des champs, dans la lumière du matin",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/carte-acouphenes.png",
+  "nom": "grok/carte-acouphenes",
+  "role": "carte-service",
+  "page": "Accueil",
+  "emplacement": "carte Acouphènes",
+  "priorite": "Indispensable",
+  "consigne_scene": "Tall grass and a few wildflowers gently bent by a light breeze in a quiet meadow at dawn, soft mist on the low hills behind, a feeling of soft natural sound and stillness",
+  "alt": "Herbes hautes et fleurs sauvages couvertes de rosée, vallée dans la brume",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/carte-hypnose.png",
+  "nom": "grok/carte-hypnose",
+  "role": "carte-service",
+  "page": "Accueil et Hypnose",
+  "emplacement": "carte Hypnose, puis section « Ce n'est pas dormir »",
+  "priorite": "Indispensable",
+  "consigne_scene": "A comfortable linen armchair with a folded wool throw in a quiet bright room, a sheer curtain filtering soft morning light, a small green plant on a pale oak side table, peaceful and empty",
+  "alt": "Un fauteuil en lin et un plaid dans une pièce calme et lumineuse",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/buck-nuit.png",
+  "nom": "grok/buck-nuit",
+  "role": "section-fond",
+  "zone_texte": "gauche",
+  "page": "les-amis-de-buck",
+  "emplacement": "fond de la section Les Amis de Buck (bande bleu nuit étoilée)",
+  "priorite": "Indispensable",
+  "consigne_scene": "A quiet meadow at blue hour just before dawn, deep twilight blue sky with the last faint stars still visible, a thin warm glow rising on the low horizon, the silhouette of a single old oak tree on a gentle hill on the right, calm and tender, most of the frame is deep blue sky",
+  "alt": "Prairie à l'heure bleue, premières étoiles au-dessus d'un vieux chêne",
+  "beaute": 5,
+  "mobile": "9:16"
+ },
+ {
+  "source": "recu/grok/acouphenes-eau.png",
+  "nom": "grok/acouphenes-eau",
+  "role": "section-fond",
+  "zone_texte": "gauche",
+  "page": "Accueil et Sophrologie",
+  "emplacement": "section Acouphènes (image en grand, texte à gauche)",
+  "priorite": "Indispensable",
+  "consigne_scene": "The perfectly still surface of a calm lake at dawn, a few slow concentric ripples spreading on the right side of the frame, pale blue sky and soft mist reflected in the water, minimal and serene",
+  "alt": "Surface d'un lac calme à l'aube, quelques ronds dans l'eau",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/seance-eau.png",
+  "nom": "grok/seance-eau",
+  "role": "galerie",
+  "ratio": "4:5",
+  "gabarit": "texture",
+  "page": "Accueil et Sophrologie",
+  "emplacement": "section « Comment se passe une séance »",
+  "priorite": "Conseillée",
+  "alt": "Un verre d'eau sur une table en bois clair, dans la lumière du matin",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/appel-aube.png",
+  "nom": "grok/appel-aube",
+  "role": "section-fond",
+  "zone_texte": "haut",
+  "page": "Toutes les pages",
+  "emplacement": "appel final en bas de page (texte au centre, en haut)",
+  "priorite": "Indispensable",
+  "gabarit": "section-fond",
+  "alt": "Ciel d'aube très pâle au-dessus de collines dans la brume",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/buck-souvenirs.png",
+  "nom": "grok/buck-souvenirs",
+  "role": "galerie",
+  "ratio": "4:5",
+  "page": "Les Amis de Buck",
+  "emplacement": "section « Ce que nous faisons ensemble »",
+  "priorite": "Conseillée",
+  "consigne_scene": "A worn leather dog collar and an old tennis ball resting on a folded wool blanket on a window seat, soft morning light, tender and peaceful, nothing else",
+  "alt": "Une boîte en bois pleine de photos souvenirs, posée sur un plaid au soleil",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/sophro-ouverture.png",
+  "source_mobile": "recu/grok/sophro-ouverture-mobile.png",
+  "nom": "grok/sophro-ouverture",
+  "role": "ouverture",
+  "ratio": "21:9",
+  "mobile": "4:5",
+  "zone_texte": "haut",
+  "page": "sophrologie",
+  "emplacement": "bandeau sous le grand titre de l'ouverture",
+  "priorite": "Indispensable",
+  "consigne_scene": "Wide view of gentle rolling green hills at dawn with low mist lying in the valleys, a narrow grass path in the center leading toward a soft warm light on the horizon, hedgerows and a few oak trees, calm sky in the upper third, rural south-west France only, no mountains, no tea plantation, no rice terraces",
+  "alt": "Collines vertes au lever du jour, brume dans les vallons et un chemin d'herbe",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/sophro-entreprise.png",
+  "nom": "grok/sophro-entreprise",
+  "role": "galerie",
+  "ratio": "3:2",
+  "page": "Sophrologie",
+  "emplacement": "section Ateliers en entreprise",
+  "priorite": "Conseillée",
+  "consigne_scene": "A bright calm meeting room with a long pale oak table, a few chairs gently pushed back, green plants and large windows onto trees, empty, morning light, a serene workplace",
+  "alt": "Un ordinateur portable, une tasse et des fleurs sur une table claire près d’une fenêtre",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/hypnose-ouverture.png",
+  "nom": "grok/hypnose-ouverture",
+  "role": "ouverture",
+  "zone_texte": "gauche",
+  "mobile": false,
+  "page": "hypnose",
+  "emplacement": "ouverture de la page (texte à gauche, image à droite)",
+  "priorite": "Indispensable",
+  "consigne_scene": "A sheer white curtain gently lifted by a breeze in front of an open window, beyond it a soft pale blue sky, light and dreamy, minimal composition with the window on the right side of the frame",
+  "alt": "Un voilage blanc soulevé par la brise devant une fenêtre ouverte sur le ciel",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/rdv-ouverture.png",
+  "nom": "grok/rdv-ouverture",
+  "role": "ouverture",
+  "zone_texte": "gauche",
+  "mobile": false,
+  "page": "rendez-vous",
+  "emplacement": "ouverture de la page (remplacée par une photo du cabinet si le client en a une belle)",
+  "priorite": "Indispensable",
+  "consigne_scene": "A calm bright session room with two linen armchairs facing each other at an angle, a low pale oak table with a glass of water, a green plant, soft morning light through a large window on the right, empty, welcoming",
+  "alt": "Un fauteuil en lin, un bouquet et un verre d’eau dans une pièce lumineuse",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/404.png",
+  "nom": "grok/404",
+  "role": "404",
+  "page": "Page 404",
+  "emplacement": "en tête de page",
+  "priorite": "Conseillée",
+  "consigne_scene": "An old pale wooden door standing wide open onto a sunlit garden path in soft morning light, green leaves around the doorway, inviting and calm",
+  "alt": "Une arche de pierre ouverte sur un jardin fleuri au soleil",
+  "beaute": 4
+ },
+ {
+  "source": "recu/racontez-moi-histoire-3.webp",
+  "nom": "marianne",
+  "role": "portrait",
+  "ratio": "3:4",
+  "cadrage": [
+   79,
+   42
+  ],
+  "largeurs": [
+   320,
+   480,
+   576
+  ],
+  "beaute": 3,
+  "page": "Accueil (médaillon de l'ouverture, Qui je suis)",
+  "alt": "Marianne Meyzen Récalde, sophrologue, souriante"
+ },
+ {
+  "source": "recu/mizus.webp",
+  "nom": "chien-noir",
+  "role": "vignette",
+  "ratio": "5:4",
+  "largeurs": [
+   480,
+   640
+  ],
+  "beaute": 2,
+  "page": "Les Amis de Buck (histoire de Buck, en vignette)",
+  "alt": "Un labrador noir allongé, la gueule ouverte, l'air heureux"
+ },
+ {
+  "source": "recu/tarifs-seances.webp",
+  "nom": "cabinet",
+  "role": "galerie",
+  "ratio": "4:3",
+  "largeurs": [
+   640,
+   960,
+   1280
+  ],
+  "beaute": 3,
+  "page": "Tarifs et rendez-vous (le cabinet), Accueil (lieu)",
+  "alt": "Le cabinet : deux fauteuils gris, un tapis rond et une étagère en bois clair"
+ },
+ {
+  "source": "recu/logo-marque.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "Logo de Marianne Meyzen Récalde",
+  "largeurs": [
+   240,
+   480
+  ]
+ },
+ {
+  "source": "recu/logo-marque-clair.png",
+  "nom": "logo-clair",
+  "role": "logo",
+  "alt": "Logo de Marianne Meyzen Récalde",
+  "largeurs": [
+   240,
+   480
+  ]
+ },
+ {
+  "source": "recu/logo-amis-de-buck.png",
+  "nom": "logo-amis-de-buck",
+  "role": "logo",
+  "alt": "Logo Les Amis de Buck, accompagnement au deuil animalier",
+  "largeurs": [
+   240
+  ]
+ }
+]

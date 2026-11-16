@@ -1,0 +1,23 @@
+{
+ "nom": "Souffle",
+ "client": "Marianne Meyzen Récalde, sophrologue",
+ "ambiance": "airy, quiet and reassuring morning",
+ "palette": "pale sky blue, soft misty white, light linen, muted grey-green and a faint touch of warm morning gold",
+ "lumiere": "soft diffused morning light",
+ "matieres": "light linen, pale oak wood, clear glass, wool",
+ "saison": "a mild spring morning",
+ "lieu": "south-west France",
+ "sujet": "gentle rolling green hills",
+ "couleurs": {
+  "fond": "#F4F5F2",
+  "fond2": "#DCE7EC",
+  "sombre": "#2A2740",
+  "texte": "#1E1D2B",
+  "accent": "#6A47A3"
+ },
+ "polices": {
+  "titres": "Fraunces (SOFT 100)",
+  "texte": "Figtree"
+ },
+ "idee": "Le souffle : un cercle qui respire ouvre le site et devient le cadre rond de la page ; module « Respirez une minute avec moi » ; étoiles qui s'allument pour Les Amis de Buck ; onde qui s'apaise pour les acouphènes."
+}

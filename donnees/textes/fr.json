@@ -1,0 +1,460 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "Prendre rendez-vous",
+    "actionCourte": "Rendez-vous",
+    "appeler": "Appeler",
+    "metier": "Sophrologue · Toulouse",
+    "sommaire": "Sommaire",
+    "suivre": "Suivre",
+    "facebook": "Les Amis de Buck sur Facebook",
+    "whatsapp": "Écrire sur WhatsApp",
+    "lieuTitre": "Le cabinet",
+    "horairesTitre": "Quand",
+    "horairesCabinet": "Au cabinet : le vendredi après-midi",
+    "horairesLigne": "En ligne : mardi et jeudi après-midi, vendredi et samedi matin",
+    "retourHaut": "Retour en haut",
+    "mentions": "Mentions légales : à compléter",
+    "confidentialite": "Politique de confidentialité : à compléter",
+    "maquette": "Maquette de présentation : le formulaire et la demande de rendez-vous sont simulés.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Sophrologue à Toulouse",
+    "inspirez": "Inspirez",
+    "expirez": "Expirez",
+    "nouvelOnglet": "(nouvel onglet)",
+    "parSeance": "la séance",
+    "voirTarifs": "Tous les tarifs",
+    "appelTitre": "Le changement est une porte qui ne s’ouvre que de <em>l’intérieur</em>.",
+    "appelAuteur": "Tom Peters, auteur américain",
+    "appelTexte": "Quand vous serez prêt(e), je serai là pour vous écouter : au cabinet à Toulouse ou en ligne.",
+    "appelBouton": "Prendre rendez-vous",
+    "appelTel": "06 43 70 01 10",
+    "glisser": "Faites glisser →"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Marianne Meyzen Récalde, sophrologue à Toulouse et en ligne",
+      "description": "Sophrologue certifiée à Toulouse (Purpan) et en ligne : stress et émotions, sommeil, deuil animalier avec Les Amis de Buck, acouphènes, hypnose thérapeutique.",
+      "nav": "Accueil",
+      "partageAlt": "Marianne Meyzen Récalde, sophrologue : retrouver son souffle, à son rythme",
+      "accroche": "Retrouver son souffle, à son rythme"
+    },
+    "les-amis-de-buck": {
+      "titre": "Les Amis de Buck : accompagnement au deuil animalier, Toulouse et en ligne",
+      "description": "Un protocole de 6 séances sur 3 mois pour traverser le deuil d’un animal avec douceur, en cabinet à Toulouse ou en ligne. Premier échange offert.",
+      "nav": "Les Amis de Buck",
+      "partageAlt": "Les Amis de Buck, accompagnement au deuil animalier",
+      "accroche": "Quand nos animaux s’en vont"
+    },
+    "sophrologie": {
+      "titre": "Sophrologie à Toulouse : émotions, stress, sommeil, acouphènes",
+      "description": "Comment se passe une séance, les onze domaines d’accompagnement, le protocole acouphènes et les ateliers en entreprise.",
+      "nav": "Sophrologie",
+      "partageAlt": "La sophrologie avec Marianne Meyzen Récalde",
+      "accroche": "Le mental en harmonie avec le corps"
+    },
+    "hypnose": {
+      "titre": "Hypnose thérapeutique à Toulouse : dialogue avec l’inconscient",
+      "description": "Une thérapie brève en une ou plusieurs séances d’1 h 30 : tabac, émotions, relation toxique, fin d’un cycle.",
+      "nav": "Hypnose",
+      "partageAlt": "Hypnose thérapeutique avec Marianne Meyzen Récalde",
+      "accroche": "Dialogue avec l’inconscient"
+    },
+    "rendez-vous": {
+      "titre": "Tarifs et rendez-vous : sophrologue à Toulouse et en ligne",
+      "description": "Tous les tarifs, le règlement, l’accès au cabinet de Purpan et la prise de rendez-vous, au cabinet ou en ligne.",
+      "nav": "Tarifs et rendez-vous",
+      "partageAlt": "Tarifs et rendez-vous de Marianne Meyzen Récalde",
+      "accroche": "Au cabinet ou en ligne"
+    },
+    "404": {
+      "titre": "Page introuvable : Marianne Meyzen Récalde, sophrologue",
+      "description": "Cette page n’existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Sophrologue certifiée · Toulouse et en ligne",
+      "titre1": "Retrouver",
+      "titre2": "son <em>souffle</em>,",
+      "titre3": "à son rythme.",
+      "texte": "Stress, émotions, sommeil, deuil d’un animal, acouphènes : je vous accompagne en douceur avec la sophrologie et l’hypnose, au cabinet à Toulouse ou en ligne.",
+      "action": "Prendre rendez-vous",
+      "action2": "Mes accompagnements",
+      "info": "Cabinet le vendredi après-midi · en ligne quatre demi-journées par semaine",
+      "nom": "Marianne Meyzen Récalde",
+      "alt": "Ciel clair du matin au-dessus de collines dans la brume"
+    },
+    "accompagnements": {
+      "surtitre": "Ce que j’accompagne",
+      "titre": "Quatre chemins vers un <em>mieux-être</em>",
+      "texte": "Chaque accompagnement part de votre histoire et avance à votre rythme, dans la bienveillance et le secret de nos échanges.",
+      "lien": "Découvrir"
+    },
+    "respirer": {
+      "surtitre": "À essayer tout de suite",
+      "titre": "Respirez une minute <em>avec moi</em>",
+      "texte": "La sophrologie travaille beaucoup avec le souffle. Inspirez quand le cercle grandit, expirez quand il se resserre : six respirations, une minute.",
+      "citation": "« Bien respirer, c’est assurer à l’ensemble de son corps un bon fonctionnement et détenir la clé de l’apaisement. »",
+      "note": "Un petit exercice de découverte : il ne remplace pas une séance.",
+      "commencer": "Commencer",
+      "arreter": "Arrêter",
+      "repos": "Prêt(e) ?",
+      "fini": "Merci",
+      "cycle": "Respiration {n} sur 6"
+    },
+    "buck": {
+      "surtitre": "Deuil animalier",
+      "titre": "Les Amis de Buck, quand nos animaux <em>s’en vont</em>…",
+      "texte": "Buck, mon labrador, a partagé près de douze ans de ma vie. Abandonné trois fois avant notre rencontre, il est resté joyeux et doux jusqu’à près de 17 ans. Son départ, à la fin de ma formation, m’a appris combien ce deuil peut être douloureux : les séances portent son nom.",
+      "point1": "6 séances d’1 h 30 sur 3 mois",
+      "point2": "Un premier échange offert",
+      "point3": "Votre animal présent, symboliquement ou réellement",
+      "point4": "Des exercices ludiques pour les enfants",
+      "citation": "« Nous n’avons pas deux cœurs, un pour les animaux et un pour les humains. Nous avons un cœur ou nous n’en avons pas. »",
+      "auteur": "Alphonse de Lamartine",
+      "action": "Découvrir l’accompagnement",
+      "logoAlt": "Logo Les Amis de Buck"
+    },
+    "acouphenes": {
+      "surtitre": "Acouphène chronique",
+      "titre": "Que le bruit redevienne un son <em>parmi d’autres</em>",
+      "texte": "Un protocole court de 6 à 8 séances, selon la méthodologie de Patricia Grévin, pour libérer les pensées négatives, apaiser les émotions et intégrer peu à peu l’acouphène aux sons de votre quotidien.",
+      "chiffre": "8",
+      "chiffreUnite": "millions",
+      "chiffreTexte": "de personnes touchées par les acouphènes en France",
+      "complement": "Toujours en complément de votre suivi : médecin, ORL, audioprothésiste, psychologue.",
+      "action": "Le protocole acouphènes"
+    },
+    "seance": {
+      "surtitre": "Comment se passe une séance",
+      "titre": "Une heure pour soi, <em>par le corps et la parole</em>",
+      "duree1": "1 h 30",
+      "duree1Texte": "la première séance",
+      "duree2": "1 h",
+      "duree2Texte": "les suivantes",
+      "secret": "Chaque séance est un moment d’allègement et de liberté, protégé par la bienveillance et le caractère secret de nos échanges."
+    },
+    "qui": {
+      "surtitre": "Faisons connaissance",
+      "titre": "Marianne Meyzen Récalde, <em>sophrologue certifiée</em>",
+      "texte": "Formée pendant deux ans à l’Institut de Sophrologie du Sud-Ouest, je me suis spécialisée dans l’accompagnement du deuil animalier, des acouphènes et dans l’hypnose thérapeutique.",
+      "f1Titre": "Institut de Sophrologie du Sud-Ouest",
+      "f1Texte": "Formation certifiante de deux ans, avec Régine Philip et Yann Cormier.",
+      "f2Titre": "La Bulle de Repos",
+      "f2Texte": "Formation avec Florence Parot, The Sophrology Academy, Londres.",
+      "f3Titre": "Institut de formation Caplain",
+      "f3Texte": "Hypnose thérapeutique.",
+      "f4Titre": "Spécialisations",
+      "f4Texte": "Deuil animalier, acouphènes chroniques.",
+      "engagements": "Donatrice de la Fondation Brigitte Bardot et « Maître de Cœur » de la Fondation 30 Millions d’Amis.",
+      "alt": "Marianne Meyzen Récalde, sophrologue, souriante"
+    },
+    "temoignages": {
+      "surtitre": "Ils en parlent",
+      "titre": "Des mots qui <em>font du bien</em>",
+      "avis": "Lire les avis Google"
+    },
+    "pratique": {
+      "surtitre": "Tarifs et lieux",
+      "titre": "Simple et <em>clair</em>",
+      "sophro": "Sophrologie",
+      "sophroDetail": "ou 450 € les 10 séances",
+      "buck": "Les Amis de Buck",
+      "buckDetail": "6 séances d’1 h 30",
+      "hypnose": "Hypnose",
+      "hypnoseDetail": "séance d’1 h 30",
+      "cabinetTitre": "Au cabinet, à Purpan",
+      "cabinetTexte": "Le vendredi après-midi, au Centre Paramédical et de Santé Naturelle des Fontaines. Parking gratuit, métro Patte d’Oie.",
+      "ligneTitre": "En ligne, où que vous soyez",
+      "ligneTexte": "Mardi et jeudi après-midi, vendredi et samedi matin, en France et dans les pays francophones.",
+      "action": "Tarifs et rendez-vous"
+    }
+  },
+  "buck": {
+    "hero": {
+      "surtitre": "Deuil animalier · Toulouse et en ligne",
+      "titre": "Les Amis de Buck, quand nos animaux <em>s’en vont</em>…",
+      "texte": "Un accompagnement doux pour traverser le deuil d’un animal, ou la souffrance de le voir gravement malade, à votre rythme.",
+      "action": "Réserver le premier échange offert",
+      "info": "6 séances d’1 h 30 sur 3 mois · 40 € la séance",
+      "alt": "Prairie sous un ciel étoilé, un vieux chêne sur la colline"
+    },
+    "histoire": {
+      "surtitre": "L’histoire de Buck",
+      "titre": "Un labrador abandonné trois fois, <em>resté joyeux</em>",
+      "p1": "Buck était mon labrador. Abandonné trois fois avant de me rencontrer, il est resté gentil et joyeux, avec les autres animaux comme avec sa famille. Grâce aux soins de plusieurs vétérinaires, il a partagé près de douze ans de ma vie, jusqu’à près de 17 ans.",
+      "p2": "Nous nous sommes séparés à la fin de ma formation de sophrologue. Son deuil a été très douloureux, et une introspection m’a aidée à retrouver le calme. J’ai aussi vécu le deuil de deux chats adorés.",
+      "p3": "C’est pour cela que je vous propose de traverser ce moment avec humanité, bienveillance et douceur. Les séances portent le nom de Buck.",
+      "photoAlt": "Un labrador noir allongé, la gueule ouverte, l’air heureux",
+      "photoLegende": "Photo du site actuel"
+    },
+    "vivre": {
+      "surtitre": "Tout au long de l’accompagnement",
+      "titre": "Ce que vous pourrez <em>vivre</em>",
+      "texte": "Alléger son cœur, renforcer son lien d’amour à son animal, aller à la rencontre de soi-même grâce aux techniques douces de la sophrologie."
+    },
+    "protocole": {
+      "surtitre": "Le protocole",
+      "titre": "Six séances pour <em>dire ce qui reste à dire</em>",
+      "texte": "Des séances qui associent la sophrologie européenne et le coaching anglo-saxon. Avec la mémoire, les cinq sens et la conscience, vous revivez les meilleurs moments, vous revoyez son regard, vous lui dites ce qui reste à dire. Votre animal est présent, symboliquement ou réellement.",
+      "texte2": "L’expérience que vous traversez vous est absolument personnelle : le protocole s’adapte à vous, et peut être prolongé.",
+      "c1": "séances",
+      "c2": "par séance",
+      "c3": "mois",
+      "c4Titre": "Offert",
+      "c4": "le premier échange, avec ou sans séances réservées",
+      "enfants": "Pour les enfants : des exercices simples et ludiques pour exprimer leurs émotions et retrouver leur équilibre.",
+      "souvenirsAlt": "Une boîte en bois pleine de photos souvenirs, posée sur un plaid au soleil"
+    },
+    "citations": {
+      "lamartine": "Nous n’avons pas deux cœurs, un pour les animaux et un pour les humains. Nous avons un cœur ou nous n’en avons pas.",
+      "lamartineAuteur": "Alphonse de Lamartine",
+      "racine": "« Dire sa peine, c’est déjà commencer à la déposer. »",
+      "racineAuteur": "Jean Racine"
+    },
+    "temoignages": {
+      "surtitre": "Témoignages",
+      "titre": "Ils ont traversé ce deuil <em>avec moi</em>"
+    },
+    "engagements": {
+      "surtitre": "Engagements et rencontres",
+      "titre": "Une cause qui me <em>tient à cœur</em>",
+      "bardot": "Fondation Brigitte Bardot",
+      "bardotTexte": "Je suis donatrice de la fondation.",
+      "trente": "Fondation 30 Millions d’Amis",
+      "trenteTexte": "Je suis « Maître de Cœur » de la fondation.",
+      "toumai": "Toumaï Chroniques Animalières",
+      "toumaiTexte": "Interview avec Michel Fareng, créateur de la chaîne, sur l’accompagnement au deuil animalier.",
+      "acacias": "Clinique vétérinaire des Acacias",
+      "acaciasTexte": "Échange avec le Docteur Leclerc à la Toussaint 2022, et l’article « Comment faire le deuil de son animal ? ».",
+      "lireArticle": "Lire l’article",
+      "visiter": "Visiter le site",
+      "suivre": "Suivre Les Amis de Buck sur Facebook"
+    },
+    "tarifs": {
+      "surtitre": "Tarifs",
+      "titre": "Le protocole, <em>séance par séance</em>",
+      "note": "Les séances individuelles complémentaires à ce protocole sont au même tarif. Paiement en 3 ou 4 fois sans frais possible sur demande."
+    }
+  },
+  "sophro": {
+    "hero": {
+      "surtitre": "Sophrologie · émotions, stress, sommeil, acouphènes",
+      "titre": "Savoir gérer l’émotion pour nourrir son corps <em>et son mental</em>",
+      "texte": "La sophrologie est un enseignement psycho-physique : vous pratiquez en séance des exercices que je guide, puis vous vous les appropriez pour votre quotidien.",
+      "action": "Prendre rendez-vous",
+      "info": "50 € la séance · 1 h 30 la première, puis 1 h",
+      "alt": "Collines vertes au lever du jour, brume dans les vallons et un chemin d’herbe"
+    },
+    "definition": {
+      "surtitre": "Le mot",
+      "titre": "Le mental en harmonie <em>avec le corps</em>",
+      "texte": "Discipline fondée en 1960 par le neuropsychiatre Alfonso Caycedo, la sophrologie associe trois mots du grec ancien. Son but : mettre en valeur ce qui vous rend heureux, et apprendre à prendre du recul sur ce qui vous met mal à l’aise.",
+      "m1": "sôs",
+      "m1Texte": "harmonie, équilibre, sérénité",
+      "m2": "phren",
+      "m2Texte": "conscience, cerveau",
+      "m3": "logos",
+      "m3Texte": "étude, discours",
+      "medical": "La sophrologie ne remplace pas un suivi médical : elle le complète."
+    },
+    "techniques": {
+      "surtitre": "Des techniques essentielles",
+      "titre": "Respirer, bouger, <em>imaginer</em>",
+      "t1": "La relaxation dynamique",
+      "t1Texte": "Des exercices de mobilité corporelle qui alternent tension douce et relâchement musculaire.",
+      "t2": "La respiration",
+      "t2Texte": "Bien respirer, c’est assurer à l’ensemble de son corps un bon fonctionnement et détenir la clé de l’apaisement.",
+      "t3": "La visualisation",
+      "t3Texte": "Utilisée dans un état de détente, pour vivre des expériences positives par l’imagination.",
+      "inspiration": "Inspirée de la contemplation et de la méditation : prendre du recul, être présent(e) à soi-même, accueillir ses émotions et les laisser traverser, centré(e) sur sa respiration.",
+      "alt": "Un verre d’eau sur une table en bois clair, dans la lumière du matin"
+    },
+    "domaines": {
+      "surtitre": "Onze domaines",
+      "titre": "Pour quoi <em>venir me voir</em> ?",
+      "filtres": "Filtrer les domaines",
+      "tous": "Tous",
+      "emotions": "Émotions et relations",
+      "sante": "Corps et santé",
+      "pro": "Travail et projets",
+      "moments": "Grands moments",
+      "compte": "{n} domaines affichés"
+    },
+    "acouphenes": {
+      "surtitre": "Protocole acouphènes",
+      "titre": "Intégrer l’acouphène aux <em>sons de votre quotidien</em>",
+      "texte": "Les acouphènes sont des sons ou des sensations auditives sans bruit extérieur. Ils peuvent suivre une exposition prolongée à un bruit intense, une pathologie de l’oreille interne, ou n’avoir aucune cause identifiée. Le protocole, court, se construit selon vos symptômes.",
+      "chiffre": "6 à 8",
+      "chiffreTexte": "séances, selon la méthodologie de Patricia Grévin",
+      "o1": "Libérer les pensées négatives",
+      "o2": "Redécouvrir des sensations physiques",
+      "o3": "Apaiser les émotions",
+      "o4": "Intégrer peu à peu l’acouphène aux sons habituels",
+      "aussi": "Les séances peuvent aussi aider en cas d’hyperacousie, de syndrome de Ménière, d’anxiété avec vertiges, de fatigue ou de troubles du sommeil.",
+      "parcoursTitre": "Un parcours à plusieurs",
+      "p1": "Médecin généraliste",
+      "p1Texte": "la consultation de départ",
+      "p2": "ORL",
+      "p2Texte": "le bilan auditif",
+      "p3": "Audioprothésiste",
+      "p3Texte": "en cas de déficit auditif",
+      "p4": "Psychologue",
+      "p4Texte": "les répercussions sur la pensée et le comportement",
+      "p5": "Sophrologue",
+      "p5Texte": "identifier ses émotions, intégrer l’acouphène à sa vie",
+      "medical": "La sophrologie se pratique toujours en accompagnement d’un suivi ou d’un traitement médical.",
+      "alt": "Surface d’un lac calme à l’aube, quelques ronds dans l’eau"
+    },
+    "entreprise": {
+      "surtitre": "Seul(e), à deux ou en groupe",
+      "titre": "Des séances <em>sur mesure</em>",
+      "indivTitre": "En individuel ou en couple",
+      "indivTexte": "Un accompagnement sur mesure, au cabinet ou en ligne.",
+      "groupeTitre": "Ateliers en entreprise",
+      "groupeTexte": "Proposer à ses collaborateurs des ateliers de sophrologie pour améliorer la qualité de vie professionnelle et personnelle : développement émotionnel de chacun, relations entre les personnes.",
+      "groupePrix": "17 € par personne en groupe",
+      "action": "Proposer un atelier",
+      "alt": "Un ordinateur portable, une tasse et des fleurs sur une table claire près d’une fenêtre"
+    },
+    "tarifs": {
+      "surtitre": "Tarifs",
+      "titre": "Une séance, <em>ou dix</em>",
+      "note": "Première séance d’1 h 30, puis séances d’1 h. Le protocole acouphènes suit les mêmes tarifs."
+    }
+  },
+  "hypnose": {
+    "hero": {
+      "surtitre": "Hypnose thérapeutique · thérapie brève",
+      "titre": "Dialogue avec l’inconscient",
+      "texte": "Une ou plusieurs séances pour vous aider à résoudre une problématique précise, seule ou en complément de la sophrologie.",
+      "action": "Prendre rendez-vous",
+      "info": "Séance d’1 h 30 · 60 €",
+      "alt": "Un voilage blanc soulevé par la brise devant une fenêtre ouverte sur le ciel"
+    },
+    "idees": {
+      "surtitre": "Idée reçue",
+      "titre": "Non, l’hypnose <em>n’endort pas</em>",
+      "onImagine": "On imagine",
+      "onImagineTexte": "une personne endormie, qui obéit sans réagir.",
+      "enRealite": "En réalité",
+      "enRealiteTexte": "vous êtes dans un état de relaxation agréable, et vous participez pleinement à la séance.",
+      "alt": "Un fauteuil en lin et un plaid dans une pièce calme et lumineuse"
+    },
+    "indications": {
+      "surtitre": "Pour quoi venir",
+      "titre": "Ce que l’on peut <em>dénouer</em> ensemble"
+    },
+    "pratique": {
+      "surtitre": "En pratique",
+      "titre": "Une séance, <em>parfois plusieurs</em>",
+      "duree": "1 h 30",
+      "dureeTexte": "par séance",
+      "prix": "60",
+      "prixTexte": "€ la séance, en individuel",
+      "reduit": "40",
+      "reduitTexte": "€ pour les étudiants et les personnes en reconversion",
+      "texte": "Formée à l’hypnose thérapeutique à l’Institut de formation Caplain, je la propose seule ou en complément de la sophrologie, selon ce qui vous convient le mieux.",
+      "action": "Réserver une séance d’hypnose"
+    }
+  },
+  "rdv": {
+    "hero": {
+      "surtitre": "Tarifs et rendez-vous",
+      "titre": "Au cabinet <em>ou en ligne</em>",
+      "texte": "Choisissez ce qui vous va le mieux : le vendredi après-midi à Toulouse, ou quatre demi-journées par semaine en ligne.",
+      "cabinet": "Au cabinet",
+      "cabinetQuand": "Vendredi après-midi",
+      "cabinetOu": "Purpan, Toulouse · parking gratuit",
+      "cabinetAction": "Réserver sur l’agenda",
+      "ligne": "En ligne",
+      "ligneQuand": "Mardi et jeudi après-midi, vendredi et samedi matin",
+      "ligneOu": "En France et dans les pays francophones",
+      "ligneAction": "Appeler le 06 43 70 01 10",
+      "info": "Séance de sophrologie : 50 €",
+      "prixRond": "50 €",
+      "prixRondTexte": "la séance de sophrologie",
+      "alt": "Un fauteuil en lin, un bouquet et un verre d’eau dans une pièce lumineuse"
+    },
+    "tarifs": {
+      "surtitre": "Tous les tarifs",
+      "titre": "Calculez <em>votre accompagnement</em>",
+      "texte": "Choisissez un accompagnement et votre situation : le prix d’une séance et celui du protocole s’affichent.",
+      "accompagnement": "Accompagnement",
+      "profil": "Votre situation",
+      "adulte": "Adulte",
+      "etudiant": "Étudiant(e)",
+      "reconversion": "En reconversion",
+      "enfant": "Enfant",
+      "groupe": "En groupe",
+      "acouphenes": "Protocole acouphènes",
+      "parSeance": "par séance",
+      "nonPropose": "Ce tarif n’est pas proposé pour cet accompagnement : appelez Marianne pour en parler.",
+      "tableauTitre": "Les tarifs en détail",
+      "colonneProfil": "Situation",
+      "colonnePrix": "Séance",
+      "colonneForfait": "10 séances"
+    },
+    "reglement": {
+      "surtitre": "Questions pratiques",
+      "titre": "Règlement, mutuelle, <em>absence</em>",
+      "mutuelles": "Voir la liste des mutuelles sur Resalib"
+    },
+    "cabinet": {
+      "surtitre": "Le cabinet",
+      "titre": "À Purpan, <em>parking gratuit</em>",
+      "texte": "Le cabinet se trouve au Centre Paramédical et de Santé Naturelle des Fontaines, dans le quartier de Purpan.",
+      "metro": "Métro",
+      "metroTexte": "Patte d’Oie",
+      "tram": "Tramway",
+      "tramTexte": "Zénith - Cartoucherie",
+      "bus": "Bus",
+      "busTexte": "2, 14, 45, 46, 63, 66, 67",
+      "parking": "Parking",
+      "parkingTexte": "gratuit",
+      "plan": "Schéma des accès, sans échelle : le métro et le tramway sont à proximité du cabinet.",
+      "carte": "Ouvrir l’adresse dans Google Maps",
+      "photoAlt": "Le cabinet : deux fauteuils gris, un tapis rond et une étagère en bois clair",
+      "photoLegende": "Le cabinet"
+    },
+    "demande": {
+      "surtitre": "Une question, une demande",
+      "titre": "Écrivez-moi, <em>je vous rappelle</em>",
+      "texte": "Pour le cabinet, le plus simple est de réserver sur l’agenda en ligne. Pour une séance en ligne ou une question, laissez-moi un message.",
+      "nom": "Nom et prénom",
+      "email": "Adresse e-mail",
+      "tel": "Téléphone",
+      "ville": "Ville et pays de résidence",
+      "sujet": "Accompagnement",
+      "sujetSophro": "Sophrologie : émotions, stress, sommeil",
+      "sujetBuck": "Les Amis de Buck : deuil animalier",
+      "sujetAcouphenes": "Protocole acouphènes",
+      "sujetHypnose": "Hypnose thérapeutique",
+      "sujetEntreprise": "Atelier en entreprise",
+      "sujetAutre": "Autre question",
+      "lieu": "Je préfère",
+      "lieuCabinet": "Au cabinet",
+      "lieuLigne": "En ligne",
+      "lieuIndifferent": "Peu importe",
+      "message": "Votre message",
+      "donnees": "Vos coordonnées servent uniquement à vous répondre. Voir la politique de confidentialité (à compléter).",
+      "envoyer": "Envoyer la demande"
+    }
+  },
+  "introuvable": {
+    "titre": "Cette porte-ci ne mène <em>nulle part</em>",
+    "texte": "La page que vous cherchez n’existe pas ou plus. Celle du cabinet, elle, s’ouvre le vendredi après-midi.",
+    "retour": "Revenir à l’accueil",
+    "alt": "Une arche de pierre ouverte sur un jardin fleuri au soleil"
+  }
+}

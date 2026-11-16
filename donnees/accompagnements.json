@@ -1,0 +1,46 @@
+[
+ {
+  "cle": "buck",
+  "page": "les-amis-de-buck",
+  "ancre": "",
+  "image": "grok/buck-souvenirs",
+  "surtitre": "Deuil animalier",
+  "titre": "Les Amis de Buck",
+  "texte": "Traverser le deuil d’un animal, ou la souffrance de le voir gravement malade, avec douceur et sans jugement.",
+  "repere": "6 séances sur 3 mois · premier échange offert",
+  "alt": "Une boîte en bois pleine de photos souvenirs, posée sur un plaid au soleil"
+ },
+ {
+  "cle": "emotions",
+  "page": "sophrologie",
+  "ancre": "domaines",
+  "image": "grok/carte-emotions",
+  "surtitre": "Sophrologie",
+  "titre": "Émotions, stress et sommeil",
+  "texte": "Accueillir ses émotions, retrouver le sommeil, se préparer à un examen, une naissance ou un mariage.",
+  "repere": "1re séance 1 h 30 · 50 € la séance",
+  "alt": "Une tasse et un plaid près de fleurs des champs, dans la lumière du matin"
+ },
+ {
+  "cle": "acouphenes",
+  "page": "sophrologie",
+  "ancre": "acouphenes",
+  "image": "grok/carte-acouphenes",
+  "surtitre": "Protocole court",
+  "titre": "Acouphènes",
+  "texte": "Mieux vivre la présence de l’acouphène chronique en l’intégrant aux sons de votre quotidien.",
+  "repere": "6 à 8 séances · méthodologie Patricia Grévin",
+  "alt": "Herbes hautes et fleurs sauvages couvertes de rosée, vallée dans la brume"
+ },
+ {
+  "cle": "hypnose",
+  "page": "hypnose",
+  "ancre": "",
+  "image": "grok/carte-hypnose",
+  "surtitre": "Thérapie brève",
+  "titre": "Hypnose thérapeutique",
+  "texte": "Un dialogue avec l’inconscient pour vous aider à résoudre une problématique précise.",
+  "repere": "Séance d’1 h 30 · 60 €",
+  "alt": "Un fauteuil en lin et un plaid dans une pièce calme et lumineuse"
+ }
+]

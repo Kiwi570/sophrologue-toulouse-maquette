@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hypnose thérapeutique à Toulouse : dialogue avec l’inconscient</title>
+<meta name="description" content="Une thérapie brève en une ou plusieurs séances d’1 h 30 : tabac, émotions, relation toxique, fin d’un cycle.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://sophrologue-toulouse-maquette.vercel.app/hypnose">
+<style>:root{--fond:#F4F5F2;--texte:#1E1D2B;--voile-fond:#2A2740;--menu-fond:#F4F5F2}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4F5F2">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Marianne Meyzen Récalde">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Hypnose thérapeutique à Toulouse : dialogue avec l’inconscient">
+<meta property="og:description" content="Une thérapie brève en une ou plusieurs séances d’1 h 30 : tabac, émotions, relation toxique, fin d’un cycle.">
+<meta property="og:url" content="https://sophrologue-toulouse-maquette.vercel.app/hypnose">
+<meta property="og:image" content="https://sophrologue-toulouse-maquette.vercel.app/assets/partage/hypnose-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Hypnose thérapeutique avec Marianne Meyzen Récalde">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Marianne Meyzen Récalde, sophrologue","url":"https://sophrologue-toulouse-maquette.vercel.app/","telephone":"+33643700110","description":"Sophrologue certifiée à Toulouse et en ligne : gestion du stress et des émotions, deuil animalier (Les Amis de Buck), acouphènes, hypnose thérapeutique.","address":{"@type":"PostalAddress","streetAddress":"3 rue Ledru-Rollin","postalCode":"31300","addressLocality":"Toulouse","addressCountry":"FR"},"sameAs":["https://facebook.com/deuilanimalierlesamisdeBuck"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair-240.webp" alt="" width="56" height="59"><span data-voile-libelle>Hypnose</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="intro-scene">
+    <span class="intro-anneau"></span><span class="intro-anneau"></span>
+    <div class="intro-disque" data-ouverture-objet><img src="/assets/images/logo-240.webp" alt="" width="72" height="75"></div>
+  </div>
+  <p class="intro-mots"><span class="intro-mot intro-mot--in">Inspirez</span><span class="intro-mot intro-mot--ex">Expirez</span></p>
+  <p class="ouverture-nom">Marianne Meyzen Récalde<span>Sophrologue à Toulouse</span></p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-240.webp" alt="" width="40" height="42"><span class="entete-nom">Marianne Meyzen Récalde<small>Sophrologue · Toulouse</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose" aria-current="page">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs et rendez-vous">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/les-amis-de-buck" class="menu-lien" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li style="--i:2"><a href="/sophrologie" class="menu-lien" data-libelle="Sophrologie">Sophrologie</a></li><li style="--i:3"><a href="/hypnose" class="menu-lien" data-libelle="Hypnose" aria-current="page">Hypnose</a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+  <p><a class="bouton" href="tel:+33643700110">Appeler 06 43 70 01 10</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-arche" id="debut">
+  <div class="conteneur ouv-arche-grille">
+    <div class="ouv-arche-texte">
+      <p class="surtitre" data-anime="gsap">Hypnose thérapeutique · thérapie brève</p>
+      <h1 class="ouv-titre ouv-titre--focus" data-effet="mise-au-point" data-grille="typo">Dialogue avec l’inconscient</h1>
+      <p class="ouv-texte masque-ecran-tres-bas" data-anime="gsap">Une ou plusieurs séances pour vous aider à résoudre une problématique précise, seule ou en complément de la sophrologie.</p>
+      <div class="ouv-actions" data-anime="gsap">
+        <a href="/rendez-vous?sujet=hypnose#demande" class="bouton" data-libelle="Tarifs et rendez-vous" data-action-principale data-survol="magnetique">Prendre rendez-vous</a>
+        <p class="ouv-info" data-info-cle>Séance d’1 h 30 · 60 €</p>
+      </div>
+    </div>
+    <div class="arche">
+      <figure class="media arche-media" data-grok data-fx="parallaxe" data-fx-force="8" data-iris-centre style="--cadrage:62% 50%">
+  <picture>
+    <img src="/assets/images/grok/hypnose-ouverture-1280.webp" srcset="/assets/images/grok/hypnose-ouverture-640.webp 640w, /assets/images/grok/hypnose-ouverture-1280.webp 1280w, /assets/images/grok/hypnose-ouverture-1920.webp 1920w" sizes="(max-width: 760px) 90vw, 42vw" alt="Un voilage blanc soulevé par la brise devant une fenêtre ouverte sur le ciel" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <span class="arche-trait" aria-hidden="true"></span>
+    </div>
+  </div>
+</section>
+<section class="section idees fond-ciel" id="idees">
+  <div class="conteneur idees-grille">
+    <figure class="media idees-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/carte-hypnose-784.webp" srcset="/assets/images/grok/carte-hypnose-480.webp 480w, /assets/images/grok/carte-hypnose-640.webp 640w, /assets/images/grok/carte-hypnose-784.webp 784w" sizes="(max-width: 760px) 100vw, 34vw" alt="Un fauteuil en lin et un plaid dans une pièce calme et lumineuse" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div>
+      <p class="surtitre" data-anime>Idée reçue</p>
+      <h2 data-anime="lignes">Non, l’hypnose <em>n’endort pas</em></h2>
+      <div class="avant-apres" data-anime="cascade">
+        <div class="avant"><p class="surtitre">On imagine</p><p>une personne endormie, qui obéit sans réagir.</p></div>
+        <div class="apres"><p class="surtitre">En réalité</p><p>vous êtes dans un état de relaxation agréable, et vous participez pleinement à la séance.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section indications" id="indications">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Pour quoi venir</p>
+      <h2 data-anime="lignes">Ce que l’on peut <em>dénouer</em> ensemble</h2>
+    </div>
+    <ol class="indic-grille" data-anime="cascade">
+      <li class="indic" data-survol="incline" data-survol-force="4"><span class="indic-num" aria-hidden="true">01</span><h3>Arrêter le tabac</h3><p>Une séance unique, pour votre santé comme pour votre porte-monnaie.</p></li><li class="indic" data-survol="incline" data-survol-force="4"><span class="indic-num" aria-hidden="true">02</span><h3>Colère, anxiété, culpabilité</h3><p>Rester bloqué(e) sur ces émotions empêche d’avancer : le travail thérapeutique aide à s’en libérer.</p></li><li class="indic" data-survol="incline" data-survol-force="4"><span class="indic-num" aria-hidden="true">03</span><h3>Un souvenir traumatisant</h3><p>Un soutien, à associer si nécessaire à un suivi psychologique.</p></li><li class="indic" data-survol="incline" data-survol-force="4"><span class="indic-num" aria-hidden="true">04</span><h3>Une relation toxique</h3><p>Sentimentale, amicale ou professionnelle : une ou plusieurs séances pour prendre de la distance et retrouver confiance en soi.</p></li><li class="indic" data-survol="incline" data-survol-force="4"><span class="indic-num" aria-hidden="true">05</span><h3>Accepter une fin</h3><p>Deuil d’une personne chère, divorce, licenciement, déménagement : vous aider à tourner la page.</p></li><li class="indic" data-survol="incline" data-survol-force="4"><span class="indic-num" aria-hidden="true">06</span><h3>Le sucre et l’alimentation</h3><p>Addiction au sucre, troubles alimentaires : en parler ensemble dès le premier rendez-vous.</p></li>
+    </ol>
+  </div>
+</section>
+<section class="section pratique-hyp sombre" id="pratique">
+  <div class="conteneur pratique-hyp-grille">
+    <div>
+      <p class="surtitre" data-anime>En pratique</p>
+      <h2 data-anime="lignes">Une séance, <em>parfois plusieurs</em></h2>
+      <p data-anime>Formée à l’hypnose thérapeutique à l’Institut de formation Caplain, je la propose seule ou en complément de la sophrologie, selon ce qui vous convient le mieux.</p>
+      <p data-anime><a href="/rendez-vous?sujet=hypnose#demande" class="bouton bouton--clair" data-libelle="Tarifs et rendez-vous">Réserver une séance d’hypnose</a></p>
+    </div>
+    <ul class="chiffres-cles chiffres-cles--clair" data-anime="cascade">
+      <li><strong>1 h 30</strong> par séance</li>
+      <li data-prix><strong><span data-compteur="60">60</span></strong> € la séance, en individuel</li>
+      <li data-prix><strong><span data-compteur="40">40</span></strong> € pour les étudiants et les personnes en reconversion</li>
+    </ul>
+  </div>
+  <svg class="ronds" viewBox="0 0 400 400" aria-hidden="true" data-fx="trace"><path d="M200 172 a28 28 0 1 1 -0.1 0 M200 144 a56 56 0 1 1 -0.1 0 M200 112 a88 88 0 1 1 -0.1 0 M200 76 a124 124 0 1 1 -0.1 0 M200 36 a164 164 0 1 1 -0.1 0" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+</section>
+<section class="appel" id="appel">
+  <figure class="media appel-media" data-grok data-fx="zoom" data-fx-force="12" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/appel-aube-1280.webp" srcset="/assets/images/grok/appel-aube-640.webp 640w, /assets/images/grok/appel-aube-1280.webp 1280w, /assets/images/grok/appel-aube-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="appel-contenu conteneur">
+    <span class="appel-souffle" aria-hidden="true" data-effet="souffle-appel" data-grille="fil"><span></span><span></span><span></span></span>
+    <blockquote class="appel-citation">
+      <p class="appel-titre" data-anime="lignes">Le changement est une porte qui ne s’ouvre que de <em>l’intérieur</em>.</p>
+      <footer data-anime>Tom Peters, auteur américain</footer>
+    </blockquote>
+    <p class="appel-texte" data-anime>Quand vous serez prêt(e), je serai là pour vous écouter : au cabinet à Toulouse ou en ligne.</p>
+    <p class="appel-actions" data-anime>
+      <a href="/rendez-vous#choisir" class="bouton" data-libelle="Tarifs et rendez-vous" data-survol="magnetique">Prendre rendez-vous</a>
+      <a class="bouton bouton--contour" href="tel:+33643700110" data-survol="magnetique">Appeler 06 43 70 01 10</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair-240.webp" alt="" width="56" height="59" loading="lazy">
+      <p><strong>Marianne Meyzen Récalde</strong><br>Sophrologue certifiée · Toulouse et en ligne</p>
+      <p><a class="pied-tel" href="tel:+33643700110">06 43 70 01 10</a></p>
+    </div>
+    <div>
+      <p class="pied-titre">Le cabinet</p>
+      <p>Centre Paramédical et de Santé Naturelle des Fontaines<br>3 rue Ledru-Rollin, 31300 Toulouse</p>
+      <p class="pied-titre">Quand</p>
+      <p>Au cabinet : le vendredi après-midi<br>En ligne : mardi et jeudi après-midi, vendredi et samedi matin</p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose" aria-current="page">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre</p>
+      <ul>
+        <li><a href="https://facebook.com/deuilanimalierlesamisdeBuck" target="_blank" rel="noopener">Les Amis de Buck sur Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=33643700110" target="_blank" rel="noopener">Écrire sur WhatsApp<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>Maquette de présentation : le formulaire et la demande de rendez-vous sont simulés.</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33643700110">Appeler</a>
+  <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs et rendez-vous">Rendez-vous</a>
+</div>
+</body>
+</html>

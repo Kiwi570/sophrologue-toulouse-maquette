@@ -1,0 +1,47 @@
+{
+  "nom": "Marianne Meyzen Récalde",
+  "metier": "Sophrologue",
+  "adresse": "https://sophrologue-toulouse-maquette.vercel.app",
+  "siteActuel": "sophrologue-toulouse.com",
+  "version": 1,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "les-amis-de-buck",
+    "sophrologie",
+    "hypnose",
+    "rendez-vous"
+  ],
+  "actionEntete": {
+    "page": "rendez-vous",
+    "ancre": "choisir"
+  },
+  "couleurs": {
+    "fond": "#F4F5F2",
+    "texte": "#1E1D2B",
+    "voile": "#2A2740",
+    "theme": "#F4F5F2",
+    "menu": "#F4F5F2"
+  },
+  "formeVoile": "iris",
+  "contact": {
+    "telephone": "06 43 70 01 10",
+    "telephoneLien": "+33643700110",
+    "lieu": "Centre Paramédical et de Santé Naturelle des Fontaines",
+    "adresse": "3 rue Ledru-Rollin, 31300 Toulouse",
+    "agenda": "https://calendar.app.google/daQRq3HRKrpuS9pt7",
+    "avis": "https://share.google/FnNHBPywux7ZwUBBL",
+    "facebook": "https://facebook.com/deuilanimalierlesamisdeBuck",
+    "mutuelles": "https://www.resalib.fr/remboursement/mutuelle/specialite/34-sophrologie",
+    "whatsapp": "https://api.whatsapp.com/send?phone=33643700110",
+    "carte": "https://www.google.com/maps/search/?api=1&query=3+rue+Ledru-Rollin+31300+Toulouse"
+  },
+  "polices": [
+    "/assets/polices/fraunces.woff2",
+    "/assets/polices/figtree-400.woff2"
+  ],
+  "imagePartage": "grok/accueil-souffle-960.webp",
+  "curseur": true
+}

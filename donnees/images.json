@@ -1,0 +1,1337 @@
+{
+  "grok/accueil-souffle": {
+    "nom": "grok/accueil-souffle",
+    "source": "recu/grok/accueil-souffle.png",
+    "role": "galerie",
+    "alt": "Ciel clair du matin au-dessus de collines dans la brume",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "9b596d80b7fe4c54",
+    "ratio": "1:1",
+    "largeurs": [
+      640,
+      960,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "47% 78%",
+    "sujet": {
+      "x": 0,
+      "y": 25,
+      "l": 100,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.79,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.31,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1500,
+      "source": [
+        1500,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-souffle-640.webp",
+      "grok/accueil-souffle-960.webp",
+      "grok/accueil-souffle-1280.webp"
+    ],
+    "poids": {
+      "grok/accueil-souffle-640.webp": 46182,
+      "grok/accueil-souffle-960.webp": 98492,
+      "grok/accueil-souffle-1280.webp": 150862
+    },
+    "media": "c.media({ nom: 'grok/accueil-souffle', alt: \"Ciel clair du matin au-dessus de collines dans la brume\", cadrage: '47% 78%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "grok/carte-emotions": {
+    "nom": "grok/carte-emotions",
+    "source": "recu/grok/carte-emotions.png",
+    "role": "carte-service",
+    "alt": "Une tasse et un plaid près de fleurs des champs, dans la lumière du matin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a7b2c6a7b13b00f1",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "56% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 15.6,
+      "l": 95.5,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 1920,
+      "source": [
+        1280,
+        1920
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carte-emotions-480.webp",
+      "grok/carte-emotions-640.webp",
+      "grok/carte-emotions-784.webp"
+    ],
+    "poids": {
+      "grok/carte-emotions-480.webp": 18936,
+      "grok/carte-emotions-640.webp": 26236,
+      "grok/carte-emotions-784.webp": 32924
+    },
+    "media": "c.media({ nom: 'grok/carte-emotions', alt: \"Une tasse et un plaid près de fleurs des champs, dans la lumière du matin\", cadrage: '56% 58%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/carte-acouphenes": {
+    "nom": "grok/carte-acouphenes",
+    "source": "recu/grok/carte-acouphenes.png",
+    "role": "carte-service",
+    "alt": "Herbes hautes et fleurs sauvages couvertes de rosée, vallée dans la brume",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "00ffceb2f7c0b5db",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "48% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 1920,
+      "source": [
+        1280,
+        1920
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carte-acouphenes-480.webp",
+      "grok/carte-acouphenes-640.webp",
+      "grok/carte-acouphenes-784.webp"
+    ],
+    "poids": {
+      "grok/carte-acouphenes-480.webp": 35272,
+      "grok/carte-acouphenes-640.webp": 48560,
+      "grok/carte-acouphenes-784.webp": 62470
+    },
+    "media": "c.media({ nom: 'grok/carte-acouphenes', alt: \"Herbes hautes et fleurs sauvages couvertes de rosée, vallée dans la brume\", cadrage: '48% 56%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/carte-hypnose": {
+    "nom": "grok/carte-hypnose",
+    "source": "recu/grok/carte-hypnose.png",
+    "role": "carte-service",
+    "alt": "Un fauteuil en lin et un plaid dans une pièce calme et lumineuse",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "58e30ed26327f035",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "46% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 1920,
+      "source": [
+        1280,
+        1920
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carte-hypnose-480.webp",
+      "grok/carte-hypnose-640.webp",
+      "grok/carte-hypnose-784.webp"
+    ],
+    "poids": {
+      "grok/carte-hypnose-480.webp": 22242,
+      "grok/carte-hypnose-640.webp": 31152,
+      "grok/carte-hypnose-784.webp": 39700
+    },
+    "media": "c.media({ nom: 'grok/carte-hypnose', alt: \"Un fauteuil en lin et un plaid dans une pièce calme et lumineuse\", cadrage: '46% 53%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/buck-nuit": {
+    "nom": "grok/buck-nuit",
+    "source": "recu/grok/buck-nuit.png",
+    "role": "section-fond",
+    "alt": "Prairie à l'heure bleue, premières étoiles au-dessus d'un vieux chêne",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "199bd4aa971a412b",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 58%"
+    },
+    "cadrage": "43% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1067
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/buck-nuit-640.webp",
+      "grok/buck-nuit-1280.webp",
+      "grok/buck-nuit-1920.webp",
+      "grok/buck-nuit-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/buck-nuit-640.webp": 22736,
+      "grok/buck-nuit-1280.webp": 52966,
+      "grok/buck-nuit-1920.webp": 88328,
+      "grok/buck-nuit-mobile-640.webp": 29526
+    },
+    "media": "c.media({ nom: 'grok/buck-nuit', alt: \"Prairie à l'heure bleue, premières étoiles au-dessus d'un vieux chêne\", cadrage: '43% 58%', cadrageMobile: '50% 58%', sizes: '100vw' })"
+  },
+  "grok/acouphenes-eau": {
+    "nom": "grok/acouphenes-eau",
+    "source": "recu/grok/acouphenes-eau.png",
+    "role": "section-fond",
+    "alt": "Surface d'un lac calme à l'aube, quelques ronds dans l'eau",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "3b66fdd5e2d5f12d",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "43% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1067
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/acouphenes-eau-640.webp",
+      "grok/acouphenes-eau-1280.webp",
+      "grok/acouphenes-eau-1920.webp"
+    ],
+    "poids": {
+      "grok/acouphenes-eau-640.webp": 24300,
+      "grok/acouphenes-eau-1280.webp": 56622,
+      "grok/acouphenes-eau-1920.webp": 94930
+    },
+    "media": "c.media({ nom: 'grok/acouphenes-eau', alt: \"Surface d'un lac calme à l'aube, quelques ronds dans l'eau\", cadrage: '43% 56%', sizes: '100vw' })"
+  },
+  "grok/seance-eau": {
+    "nom": "grok/seance-eau",
+    "source": "recu/grok/seance-eau.png",
+    "role": "galerie",
+    "alt": "Un verre d'eau sur une table en bois clair, dans la lumière du matin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a560c667fcca4502",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "46% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 6.3,
+      "l": 96.2,
+      "h": 93.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 1600,
+      "source": [
+        1280,
+        1600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/seance-eau-480.webp",
+      "grok/seance-eau-640.webp",
+      "grok/seance-eau-960.webp"
+    ],
+    "poids": {
+      "grok/seance-eau-480.webp": 18418,
+      "grok/seance-eau-640.webp": 25876,
+      "grok/seance-eau-960.webp": 44148
+    },
+    "media": "c.media({ nom: 'grok/seance-eau', alt: \"Un verre d'eau sur une table en bois clair, dans la lumière du matin\", cadrage: '46% 58%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/appel-aube": {
+    "nom": "grok/appel-aube",
+    "source": "recu/grok/appel-aube.png",
+    "role": "section-fond",
+    "alt": "Ciel d'aube très pâle au-dessus de collines dans la brume",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "5521fce95794d36e",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "71% 88%",
+    "sujet": {
+      "x": 12.5,
+      "y": 72.7,
+      "l": 87.5,
+      "h": 22.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.86,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.72,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.37,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1067
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/appel-aube-640.webp",
+      "grok/appel-aube-1280.webp",
+      "grok/appel-aube-1920.webp"
+    ],
+    "poids": {
+      "grok/appel-aube-640.webp": 12154,
+      "grok/appel-aube-1280.webp": 34872,
+      "grok/appel-aube-1920.webp": 60066
+    },
+    "media": "c.media({ nom: 'grok/appel-aube', alt: \"Ciel d'aube très pâle au-dessus de collines dans la brume\", cadrage: '71% 88%', sizes: '100vw' })"
+  },
+  "grok/buck-souvenirs": {
+    "nom": "grok/buck-souvenirs",
+    "source": "recu/grok/buck-souvenirs.png",
+    "role": "galerie",
+    "alt": "Une boîte en bois pleine de photos souvenirs, posée sur un plaid au soleil",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "1083092b5f1e9443",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "45% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.2,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 1600,
+      "source": [
+        1280,
+        1600
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/buck-souvenirs-480.webp",
+      "grok/buck-souvenirs-640.webp",
+      "grok/buck-souvenirs-960.webp"
+    ],
+    "poids": {
+      "grok/buck-souvenirs-480.webp": 26974,
+      "grok/buck-souvenirs-640.webp": 37518,
+      "grok/buck-souvenirs-960.webp": 61576
+    },
+    "media": "c.media({ nom: 'grok/buck-souvenirs', alt: \"Une boîte en bois pleine de photos souvenirs, posée sur un plaid au soleil\", cadrage: '45% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/sophro-ouverture": {
+    "nom": "grok/sophro-ouverture",
+    "source": "recu/grok/sophro-ouverture.png",
+    "role": "ouverture",
+    "alt": "Collines vertes au lever du jour, brume dans les vallons et un chemin d'herbe",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "ca11935431959a61",
+    "ratio": "21:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 41%"
+    },
+    "cadrage": "49% 85%",
+    "sujet": {
+      "x": 3.1,
+      "y": 64.3,
+      "l": 96.9,
+      "h": 35.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.89,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1680,
+      "height": 720,
+      "source": [
+        1680,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,14 fois (source de 1680 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/sophro-ouverture-640.webp",
+      "grok/sophro-ouverture-1280.webp",
+      "grok/sophro-ouverture-1920.webp",
+      "grok/sophro-ouverture-mobile-640.webp",
+      "grok/sophro-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/sophro-ouverture-640.webp": 14478,
+      "grok/sophro-ouverture-1280.webp": 45536,
+      "grok/sophro-ouverture-1920.webp": 75182,
+      "grok/sophro-ouverture-mobile-640.webp": 44464,
+      "grok/sophro-ouverture-mobile-1080.webp": 81700
+    },
+    "media": "c.media({ nom: 'grok/sophro-ouverture', alt: \"Collines vertes au lever du jour, brume dans les vallons et un chemin d'herbe\", cadrage: '49% 85%', cadrageMobile: '50% 41%', sizes: '100vw', priorite: true })"
+  },
+  "grok/sophro-entreprise": {
+    "nom": "grok/sophro-entreprise",
+    "source": "recu/grok/sophro-entreprise.png",
+    "role": "galerie",
+    "alt": "Un ordinateur portable, une tasse et des fleurs sur une table claire près d’une fenêtre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "72605bedd7bbf1a4",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "57% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1067
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/sophro-entreprise-480.webp",
+      "grok/sophro-entreprise-640.webp",
+      "grok/sophro-entreprise-960.webp"
+    ],
+    "poids": {
+      "grok/sophro-entreprise-480.webp": 15640,
+      "grok/sophro-entreprise-640.webp": 21632,
+      "grok/sophro-entreprise-960.webp": 34080
+    },
+    "media": "c.media({ nom: 'grok/sophro-entreprise', alt: \"Un ordinateur portable, une tasse et des fleurs sur une table claire près d’une fenêtre\", cadrage: '57% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "grok/hypnose-ouverture": {
+    "nom": "grok/hypnose-ouverture",
+    "source": "recu/grok/hypnose-ouverture.png",
+    "role": "ouverture",
+    "alt": "Un voilage blanc soulevé par la brise devant une fenêtre ouverte sur le ciel",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "e9bbbd440c39b1d4",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "53% 62%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/hypnose-ouverture-640.webp",
+      "grok/hypnose-ouverture-1280.webp",
+      "grok/hypnose-ouverture-1920.webp"
+    ],
+    "poids": {
+      "grok/hypnose-ouverture-640.webp": 14174,
+      "grok/hypnose-ouverture-1280.webp": 34334,
+      "grok/hypnose-ouverture-1920.webp": 60354
+    },
+    "media": "c.media({ nom: 'grok/hypnose-ouverture', alt: \"Un voilage blanc soulevé par la brise devant une fenêtre ouverte sur le ciel\", cadrage: '53% 62%', sizes: '100vw', priorite: true })"
+  },
+  "grok/rdv-ouverture": {
+    "nom": "grok/rdv-ouverture",
+    "source": "recu/grok/rdv-ouverture.png",
+    "role": "ouverture",
+    "alt": "Un fauteuil en lin, un bouquet et un verre d’eau dans une pièce lumineuse",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "873cb8851a301fe9",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "53% 57%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/rdv-ouverture-640.webp",
+      "grok/rdv-ouverture-1280.webp",
+      "grok/rdv-ouverture-1920.webp"
+    ],
+    "poids": {
+      "grok/rdv-ouverture-640.webp": 22592,
+      "grok/rdv-ouverture-1280.webp": 49660,
+      "grok/rdv-ouverture-1920.webp": 81716
+    },
+    "media": "c.media({ nom: 'grok/rdv-ouverture', alt: \"Un fauteuil en lin, un bouquet et un verre d’eau dans une pièce lumineuse\", cadrage: '53% 57%', sizes: '100vw', priorite: true })"
+  },
+  "grok/404": {
+    "nom": "grok/404",
+    "source": "recu/grok/404.png",
+    "role": "404",
+    "alt": "Une arche de pierre ouverte sur un jardin fleuri au soleil",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "73330a86459b1740",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "38% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/404-800.webp",
+      "grok/404-1600.webp"
+    ],
+    "poids": {
+      "grok/404-800.webp": 49090,
+      "grok/404-1600.webp": 109560
+    },
+    "media": "c.media({ nom: 'grok/404', alt: \"Une arche de pierre ouverte sur un jardin fleuri au soleil\", cadrage: '38% 50%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "marianne": {
+    "nom": "marianne",
+    "source": "recu/racontez-moi-histoire-3.webp",
+    "role": "portrait",
+    "alt": "Marianne Meyzen Récalde, sophrologue, souriante",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "bc3d9fe6f6357a59",
+    "ratio": "3:4",
+    "largeurs": [
+      320,
+      480,
+      576
+    ],
+    "mobile": null,
+    "cadrage": "50% 42%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.8,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.45,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.35,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 790,
+      "top": 0,
+      "width": 576,
+      "height": 768,
+      "source": [
+        1366,
+        768
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "recadrage fort : 42 % de l'image gardée"
+    ],
+    "fichiers": [
+      "marianne-320.webp",
+      "marianne-480.webp",
+      "marianne-576.webp"
+    ],
+    "poids": {
+      "marianne-320.webp": 7868,
+      "marianne-480.webp": 11882,
+      "marianne-576.webp": 14586
+    },
+    "media": "c.media({ nom: 'marianne', alt: \"Marianne Meyzen Récalde, sophrologue, souriante\", cadrage: '50% 42%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '3 / 4' })"
+  },
+  "chien-noir": {
+    "nom": "chien-noir",
+    "source": "recu/mizus.webp",
+    "role": "vignette",
+    "alt": "Un labrador noir allongé, la gueule ouverte, l'air heureux",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "bfe79f39ef86d076",
+    "ratio": "5:4",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "46% 24%",
+    "sujet": {
+      "x": 37.2,
+      "y": 10.3,
+      "l": 19.3,
+      "h": 27.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 685,
+      "height": 548,
+      "source": [
+        692,
+        548
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "692 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "chien-noir-480.webp",
+      "chien-noir-640.webp"
+    ],
+    "poids": {
+      "chien-noir-480.webp": 17592,
+      "chien-noir-640.webp": 25748
+    },
+    "media": "c.media({ nom: 'chien-noir', alt: \"Un labrador noir allongé, la gueule ouverte, l'air heureux\", cadrage: '46% 24%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '5 / 4' })"
+  },
+  "cabinet": {
+    "nom": "cabinet",
+    "source": "recu/tarifs-seances.webp",
+    "role": "galerie",
+    "alt": "Le cabinet : deux fauteuils gris, un tapis rond et une étagère en bois clair",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1199606cad945476",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      960,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "58% 42%",
+    "sujet": {
+      "x": 19.1,
+      "y": 10.3,
+      "l": 72.1,
+      "h": 54.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.31,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1919,
+      "height": 1439,
+      "source": [
+        1919,
+        1445
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "cabinet-640.webp",
+      "cabinet-960.webp",
+      "cabinet-1280.webp"
+    ],
+    "poids": {
+      "cabinet-640.webp": 41590,
+      "cabinet-960.webp": 83664,
+      "cabinet-1280.webp": 135508
+    },
+    "media": "c.media({ nom: 'cabinet', alt: \"Le cabinet : deux fauteuils gris, un tapis rond et une étagère en bois clair\", cadrage: '58% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo-marque.png",
+    "role": "logo",
+    "alt": "Logo de Marianne Meyzen Récalde",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "e4334b0d9dfad3c8",
+    "ratio": null,
+    "largeurs": [
+      240
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 25116
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Logo de Marianne Meyzen Récalde\", sizes: '240px' })"
+  },
+  "logo-clair": {
+    "nom": "logo-clair",
+    "source": "recu/logo-marque-clair.png",
+    "role": "logo",
+    "alt": "Logo de Marianne Meyzen Récalde",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "4c264c19fe58d1c7",
+    "ratio": null,
+    "largeurs": [
+      240
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-clair-240.webp"
+    ],
+    "poids": {
+      "logo-clair-240.webp": 23482
+    },
+    "media": "c.media({ nom: 'logo-clair', alt: \"Logo de Marianne Meyzen Récalde\", sizes: '240px' })"
+  },
+  "logo-amis-de-buck": {
+    "nom": "logo-amis-de-buck",
+    "source": "recu/logo-amis-de-buck.png",
+    "role": "logo",
+    "alt": "Logo Les Amis de Buck, accompagnement au deuil animalier",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "fc4f36963e7e5fb9",
+    "ratio": null,
+    "largeurs": [
+      240
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-amis-de-buck-240.webp"
+    ],
+    "poids": {
+      "logo-amis-de-buck-240.webp": 25506
+    },
+    "media": "c.media({ nom: 'logo-amis-de-buck', alt: \"Logo Les Amis de Buck, accompagnement au deuil animalier\", sizes: '240px' })"
+  }
+}

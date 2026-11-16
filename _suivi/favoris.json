@@ -1,0 +1,251 @@
+{
+ "explication": "Maquettes favorites de l'utilisateur : le niveau et le style visés, sur l'accueil ET les pages intérieures. Jamais à copier (ni leur idée, ni leur mise en page) : même harmonie, même fluidité, même soin.",
+ "activite": [
+  "bien-être",
+  "santé"
+ ],
+ "metier": "sophrologue hypnose relaxation deuil animalier",
+ "besoin": [],
+ "ton": [
+  "doux"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "sophrologue-toulouse-maquette",
+ "favorites_dans_la_bibliotheque": 19,
+ "favorites": [
+  {
+   "rang": 1,
+   "maquette": "coolcanyoning-maquette",
+   "client": "guide de canyoning, via ferrata et escalade diplômé d'État (Yann) dans le Verdon, l'arrière-pays de Nice et le Haut-Var",
+   "metier": "guide de canyoning",
+   "pourquoi": "favorite (liste de la skill v11.1)",
+   "proche": [
+    "activité proche"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 87,
+   "en_ligne": "https://coolcanyoning-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "coolcanyoning-maquette/heros",
+     "note_section": 4,
+     "titre": "Sauter.Glisser.Descendre.",
+     "capture": "medias/coolcanyoning-maquette/heros-p1440.jpg",
+     "video": "medias/coolcanyoning-maquette/heros-p720.mp4",
+     "fiche": "sections/coolcanyoning-maquette/heros.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "coolcanyoning-maquette/le-principe",
+     "note_section": 4,
+     "titre": "La descente · −12 m",
+     "capture": "medias/coolcanyoning-maquette/le-principe-p1440.jpg",
+     "video": null,
+     "fiche": "sections/coolcanyoning-maquette/le-principe.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app"
+    },
+    {
+     "page": "canyoning",
+     "role": "ouverture",
+     "id": "coolcanyoning-maquette/canyoning-ph",
+     "note_section": 3,
+     "titre": "Choisir sa descente.",
+     "capture": "medias/coolcanyoning-maquette/canyoning-ph-p1440.jpg",
+     "video": null,
+     "fiche": "sections/coolcanyoning-maquette/canyoning-ph.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app/canyoning"
+    },
+    {
+     "page": "escalade",
+     "role": "étapes",
+     "id": "coolcanyoning-maquette/escalade-voie-t",
+     "note_section": 4,
+     "titre": "La voie, longueur par longueur",
+     "capture": "medias/coolcanyoning-maquette/escalade-voie-t-p1440.jpg",
+     "video": null,
+     "fiche": "sections/coolcanyoning-maquette/escalade-voie-t.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app/escalade"
+    }
+   ]
+  },
+  {
+   "rang": 2,
+   "maquette": "efficience-triathlon-maquette",
+   "client": "coach de triathlon, tests d'effort lactate et stages",
+   "metier": "coach de triathlon",
+   "pourquoi": "favorite (liste de la skill v11.1)",
+   "proche": [
+    "activité proche"
+   ],
+   "lumiere": "sombre",
+   "note_maquette": 88,
+   "en_ligne": "https://efficience-triathlon-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "efficience-triathlon-maquette/top",
+     "note_section": 4,
+     "titre": "Héros vidéo sous ondes",
+     "capture": "medias/efficience-triathlon-maquette/top-p1440.jpg",
+     "video": "medias/efficience-triathlon-maquette/top-p720.mp4",
+     "fiche": "sections/efficience-triathlon-maquette/top.json",
+     "en_ligne": "https://efficience-triathlon-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "outil-interactif",
+     "id": "efficience-triathlon-maquette/science",
+     "note_section": 5,
+     "titre": "Courbe interactive à curseur",
+     "capture": "medias/efficience-triathlon-maquette/science-p1440.jpg",
+     "video": "medias/efficience-triathlon-maquette/science-p720.mp4",
+     "fiche": "sections/efficience-triathlon-maquette/science.json",
+     "en_ligne": "https://efficience-triathlon-maquette.vercel.app"
+    },
+    {
+     "page": "stage-triathlon-montagne",
+     "role": "ouverture",
+     "id": "efficience-triathlon-maquette/stage-triathlon-montagne-top",
+     "note_section": 4,
+     "titre": "Héros à profil d'altitude",
+     "capture": "medias/efficience-triathlon-maquette/stage-triathlon-montagne-top-p1440.jpg",
+     "video": "medias/efficience-triathlon-maquette/stage-triathlon-montagne-top-p720.mp4",
+     "fiche": "sections/efficience-triathlon-maquette/stage-triathlon-montagne-top.json",
+     "en_ligne": "https://efficience-triathlon-maquette.vercel.app/stage-triathlon-montagne"
+    },
+    {
+     "page": "test-effort",
+     "role": "étapes",
+     "id": "efficience-triathlon-maquette/test-effort-protocole",
+     "note_section": 4,
+     "titre": "Protocole épinglé palier par palier",
+     "capture": "medias/efficience-triathlon-maquette/test-effort-protocole-p1440.jpg",
+     "video": "medias/efficience-triathlon-maquette/test-effort-protocole-p720.mp4",
+     "fiche": "sections/efficience-triathlon-maquette/test-effort-protocole.json",
+     "en_ligne": "https://efficience-triathlon-maquette.vercel.app/test-effort"
+    }
+   ]
+  },
+  {
+   "rang": 3,
+   "maquette": "nolanis-maquette",
+   "client": "Agence de communication visuelle à Strasbourg : print et web, espaces publicitaires, publipostage, photo et vidéo, objets publicitaires, sauvegarde en ligne, formation photo",
+   "metier": "agence de communication visuelle",
+   "pourquoi": "favorite (liste de la skill v11.1)",
+   "proche": [],
+   "lumiere": "clair",
+   "note_maquette": 86,
+   "en_ligne": "https://nolanis-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "nolanis-maquette/debut",
+     "note_section": 5,
+     "titre": "Votre agence de communication visuelle à Strasbourg",
+     "capture": "medias/nolanis-maquette/debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "services",
+     "id": "nolanis-maquette/services",
+     "note_section": 4,
+     "titre": "La liasse des épreuves",
+     "capture": "medias/nolanis-maquette/services-p1440.jpg",
+     "video": "medias/nolanis-maquette/services-p720.mp4",
+     "fiche": "sections/nolanis-maquette/services.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "formations",
+     "role": "ouverture",
+     "id": "nolanis-maquette/formations-debut",
+     "note_section": 4,
+     "titre": "Choisir l’image juste",
+     "capture": "medias/nolanis-maquette/formations-debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/formations-debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/formations-debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/formations"
+    },
+    {
+     "page": "contact",
+     "role": "outil-interactif",
+     "id": "nolanis-maquette/contact-devis",
+     "note_section": 4,
+     "titre": "Votre demande, en trois étapes",
+     "capture": "medias/nolanis-maquette/contact-devis-p1440.jpg",
+     "video": "medias/nolanis-maquette/contact-devis-p720.mp4",
+     "fiche": "sections/nolanis-maquette/contact-devis.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/contact"
+    }
+   ]
+  },
+  {
+   "rang": 4,
+   "maquette": "pierre-becq-lanterne-maquette",
+   "client": "antiquaire à Metz (mobilier et objets d'art du XVIe au XXe siècle, expertise, achat de successions)",
+   "metier": "antiquaire",
+   "pourquoi": "favorite (liste de la skill v11.1)",
+   "proche": [],
+   "lumiere": "sombre",
+   "note_maquette": 89,
+   "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "pierre-becq-lanterne-maquette/haut",
+     "note_section": 5,
+     "titre": "Flamme sur la boiserie",
+     "capture": "medias/pierre-becq-lanterne-maquette/haut-p1440.jpg",
+     "video": "medias/pierre-becq-lanterne-maquette/haut-p720.mp4",
+     "fiche": "sections/pierre-becq-lanterne-maquette/haut.json",
+     "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "produits",
+     "id": "pierre-becq-lanterne-maquette/coups-de-coeur",
+     "note_section": 5,
+     "titre": "Salle des coups de cœur",
+     "capture": "medias/pierre-becq-lanterne-maquette/coups-de-coeur-p1440.jpg",
+     "video": "medias/pierre-becq-lanterne-maquette/coups-de-coeur-p720.mp4",
+     "fiche": "sections/pierre-becq-lanterne-maquette/coups-de-coeur.json",
+     "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app"
+    },
+    {
+     "page": "expertise",
+     "role": "ouverture",
+     "id": "pierre-becq-lanterne-maquette/expertise-entree",
+     "note_section": 4,
+     "titre": "Loupe d'expert sur le bureau",
+     "capture": "medias/pierre-becq-lanterne-maquette/expertise-entree-p1440.jpg",
+     "video": "medias/pierre-becq-lanterne-maquette/expertise-entree-p720.mp4",
+     "fiche": "sections/pierre-becq-lanterne-maquette/expertise-entree.json",
+     "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app/expertise"
+    },
+    {
+     "page": "galerie",
+     "role": "produits",
+     "id": "pierre-becq-lanterne-maquette/galerie-galerie-bloc",
+     "note_section": 4,
+     "titre": "Vitrine filtrable",
+     "capture": "medias/pierre-becq-lanterne-maquette/galerie-galerie-bloc-p1440.jpg",
+     "video": "medias/pierre-becq-lanterne-maquette/galerie-galerie-bloc-p720.mp4",
+     "fiche": "sections/pierre-becq-lanterne-maquette/galerie-galerie-bloc.json",
+     "en_ligne": "https://pierre-becq-lanterne-maquette.vercel.app/galerie"
+    }
+   ]
+  }
+ ]
+}

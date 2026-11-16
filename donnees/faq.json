@@ -1,0 +1,26 @@
+[
+ {
+  "q": "Comment régler une séance ?",
+  "r": "À la fin de la séance, en espèces, par chèque ou par virement WERO. Une facture vous est remise après chaque séance."
+ },
+ {
+  "q": "Et pour une séance en ligne ?",
+  "r": "Un prépaiement par virement bancaire ou WERO est demandé avant la séance. Le rendez-vous se prend par téléphone."
+ },
+ {
+  "q": "Peut-on payer un forfait en plusieurs fois ?",
+  "r": "Oui : pour les forfaits de 6 à 10 séances, un paiement en 3 ou 4 fois sans frais est possible au début du protocole, sur demande."
+ },
+ {
+  "q": "Ma mutuelle rembourse-t-elle les séances ?",
+  "r": "Cela dépend de votre contrat : votre complémentaire santé peut vous renseigner. Resalib tient une liste des mutuelles qui prennent en charge la sophrologie."
+ },
+ {
+  "q": "Que se passe-t-il si je ne peux pas venir ?",
+  "r": "Prévenez dès que possible : un rendez-vous non honoré sans prévenir est dû et facturé."
+ },
+ {
+  "q": "La sophrologie remplace-t-elle un traitement ?",
+  "r": "Non. La sophrologie ne remplace pas un suivi médical : elle l’accompagne."
+ }
+]

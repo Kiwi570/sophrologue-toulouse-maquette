@@ -1,0 +1,83 @@
+{
+ "sophrologie": {
+  "nom": "Sophrologie et acouphènes",
+  "duree": "1 h 30 la première séance, puis 1 h",
+  "lignes": [
+   {
+    "profil": "adulte",
+    "libelle": "Séance individuelle",
+    "prix": 50,
+    "forfait": 450
+   },
+   {
+    "profil": "etudiant",
+    "libelle": "Étudiant",
+    "prix": 35,
+    "forfait": 300
+   },
+   {
+    "profil": "reconversion",
+    "libelle": "Personne en reconversion",
+    "prix": 35,
+    "forfait": 300
+   },
+   {
+    "profil": "groupe",
+    "libelle": "Groupe, par personne",
+    "prix": 17
+   }
+  ]
+ },
+ "buck": {
+  "nom": "Les Amis de Buck",
+  "duree": "6 séances d’1 h 30 sur 3 mois",
+  "lignes": [
+   {
+    "profil": "adulte",
+    "libelle": "Individuel et couple",
+    "prix": 40
+   },
+   {
+    "profil": "etudiant",
+    "libelle": "Étudiant",
+    "prix": 30
+   },
+   {
+    "profil": "reconversion",
+    "libelle": "Personne en reconversion",
+    "prix": 30
+   },
+   {
+    "profil": "enfant",
+    "libelle": "Enfant",
+    "prix": 20
+   },
+   {
+    "profil": "groupe",
+    "libelle": "Groupe (5 personnes au plus), par personne",
+    "prix": 10
+   }
+  ]
+ },
+ "hypnose": {
+  "nom": "Hypnose thérapeutique",
+  "duree": "Séances d’1 h 30",
+  "lignes": [
+   {
+    "profil": "adulte",
+    "libelle": "Adulte, en individuel",
+    "prix": 60
+   },
+   {
+    "profil": "etudiant",
+    "libelle": "Étudiant",
+    "prix": 40
+   },
+   {
+    "profil": "reconversion",
+    "libelle": "Personne en reconversion",
+    "prix": 40
+   }
+  ]
+ }
+}
