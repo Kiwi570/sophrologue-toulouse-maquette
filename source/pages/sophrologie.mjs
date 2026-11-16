@@ -68,9 +68,12 @@ export default (c) => {
       ${familles.map((f) => html`<button type="button" class="filtre" data-filtre="${f}" aria-pressed="false">${c.t(`sophro.domaines.${f}`)}</button>`)}
     </div>
     <p class="visuellement-cache" aria-live="polite" data-filtre-compte="${c.s('sophro.domaines.compte')}"></p>
+    <p class="glisser" aria-hidden="true">${c.t('commun.glisser')}</p>
+    <div class="rangee" data-galerie tabindex="0" role="region" aria-label="${c.s('sophro.domaines.surtitre')}">
     <ul class="domaines-grille" data-anime="cascade">
       ${c.donnees.domaines.map((d, i) => html`<li class="domaine" data-famille="${d.famille}" id="domaine-${d.cle}"><span class="domaine-num" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span><h3>${d.titre}</h3><p>${d.texte}</p><span class="domaine-famille">${c.t(`sophro.domaines.${d.famille}`)}</span></li>`)}
     </ul>
+    </div>
   </div>
 </section>
 

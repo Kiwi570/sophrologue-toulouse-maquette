@@ -3,7 +3,7 @@
   "metier": "Sophrologue",
   "adresse": "https://sophrologue-toulouse-maquette.vercel.app",
   "siteActuel": "sophrologue-toulouse.com",
-  "version": 1,
+  "version": 2,
   "langues": [
     "fr"
   ],
@@ -23,7 +23,7 @@
     "texte": "#1E1D2B",
     "voile": "#2A2740",
     "theme": "#F4F5F2",
-    "menu": "#F4F5F2"
+    "menu": "#2A2740"
   },
   "formeVoile": "iris",
   "contact": {
@@ -40,6 +40,7 @@
   },
   "polices": [
     "/assets/polices/fraunces.woff2",
+    "/assets/polices/fraunces-italique.woff2",
     "/assets/polices/figtree-400.woff2"
   ],
   "imagePartage": "grok/accueil-souffle-960.webp",

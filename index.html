@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -7,7 +7,7 @@
 <meta name="description" content="Sophrologue certifiée à Toulouse (Purpan) et en ligne : stress et émotions, sommeil, deuil animalier avec Les Amis de Buck, acouphènes, hypnose thérapeutique.">
 <meta name="robots" content="noindex, nofollow">
 <link rel="canonical" href="https://sophrologue-toulouse-maquette.vercel.app/">
-<style>:root{--fond:#F4F5F2;--texte:#1E1D2B;--voile-fond:#2A2740;--menu-fond:#F4F5F2}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<style>:root{--fond:#F4F5F2;--texte:#1E1D2B;--voile-fond:#2A2740;--menu-fond:#2A2740}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
 <script>(function () {
 var d = document.documentElement, ss = null, ls = null;
 try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
@@ -34,15 +34,16 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/fraunces-italique.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F4F5F2">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -60,7 +61,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Marianne Meyzen Récalde, sophrologue","url":"https://sophrologue-toulouse-maquette.vercel.app/","telephone":"+33643700110","description":"Sophrologue certifiée à Toulouse et en ligne : gestion du stress et des émotions, deuil animalier (Les Amis de Buck), acouphènes, hypnose thérapeutique.","address":{"@type":"PostalAddress","streetAddress":"3 rue Ledru-Rollin","postalCode":"31300","addressLocality":"Toulouse","addressCountry":"FR"},"sameAs":["https://facebook.com/deuilanimalierlesamisdeBuck"]}</script>
 </head>
 <body id="haut">
-<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair-240.webp" alt="" width="56" height="59"><span data-voile-libelle>Accueil</span></div></div>
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-240.webp" alt="" width="56" height="59"><span data-voile-libelle>Accueil</span></div></div>
 <div class="ouverture-panneau" data-ouverture aria-hidden="true">
   <div class="intro-scene">
     <span class="intro-anneau"></span><span class="intro-anneau"></span>
@@ -76,10 +77,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <img src="/assets/images/logo-240.webp" alt="" width="40" height="42"><span class="entete-nom">Marianne Meyzen Récalde<small>Sophrologue · Toulouse</small></span>
     </a>
     <nav data-nav aria-label="Navigation principale">
-      <ul><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+      <ul><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs">Tarifs</a></li></ul>
     </nav>
     <div class="entete-actions">
-      <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs et rendez-vous">Prendre rendez-vous</a>
+      <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs">Prendre rendez-vous</a>
       <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
       <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
     </div>
@@ -103,8 +104,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <span id="menu-ferme" aria-hidden="true"></span>
 <div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
   <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
-  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/les-amis-de-buck" class="menu-lien" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li style="--i:2"><a href="/sophrologie" class="menu-lien" data-libelle="Sophrologie">Sophrologie</a></li><li style="--i:3"><a href="/hypnose" class="menu-lien" data-libelle="Hypnose">Hypnose</a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
-  <p><a class="bouton" href="tel:+33643700110">Appeler 06 43 70 01 10</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page"><span>Accueil</span><small>Retrouver son souffle</small></a></li><li style="--i:1"><a href="/les-amis-de-buck" class="menu-lien" data-libelle="Les Amis de Buck"><span>Les Amis de Buck</span><small>Deuil animalier</small></a></li><li style="--i:2"><a href="/sophrologie" class="menu-lien" data-libelle="Sophrologie"><span>Sophrologie</span><small>Émotions, stress, sommeil, acouphènes</small></a></li><li style="--i:3"><a href="/hypnose" class="menu-lien" data-libelle="Hypnose"><span>Hypnose</span><small>Thérapie brève</small></a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Tarifs"><span>Tarifs</span><small>Tarifs, cabinet, rendez-vous</small></a></li></ul>
+  <div class="menu-contact">
+    <p class="menu-actions"><a class="bouton" href="tel:+33643700110">Appeler 06 43 70 01 10</a><a class="bouton bouton--contour" href="https://calendar.app.google/daQRq3HRKrpuS9pt7" target="_blank" rel="noopener">Réserver au cabinet <span aria-hidden="true">↗</span><span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    <p class="menu-horaires">Au cabinet : le vendredi après-midi<br>En ligne : mardi et jeudi après-midi, vendredi et samedi matin</p>
+  </div>
 </div>
 <main id="contenu" tabindex="-1">
 <section class="hero" id="debut">
@@ -112,17 +116,18 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <p class="surtitre hero-sur" data-anime="gsap">Sophrologue certifiée · Toulouse et en ligne</p>
     <h1 class="hero-titre" data-anime="gsap">
       <span class="ligne-masque"><span class="hero-ligne">Retrouver</span></span>
-      <span class="ligne-masque"><span class="hero-ligne">son <em>souffle</em>,</span></span>
+      <span class="ligne-masque"><span class="hero-ligne" data-grille="typo">son <em>souffle</em>,</span></span>
       <span class="ligne-masque"><span class="hero-ligne">à son rythme.</span></span>
     </h1>
     <p class="hero-intro masque-ecran-tres-bas" data-anime="gsap">Stress, émotions, sommeil, deuil d’un animal, acouphènes : je vous accompagne en douceur avec la sophrologie et l’hypnose, au cabinet à Toulouse ou en ligne.</p>
     <div class="hero-actions" data-anime="gsap">
-      <a href="/rendez-vous#choisir" class="bouton" data-libelle="Tarifs et rendez-vous" data-action-principale data-survol="magnetique">Prendre rendez-vous</a>
+      <a href="/rendez-vous#choisir" class="bouton" data-libelle="Tarifs" data-action-principale data-survol="magnetique">Prendre rendez-vous</a>
       <a class="bouton bouton--contour" href="#accompagnements">Mes accompagnements</a>
     </div>
     <p class="hero-info" data-info-cle data-anime="gsap"><span class="point-vert" aria-hidden="true"></span>Cabinet le vendredi après-midi · en ligne quatre demi-journées par semaine</p>
   </div>
   <div class="hero-visuel">
+    <span class="aura" aria-hidden="true"></span>
     <div class="souffle" data-effet="souffle" aria-hidden="true"><span></span><span></span><span></span></div>
     <figure class="media souffle-media" data-grok data-iris-centre="disque" style="--cadrage:50% 50%">
   <picture>
@@ -222,9 +227,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p data-anime>La sophrologie travaille beaucoup avec le souffle. Inspirez quand le cercle grandit, expirez quand il se resserre : six respirations, une minute.</p>
       <blockquote class="petite-citation" data-anime><p>« Bien respirer, c’est assurer à l’ensemble de son corps un bon fonctionnement et détenir la clé de l’apaisement. »</p></blockquote>
       <p class="note" data-anime>Un petit exercice de découverte : il ne remplace pas une séance.</p>
+      <p data-anime><a href="/sophrologie#techniques" class="lien-fleche" data-libelle="Sophrologie">Envie d’aller plus loin ? Découvrir la sophrologie <span aria-hidden="true">→</span></a></p>
     </div>
     <div class="respiration" data-effet="respiration" data-grille="manipuler" data-repos="Prêt(e) ?" data-inspirez="Inspirez" data-expirez="Expirez" data-fini="Merci" data-cycle="Respiration {n} sur 6">
-      <div class="respiration-cercle" aria-hidden="true" data-visuel><span class="respiration-halo"></span><span class="respiration-disque"></span></div>
+      <div class="respiration-cercle" aria-hidden="true" data-visuel><span class="respiration-halo"></span><span class="respiration-disque"></span><svg class="respiration-progres" viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" pathLength="100"/></svg></div>
       <p class="respiration-consigne" aria-live="polite"><span data-consigne>Prêt(e) ?</span><small data-compte>&nbsp;</small></p>
       <button type="button" class="bouton respiration-bouton" data-commencer="Commencer" data-arreter="Arrêter" aria-pressed="false">Commencer</button>
     </div>
@@ -335,7 +341,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <li class="avis-carte"><blockquote><p>Accompagnée par Marianne depuis plusieurs mois, je recommande ! Les séances sont l’occasion de prendre un temps pour moi, un moment de pause dans les périodes mouvementées.</p><footer><strong>Léa G.</strong> · Sophrologie</footer></blockquote></li><li class="avis-carte"><blockquote><p>Sophrologue super, elle m’a fortement aidé à me préparer pour une opération chirurgicale cardiaque.</p><footer><strong>Jean-Baptiste B.</strong> · Préparation à une opération</footer></blockquote></li><li class="avis-carte"><blockquote><p>Pendant notre première séance, j’ai été accueillie dans un cadre agréable et un espace sécurisant. Je suis déjà apaisée sur ce deuil.</p><footer><strong>Victoria H.</strong> · Les Amis de Buck</footer></blockquote></li><li class="avis-carte"><blockquote><p>J’ai adopté un Malinois auprès d’une association dédiée à la protection de ces chiens magnifiques… Le lien que nous avons créé est juste magique.</p><footer><strong>Michel</strong> · Les Amis de Buck</footer></blockquote></li>
     </ul>
     </div>
-    <p class="centre" data-anime><a class="lien-fleche" href="https://share.google/FnNHBPywux7ZwUBBL" target="_blank" rel="noopener">Lire les avis Google <span aria-hidden="true">↗</span><span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    <p class="centre liens-duo" data-anime><a href="/les-amis-de-buck#temoignages" class="lien-fleche" data-libelle="Les Amis de Buck">Tous les témoignages des Amis de Buck <span aria-hidden="true">→</span></a><a class="lien-fleche" href="https://share.google/FnNHBPywux7ZwUBBL" target="_blank" rel="noopener">Lire les avis Google <span aria-hidden="true">↗</span><span class="visuellement-cache"> (nouvel onglet)</span></a></p>
   </div>
 </section>
 <section class="section pratique fond-ciel" id="pratique">
@@ -363,7 +369,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <div><h3>En ligne, où que vous soyez</h3><p>Mardi et jeudi après-midi, vendredi et samedi matin, en France et dans les pays francophones.</p></div>
       </div>
     </div>
-    <p class="centre" data-anime><a href="/rendez-vous" class="bouton" data-libelle="Tarifs et rendez-vous" data-survol="magnetique">Tarifs et rendez-vous</a></p>
+    <p class="centre" data-anime><a href="/rendez-vous" class="bouton" data-libelle="Tarifs" data-survol="magnetique">Tarifs et rendez-vous</a></p>
   </div>
 </section>
 <section class="appel" id="appel">
@@ -380,7 +386,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </blockquote>
     <p class="appel-texte" data-anime>Quand vous serez prêt(e), je serai là pour vous écouter : au cabinet à Toulouse ou en ligne.</p>
     <p class="appel-actions" data-anime>
-      <a href="/rendez-vous#choisir" class="bouton" data-libelle="Tarifs et rendez-vous" data-survol="magnetique">Prendre rendez-vous</a>
+      <a href="/rendez-vous#choisir" class="bouton" data-libelle="Tarifs" data-survol="magnetique">Prendre rendez-vous</a>
       <a class="bouton bouton--contour" href="tel:+33643700110" data-survol="magnetique">Appeler 06 43 70 01 10</a>
     </p>
   </div>
@@ -401,7 +407,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
     <nav aria-label="Sommaire">
       <p class="pied-titre">Sommaire</p>
-      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs">Tarifs</a></li></ul>
     </nav>
     <div>
       <p class="pied-titre">Suivre</p>
@@ -416,7 +422,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </footer>
 <div data-barre-fixe>
   <a class="bouton bouton--contour" href="tel:+33643700110">Appeler</a>
-  <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs et rendez-vous">Rendez-vous</a>
+  <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs">Rendez-vous</a>
 </div>
 </body>
 </html>

@@ -35,7 +35,15 @@
     "appelTexte": "Quand vous serez prêt(e), je serai là pour vous écouter : au cabinet à Toulouse ou en ligne.",
     "appelBouton": "Prendre rendez-vous",
     "appelTel": "06 43 70 01 10",
-    "glisser": "Faites glisser →"
+    "glisser": "Faites glisser →",
+    "menuSous": {
+      "accueil": "Retrouver son souffle",
+      "les-amis-de-buck": "Deuil animalier",
+      "sophrologie": "Émotions, stress, sommeil, acouphènes",
+      "hypnose": "Thérapie brève",
+      "rendez-vous": "Tarifs, cabinet, rendez-vous"
+    },
+    "menuAgenda": "Réserver au cabinet"
   },
   "pages": {
     "accueil": {
@@ -69,7 +77,7 @@
     "rendez-vous": {
       "titre": "Tarifs et rendez-vous : sophrologue à Toulouse et en ligne",
       "description": "Tous les tarifs, le règlement, l’accès au cabinet de Purpan et la prise de rendez-vous, au cabinet ou en ligne.",
-      "nav": "Tarifs et rendez-vous",
+      "nav": "Tarifs",
       "partageAlt": "Tarifs et rendez-vous de Marianne Meyzen Récalde",
       "accroche": "Au cabinet ou en ligne"
     },
@@ -110,7 +118,8 @@
       "arreter": "Arrêter",
       "repos": "Prêt(e) ?",
       "fini": "Merci",
-      "cycle": "Respiration {n} sur 6"
+      "cycle": "Respiration {n} sur 6",
+      "suite": "Envie d’aller plus loin ? Découvrir la sophrologie"
     },
     "buck": {
       "surtitre": "Deuil animalier",
@@ -162,7 +171,8 @@
     "temoignages": {
       "surtitre": "Ils en parlent",
       "titre": "Des mots qui <em>font du bien</em>",
-      "avis": "Lire les avis Google"
+      "avis": "Lire les avis Google",
+      "tous": "Tous les témoignages des Amis de Buck"
     },
     "pratique": {
       "surtitre": "Tarifs et lieux",
@@ -196,7 +206,7 @@
       "p2": "Nous nous sommes séparés à la fin de ma formation de sophrologue. Son deuil a été très douloureux, et une introspection m’a aidée à retrouver le calme. J’ai aussi vécu le deuil de deux chats adorés.",
       "p3": "C’est pour cela que je vous propose de traverser ce moment avec humanité, bienveillance et douceur. Les séances portent le nom de Buck.",
       "photoAlt": "Un labrador noir allongé, la gueule ouverte, l’air heureux",
-      "photoLegende": "Photo du site actuel"
+      "photoLegende": "Les Amis de Buck"
     },
     "vivre": {
       "surtitre": "Tout au long de l’accompagnement",
@@ -282,7 +292,7 @@
     },
     "domaines": {
       "surtitre": "Onze domaines",
-      "titre": "Pour quoi <em>venir me voir</em> ?",
+      "titre": "Ce que la sophrologie peut <em>accompagner</em>",
       "filtres": "Filtrer les domaines",
       "tous": "Tous",
       "emotions": "Émotions et relations",
@@ -352,7 +362,7 @@
       "alt": "Un fauteuil en lin et un plaid dans une pièce calme et lumineuse"
     },
     "indications": {
-      "surtitre": "Pour quoi venir",
+      "surtitre": "Les indications",
       "titre": "Ce que l’on peut <em>dénouer</em> ensemble"
     },
     "pratique": {
@@ -403,7 +413,9 @@
       "tableauTitre": "Les tarifs en détail",
       "colonneProfil": "Situation",
       "colonnePrix": "Séance",
-      "colonneForfait": "10 séances"
+      "colonneForfait": "10 séances",
+      "demande": "Demander ce rendez-vous",
+      "agenda": "Réserver au cabinet"
     },
     "reglement": {
       "surtitre": "Questions pratiques",

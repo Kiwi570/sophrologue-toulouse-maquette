@@ -18,7 +18,7 @@ export default (c) => {
     <p class="surtitre hero-sur" data-anime="gsap">${c.t('accueil.hero.surtitre')}</p>
     <h1 class="hero-titre" data-anime="gsap">
       <span class="ligne-masque"><span class="hero-ligne">${c.tb('accueil.hero.titre1')}</span></span>
-      <span class="ligne-masque"><span class="hero-ligne">${c.tb('accueil.hero.titre2')}</span></span>
+      <span class="ligne-masque"><span class="hero-ligne" data-grille="typo">${c.tb('accueil.hero.titre2')}</span></span>
       <span class="ligne-masque"><span class="hero-ligne">${c.tb('accueil.hero.titre3')}</span></span>
     </h1>
     <p class="hero-intro masque-ecran-tres-bas" data-anime="gsap">${c.t('accueil.hero.texte')}</p>
@@ -29,6 +29,7 @@ export default (c) => {
     <p class="hero-info" data-info-cle data-anime="gsap"><span class="point-vert" aria-hidden="true"></span>${c.t('accueil.hero.info')}</p>
   </div>
   <div class="hero-visuel">
+    <span class="aura" aria-hidden="true"></span>
     <div class="souffle" data-effet="souffle" aria-hidden="true"><span></span><span></span><span></span></div>
     ${c.media({ nom: 'grok/accueil-souffle', alt: c.s('accueil.hero.alt'), priorite: true, classe: 'souffle-media', sizes: '(max-width: 760px) 80vw, 42vw', attrs: 'data-iris-centre="disque"' })}
     <figure class="medaillon" data-anime="gsap">
@@ -73,9 +74,10 @@ export default (c) => {
       <p data-anime>${c.t('accueil.respirer.texte')}</p>
       <blockquote class="petite-citation" data-anime><p>${c.t('accueil.respirer.citation')}</p></blockquote>
       <p class="note" data-anime>${c.t('accueil.respirer.note')}</p>
+      <p data-anime>${c.lien('sophrologie', { ancre: 'techniques', classe: 'lien-fleche', texte: html`${c.t('accueil.respirer.suite')} <span aria-hidden="true">→</span>` })}</p>
     </div>
     <div class="respiration" data-effet="respiration" data-grille="manipuler" data-repos="${c.s('accueil.respirer.repos')}" data-inspirez="${c.s('commun.inspirez')}" data-expirez="${c.s('commun.expirez')}" data-fini="${c.s('accueil.respirer.fini')}" data-cycle="${c.s('accueil.respirer.cycle')}">
-      <div class="respiration-cercle" aria-hidden="true" data-visuel><span class="respiration-halo"></span><span class="respiration-disque"></span></div>
+      <div class="respiration-cercle" aria-hidden="true" data-visuel><span class="respiration-halo"></span><span class="respiration-disque"></span><svg class="respiration-progres" viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" pathLength="100"/></svg></div>
       <p class="respiration-consigne" aria-live="polite"><span data-consigne>${c.t('accueil.respirer.repos')}</span><small data-compte>&nbsp;</small></p>
       <button type="button" class="bouton respiration-bouton" data-commencer="${c.s('accueil.respirer.commencer')}" data-arreter="${c.s('accueil.respirer.arreter')}" aria-pressed="false">${c.t('accueil.respirer.commencer')}</button>
     </div>
@@ -175,7 +177,7 @@ export default (c) => {
       ${c.donnees.temoignages.filter((x) => ['lea', 'jean-baptiste', 'victoria', 'michel'].includes(x.cle)).map((x) => html`<li class="avis-carte"><blockquote><p>${x.texte}</p><footer><strong>${x.nom}</strong> · ${x.sujet}</footer></blockquote></li>`)}
     </ul>
     </div>
-    <p class="centre" data-anime><a class="lien-fleche" href="${k.avis}" target="_blank" rel="noopener">${c.t('accueil.temoignages.avis')} <span aria-hidden="true">↗</span><span class="visuellement-cache"> ${c.t('commun.nouvelOnglet')}</span></a></p>
+    <p class="centre liens-duo" data-anime>${c.lien('les-amis-de-buck', { ancre: 'temoignages', classe: 'lien-fleche', texte: html`${c.t('accueil.temoignages.tous')} <span aria-hidden="true">→</span>` })}<a class="lien-fleche" href="${k.avis}" target="_blank" rel="noopener">${c.t('accueil.temoignages.avis')} <span aria-hidden="true">↗</span><span class="visuellement-cache"> ${c.t('commun.nouvelOnglet')}</span></a></p>
   </div>
 </section>
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-curseur>
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -7,7 +7,7 @@
 <meta name="description" content="Un protocole de 6 séances sur 3 mois pour traverser le deuil d’un animal avec douceur, en cabinet à Toulouse ou en ligne. Premier échange offert.">
 <meta name="robots" content="noindex, nofollow">
 <link rel="canonical" href="https://sophrologue-toulouse-maquette.vercel.app/les-amis-de-buck">
-<style>:root{--fond:#F4F5F2;--texte:#1E1D2B;--voile-fond:#2A2740;--menu-fond:#F4F5F2}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<style>:root{--fond:#F4F5F2;--texte:#1E1D2B;--voile-fond:#2A2740;--menu-fond:#2A2740}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
 <script>(function () {
 var d = document.documentElement, ss = null, ls = null;
 try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
@@ -34,15 +34,16 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/fraunces-italique.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F4F5F2">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -60,7 +61,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Marianne Meyzen Récalde, sophrologue","url":"https://sophrologue-toulouse-maquette.vercel.app/","telephone":"+33643700110","description":"Sophrologue certifiée à Toulouse et en ligne : gestion du stress et des émotions, deuil animalier (Les Amis de Buck), acouphènes, hypnose thérapeutique.","address":{"@type":"PostalAddress","streetAddress":"3 rue Ledru-Rollin","postalCode":"31300","addressLocality":"Toulouse","addressCountry":"FR"},"sameAs":["https://facebook.com/deuilanimalierlesamisdeBuck"]}</script>
 </head>
 <body id="haut">
-<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair-240.webp" alt="" width="56" height="59"><span data-voile-libelle>Les Amis de Buck</span></div></div>
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-240.webp" alt="" width="56" height="59"><span data-voile-libelle>Les Amis de Buck</span></div></div>
 <div class="ouverture-panneau" data-ouverture aria-hidden="true">
   <div class="intro-scene">
     <span class="intro-anneau"></span><span class="intro-anneau"></span>
@@ -76,10 +77,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <img src="/assets/images/logo-240.webp" alt="" width="40" height="42"><span class="entete-nom">Marianne Meyzen Récalde<small>Sophrologue · Toulouse</small></span>
     </a>
     <nav data-nav aria-label="Navigation principale">
-      <ul><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck" aria-current="page">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+      <ul><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck" aria-current="page">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs">Tarifs</a></li></ul>
     </nav>
     <div class="entete-actions">
-      <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs et rendez-vous">Prendre rendez-vous</a>
+      <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs">Prendre rendez-vous</a>
       <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
       <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
     </div>
@@ -103,8 +104,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <span id="menu-ferme" aria-hidden="true"></span>
 <div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
   <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
-  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/les-amis-de-buck" class="menu-lien" data-libelle="Les Amis de Buck" aria-current="page">Les Amis de Buck</a></li><li style="--i:2"><a href="/sophrologie" class="menu-lien" data-libelle="Sophrologie">Sophrologie</a></li><li style="--i:3"><a href="/hypnose" class="menu-lien" data-libelle="Hypnose">Hypnose</a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
-  <p><a class="bouton" href="tel:+33643700110">Appeler 06 43 70 01 10</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil"><span>Accueil</span><small>Retrouver son souffle</small></a></li><li style="--i:1"><a href="/les-amis-de-buck" class="menu-lien" data-libelle="Les Amis de Buck" aria-current="page"><span>Les Amis de Buck</span><small>Deuil animalier</small></a></li><li style="--i:2"><a href="/sophrologie" class="menu-lien" data-libelle="Sophrologie"><span>Sophrologie</span><small>Émotions, stress, sommeil, acouphènes</small></a></li><li style="--i:3"><a href="/hypnose" class="menu-lien" data-libelle="Hypnose"><span>Hypnose</span><small>Thérapie brève</small></a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Tarifs"><span>Tarifs</span><small>Tarifs, cabinet, rendez-vous</small></a></li></ul>
+  <div class="menu-contact">
+    <p class="menu-actions"><a class="bouton" href="tel:+33643700110">Appeler 06 43 70 01 10</a><a class="bouton bouton--contour" href="https://calendar.app.google/daQRq3HRKrpuS9pt7" target="_blank" rel="noopener">Réserver au cabinet <span aria-hidden="true">↗</span><span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    <p class="menu-horaires">Au cabinet : le vendredi après-midi<br>En ligne : mardi et jeudi après-midi, vendredi et samedi matin</p>
+  </div>
 </div>
 <main id="contenu" tabindex="-1">
 <section class="ouv-plein sombre" id="debut">
@@ -120,7 +124,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <h1 class="ouv-titre" data-anime="gsap">Les Amis de Buck, quand nos animaux <em>s’en vont</em>…</h1>
     <p class="ouv-texte masque-ecran-tres-bas" data-anime="gsap">Un accompagnement doux pour traverser le deuil d’un animal, ou la souffrance de le voir gravement malade, à votre rythme.</p>
     <div class="ouv-actions" data-anime="gsap">
-      <a href="/rendez-vous?sujet=buck#demande" class="bouton bouton--clair" data-libelle="Tarifs et rendez-vous" data-action-principale data-survol="magnetique">Réserver le premier échange offert</a>
+      <a href="/rendez-vous?sujet=buck#demande" class="bouton bouton--clair" data-libelle="Tarifs" data-action-principale data-survol="magnetique">Réserver le premier échange offert</a>
       <p class="ouv-info" data-info-cle>6 séances d’1 h 30 sur 3 mois · 40 € la séance</p>
     </div>
   </div>
@@ -141,7 +145,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/chien-noir-640.webp" srcset="/assets/images/chien-noir-480.webp 480w, /assets/images/chien-noir-640.webp 640w" sizes="(max-width: 760px) 70vw, 300px" alt="Un labrador noir allongé, la gueule ouverte, l’air heureux" width="640" height="512" loading="lazy" decoding="async">
   </picture>
 </figure>
-        <figcaption>Photo du site actuel</figcaption>
+        <figcaption>Les Amis de Buck</figcaption>
       </figure>
       <img class="badge-buck badge-buck--flottant" src="/assets/images/logo-amis-de-buck-240.webp" alt="" width="110" height="125" loading="lazy" data-fx="vitesse" data-fx-force="8">
     </div>
@@ -201,9 +205,12 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="surtitre" data-anime>Témoignages</p>
       <h2 data-anime="lignes">Ils ont traversé ce deuil <em>avec moi</em></h2>
     </div>
+    <p class="glisser" aria-hidden="true">Faites glisser →</p>
+    <div class="rangee" data-galerie tabindex="0" role="region" aria-label="Témoignages">
     <ul class="avis avis--mur" data-anime="cascade">
       <li class="avis-carte"><blockquote><p>Pendant notre première séance, j’ai été accueillie dans un cadre agréable et un espace sécurisant. Je suis déjà apaisée sur ce deuil.</p><footer><strong>Victoria H.</strong></footer></blockquote></li><li class="avis-carte"><blockquote><p>J’ai adopté un Malinois auprès d’une association dédiée à la protection de ces chiens magnifiques… Le lien que nous avons créé est juste magique.</p><footer><strong>Michel</strong></footer></blockquote></li><li class="avis-carte"><blockquote><p>Accompagnée par Marianne, je ne peux que la recommander pour son grand investissement professionnel, son écoute…</p><footer><strong>Christine C.</strong></footer></blockquote></li><li class="avis-carte"><blockquote><p>Marianne, merci pour votre accompagnement durant toutes ces semaines.</p><footer><strong>Manon</strong></footer></blockquote></li><li class="avis-carte"><blockquote><p>Je n’ai malheureusement plus de chien, le mien est mort il y a 2 ans. Je regrette de ne pas vous avoir connue…</p><footer><strong>Jeff</strong></footer></blockquote></li><li class="avis-carte"><blockquote><p>Bonjour Marianne, je suis vétérinaire en région PACA et je viens de découvrir votre activité grâce à Facebook.</p><footer><strong>Philippe</strong> · Vétérinaire en région PACA</footer></blockquote></li>
     </ul>
+    </div>
   </div>
 </section>
 <section class="section engagements fond-ciel" id="engagements">
@@ -227,7 +234,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="surtitre" data-anime>Tarifs</p>
       <h2 data-anime="lignes">Le protocole, <em>séance par séance</em></h2>
       <p class="note" data-anime>Les séances individuelles complémentaires à ce protocole sont au même tarif. Paiement en 3 ou 4 fois sans frais possible sur demande.</p>
-      <p data-anime><a href="/rendez-vous?accompagnement=buck#tarifs" class="lien-fleche" data-libelle="Tarifs et rendez-vous">Tous les tarifs</a></p>
+      <p data-anime><a href="/rendez-vous?accompagnement=buck#tarifs" class="lien-fleche" data-libelle="Tarifs">Tous les tarifs</a></p>
     </div>
     <table class="table-prix" data-anime>
       <caption class="visuellement-cache">Les Amis de Buck</caption>
@@ -249,7 +256,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </blockquote>
     <p class="appel-texte" data-anime>Quand vous serez prêt(e), je serai là pour vous écouter : au cabinet à Toulouse ou en ligne.</p>
     <p class="appel-actions" data-anime>
-      <a href="/rendez-vous#choisir" class="bouton" data-libelle="Tarifs et rendez-vous" data-survol="magnetique">Prendre rendez-vous</a>
+      <a href="/rendez-vous#choisir" class="bouton" data-libelle="Tarifs" data-survol="magnetique">Prendre rendez-vous</a>
       <a class="bouton bouton--contour" href="tel:+33643700110" data-survol="magnetique">Appeler 06 43 70 01 10</a>
     </p>
   </div>
@@ -270,7 +277,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
     <nav aria-label="Sommaire">
       <p class="pied-titre">Sommaire</p>
-      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck" aria-current="page">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs et rendez-vous">Tarifs et rendez-vous</a></li></ul>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/les-amis-de-buck" data-libelle="Les Amis de Buck" aria-current="page">Les Amis de Buck</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/hypnose" data-libelle="Hypnose">Hypnose</a></li><li><a href="/rendez-vous" data-libelle="Tarifs">Tarifs</a></li></ul>
     </nav>
     <div>
       <p class="pied-titre">Suivre</p>
@@ -285,7 +292,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </footer>
 <div data-barre-fixe>
   <a class="bouton bouton--contour" href="tel:+33643700110">Appeler</a>
-  <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs et rendez-vous">Rendez-vous</a>
+  <a class="bouton" href="/rendez-vous#choisir" data-libelle="Tarifs">Rendez-vous</a>
 </div>
 </body>
 </html>

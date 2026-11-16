@@ -2,7 +2,7 @@
    l'en-tête, le menu, les boucles, les mesures et la bibliothèque d'effets posés par attributs dans les pages.
    Effets du plan (data-effet) : souffle, souffle-appel, respiration, etoiles, onde-apaisee, bandeau-ouvre,
    mise-au-point, choix. */
-import { demarrer, boucle, etat, versObjet, centreOuverture } from './socle/index.js?v=1';
+import { demarrer, boucle, etat, versObjet, centreOuverture } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;
@@ -20,9 +20,11 @@ function anneaux(sel, amp) {
     const r = $$('span', el);
     /* L'image du cercle respire aussi (l'image, pas la figure : l'objet d'ouverture garde sa taille). */
     const img = el.nextElementSibling && el.nextElementSibling.matches('.souffle-media') ? $('img', el.nextElementSibling) : null;
+    const aura = el.parentElement && $(':scope > .aura', el.parentElement);
     boucle(el, (dt, t) => {
       const s = souffleA(t);
       if (img) img.style.transform = `scale(${(1.02 + 0.05 * s).toFixed(4)})`;
+      if (aura) { aura.style.transform = `scale(${(0.92 + 0.16 * s).toFixed(4)})`; aura.style.opacity = (0.55 + 0.45 * s).toFixed(3); }
       r.forEach((a, i) => {
         a.style.transform = `scale(${(1 + (i + 1) * amp * s).toFixed(4)}) rotate(${(i === 2 ? t * 4 : 0).toFixed(2)}deg)`;
         a.style.opacity = (0.95 - i * 0.22 - s * 0.25).toFixed(3);
@@ -37,7 +39,8 @@ function respiration() {
   if (!el) return;
   const disque = $('.respiration-disque', el), halo = $('.respiration-halo', el);
   const consigne = $('[data-consigne]', el), compte = $('[data-compte]', el), bouton = $('.respiration-bouton', el);
-  const d = el.dataset;
+  const progres = $('.respiration-progres circle', el);
+  const d = { ...el.dataset, ...bouton.dataset };
   let actif = false, temps = 0, dernierCycle = -1, derniereConsigne = '';
   const ecrire = (txt, n) => {
     if (txt !== derniereConsigne) { consigne.textContent = txt; derniereConsigne = txt; }
@@ -65,6 +68,7 @@ function respiration() {
     } else s = 0.12 + 0.18 * souffleA(t * 0.8);
     const e = 0.5 + 0.5 * s;
     disque.style.transform = `scale(${e.toFixed(4)})`;
+    if (progres) progres.style.strokeDashoffset = (100 - (actif ? Math.min(100, (temps / 60) * 100) : 0)).toFixed(2);
     halo.style.transform = `scale(${(0.96 + 0.08 * s).toFixed(4)}) rotate(${(t * 6).toFixed(2)}deg)`;
   });
 }
@@ -158,7 +162,7 @@ function choix() {
   const el = $('[data-effet="choix"]');
   if (!el || !gsap || !ST) return;
   const [a, b] = $$('.porte', el);
-  const st = { trigger: el, start: 'top 70%', end: 'bottom top', scrub: 0.6 };
+  const st = { trigger: el, start: 'top 70%', end: 'bottom top', scrub: true };
   gsap.fromTo(a, { y: 0 }, { y: -26, ease: 'none', scrollTrigger: st });
   gsap.fromTo(b, { y: 0 }, { y: 26, ease: 'none', scrollTrigger: { ...st } });
   const img = $('.porte-media img', el);
@@ -195,8 +199,46 @@ function calculateur() {
     if (prof === 'groupe') morceaux.push('par personne');
     detail.textContent = morceaux.join(' · ');
   };
-  f.addEventListener('change', calculer);
-  calculer();
+  const lien = $('[data-calcul-lien]');
+  const majLien = () => {};
+  /* Lien vers la demande, sur la même page : l'accompagnement choisi est reporté dans le formulaire. */
+  if (lien) lien.addEventListener('click', () => { const sel = $('#f-sujet'); if (sel) sel.value = f.accompagnement.value; });
+  f.addEventListener('change', () => { calculer(); majLien(); });
+  calculer(); majLien();
+}
+
+/* ---------- FAQ : ouverture et fermeture animées ---------- */
+function faq() {
+  if (!gsap) return;
+  $$('details.faq-item').forEach((d) => {
+    const s = $('summary', d), corps = $('p', d);
+    if (!s || !corps) return;
+    s.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (d.dataset.anim) return;
+      d.dataset.anim = '1';
+      if (!d.open) {
+        d.open = true;
+        gsap.fromTo(corps, { height: 0, opacity: 0 }, { height: 'auto', opacity: 1, duration: 0.45, ease: 'power2.out', onComplete: () => { gsap.set(corps, { clearProps: 'height,opacity' }); delete d.dataset.anim; } });
+      } else {
+        gsap.to(corps, { height: 0, opacity: 0, duration: 0.35, ease: 'power2.in', onComplete: () => { d.open = false; gsap.set(corps, { clearProps: 'height,opacity' }); delete d.dataset.anim; } });
+      }
+    });
+  });
+}
+
+/* ---------- Le mot « souffle » du titre respire (axe de graisse de Fraunces) ---------- */
+function motQuiRespire() {
+  const mot = $('.hero-titre em');
+  if (!mot) return;
+  mot.style.display = 'inline-block';
+  mot.style.textAlign = 'center';
+  mot.style.fontWeight = '500';
+  const large = Math.ceil(mot.getBoundingClientRect().width);
+  mot.style.minWidth = `${large}px`;
+  mot.style.fontWeight = '';
+  mot.setAttribute('data-effet', 'mot-souffle');
+  boucle(mot, (dt, t) => { mot.style.fontWeight = String(Math.round(370 + 130 * souffleA(t))); });
 }
 
 /* ---------- Filtres des domaines (gardés dans l'adresse) ---------- */
@@ -250,6 +292,8 @@ demarrer({
     choix();
     calculateur();
     filtres();
+    faq();
+    motQuiRespire();
   },
   /* Intro, environ 2,4 s : le disque inspire, expire, puis glisse et grandit jusqu'à l'objet d'ouverture
      de la page ; le panneau s'ouvre en cercle depuis lui (versObjet). */

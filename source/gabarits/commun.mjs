@@ -83,8 +83,12 @@ function entete(c) {
 <span id="menu-ferme" aria-hidden="true"></span>
 <div id="menu" data-menu role="dialog" aria-modal="true" aria-label="${c.s('commun.menu')}">
   <p class="menu-sansjs-fermer"><a href="#menu-ferme">${c.t('commun.fermer')}</a></p>
-  <ul>${navigation(c).map((k, i) => html`<li style="--i:${i}">${c.lien(k, { classe: 'menu-lien' })}</li>`)}</ul>
-  <p><a class="bouton" href="tel:${c.site.contact.telephoneLien}">${c.t('commun.appeler')} ${c.site.contact.telephone}</a></p>
+  <ul>${navigation(c).map((k, i) => html`<li style="--i:${i}">${c.lien(k, { classe: 'menu-lien', texte: html`<span>${c.libelle(k)}</span><small>${c.t(`commun.menuSous.${k}`)}</small>` })}</li>`)}</ul>
+  <div class="menu-contact">
+    <p class="menu-actions"><a class="bouton" href="tel:${c.site.contact.telephoneLien}">${c.t('commun.appeler')} ${c.site.contact.telephone}</a><a class="bouton bouton--contour" href="${c.site.contact.agenda}" target="_blank" rel="noopener">${c.t('commun.menuAgenda')} <span aria-hidden="true">↗</span><span class="visuellement-cache"> ${c.t('commun.nouvelOnglet')}</span></a></p>
+    <p class="menu-horaires">${c.t('commun.horairesCabinet')}<br>${c.t('commun.horairesLigne')}</p>
+  </div>
+
   ${autreLangue.map((a) => html`<p><a class="entete-langue" href="${a.url}" hreflang="${a.l}" lang="${a.l}" data-langue="${a.l}">${c.s('commun.langueAutre')}</a></p>`)}
 </div>`;
 }
@@ -156,7 +160,7 @@ function voile(c) {
   const vagues = forme === 'vague'
     ? html`<svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg>`
     : '';
-  return html`<div data-voile data-forme="${forme}" aria-hidden="true">${vagues}<div class="voile-contenu"><img src="/assets/images/logo-clair-240.webp" alt="" width="56" height="59"><span data-voile-libelle>${c.libelle(c.page.cle)}</span></div></div>`;
+  return html`<div data-voile data-forme="${forme}" aria-hidden="true">${vagues}<div class="voile-contenu"><img src="/assets/images/logo-240.webp" alt="" width="56" height="59"><span data-voile-libelle>${c.libelle(c.page.cle)}</span></div></div>`;
 }
 
 export function page(c, contenu) {

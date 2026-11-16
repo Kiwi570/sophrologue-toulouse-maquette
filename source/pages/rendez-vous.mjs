@@ -68,6 +68,7 @@ export default (c) => {
         <span class="calcul-prix" data-prix><strong data-calcul-prix>50 €</strong> <span>${c.t('rdv.tarifs.parSeance')}</span></span>
         <span class="calcul-detail" data-calcul-detail>${T.sophrologie.duree} · 450 € les 10 séances</span>
       </output>
+      <p class="calcul-suite">${c.lien('rendez-vous', { ancre: 'demande', classe: 'bouton', texte: c.t('rdv.tarifs.demande'), attrs: 'data-calcul-lien' })}<a class="lien-fleche" href="${k.agenda}" target="_blank" rel="noopener">${c.t('rdv.tarifs.agenda')} <span aria-hidden="true">↗</span>${nouvel}</a></p>
       <script type="application/json" data-calcul-donnees>${brut(JSON.stringify(T).replace(/</g, '\\u003c'))}</script>
     </form>
     <h3 class="tarifs-sous-titre" data-anime>${c.t('rdv.tarifs.tableauTitre')}</h3>

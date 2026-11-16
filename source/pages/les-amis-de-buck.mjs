@@ -97,9 +97,12 @@ export default (c) => {
       <p class="surtitre" data-anime>${c.t('buck.temoignages.surtitre')}</p>
       <h2 data-anime="lignes">${c.tb('buck.temoignages.titre')}</h2>
     </div>
+    <p class="glisser" aria-hidden="true">${c.t('commun.glisser')}</p>
+    <div class="rangee" data-galerie tabindex="0" role="region" aria-label="${c.s('buck.temoignages.surtitre')}">
     <ul class="avis avis--mur" data-anime="cascade">
       ${c.donnees.temoignages.filter((x) => !['lea', 'jean-baptiste'].includes(x.cle)).map((x) => html`<li class="avis-carte"><blockquote><p>${x.texte}</p><footer><strong>${x.nom}</strong>${x.cle === 'philippe' ? html` · ${x.sujet}` : ''}</footer></blockquote></li>`)}
     </ul>
+    </div>
   </div>
 </section>
 

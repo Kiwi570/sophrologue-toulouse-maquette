@@ -1,15 +1,17 @@
 {
- "id": "20261116-195936-complet-cible-partiel",
- "date": "2026-11-16T20:01:17.113Z",
+ "id": "20261116-210057-complet-cible-partiel",
+ "date": "2026-11-16T21:12:28.260Z",
  "niveau": "complet",
- "pages": "/hypnose,/404",
+ "pages": "/,/404,/hypnose,/les-amis-de-buck,/rendez-vous,/sophrologie",
  "etapes": [
   "fichiers",
-  "mesures"
+  "mesures",
+  "bords",
+  "parcours"
  ],
- "version": "1",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 2,
+ "aRegarder": 20,
  "nonLances": 0,
  "manquants": 0,
  "statut": "complet"

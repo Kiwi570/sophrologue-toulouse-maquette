@@ -92,6 +92,60 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Image Grok buck-ouverture refusée (chien collé dans un rectangle) : ouverture de la page Buck sur le ciel étoilé buck-nuit. Images Grok douces agrandies et affinées en PNG avant produire."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1",
+      "perimetre": [
+        "accueil",
+        "les-amis-de-buck",
+        "sophrologie",
+        "hypnose",
+        "rendez-vous",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "analyse complète du site (captures, interactions)",
+          "budget": 15,
+          "debut": "2026-11-16T21:27:00+01:00",
+          "fin": "2026-11-16T21:30:00+01:00"
+        },
+        {
+          "etape": "améliorations v2",
+          "budget": 20,
+          "debut": "2026-11-16T21:30:00+01:00",
+          "fin": "2026-11-16T21:36:00+01:00"
+        },
+        {
+          "etape": "audit complet et corrections",
+          "budget": 50,
+          "debut": "2026-11-16T21:36:00+01:00",
+          "fin": "2026-11-16T22:12:00+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-16T22:12:00+01:00",
+          "fin": "2026-11-16T22:15:00+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [],
+      "audit": {
+        "niveau": "complet, puis relance ciblée (fichiers, mesures, bords, parcours)",
+        "echecsPremierPassage": 19,
+        "relances": 1,
+        "corrections": [
+          "zones tactiles du lien Tarifs (41 px)",
+          "bande claire en bas du menu (barre de défilement horizontale créée par un décor)",
+          "lien du calculateur vers la même page avec paramètres qui rechargeait la page"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Demande de l'utilisateur : audit complet et analyse approfondie, puis améliorations."
     }
   ]
 }

@@ -1,5 +1,18 @@
 # Journal des versions
 
+## v2 · 16 novembre 2026
+
+Analyse complète du site (ordinateur et téléphone, intro de chaque page, voile, menu, formulaire, calculateur, FAQ, respiration), puis audit complet.
+
+- **Corrigé** : le bouton « Arrêter » de l'exercice de respiration était vide pendant l'exercice ; le logo du voile entre les pages était invisible (blanc sur blanc) ; la FAQ s'ouvrait d'un coup.
+- **Menu du téléphone** : sur le bleu-violet nuit du logo, chaque lien avec sa ligne de sous-titre, boutons Appeler et Réserver au cabinet, horaires.
+- **Accueil** : le mot « souffle » du titre respire au rythme des anneaux (graisse de la police) ; un halo respire derrière le grand cercle ; anneau de progression de la minute de respiration ; lien « aller plus loin » vers la sophrologie ; lien vers tous les témoignages des Amis de Buck.
+- **Tarifs** : après le calcul, « Demander ce rendez-vous » (avec l'accompagnement choisi) ou « Réserver au cabinet ».
+- **Téléphone** : les onze domaines (Sophrologie) et les témoignages (Les Amis de Buck) se font glisser au doigt, comme les accompagnements et les témoignages de l'accueil.
+- **En-tête** : « Tarifs » au lieu de « Tarifs et rendez-vous » : la navigation tient sur une rangée dès 1 000 px.
+- **Textes** : « Ce que la sophrologie peut accompagner » (au lieu de « Pour quoi venir me voir ? ») ; « Les indications » sur la page Hypnose ; légende de la photo du chien.
+- **Détails** : flèches des liens qui avancent au survol, police italique préchargée, portes du rendez-vous calées sur le défilement (même écran après un rechargement).
+
 ## v1 · 16 novembre 2026
 
 Première version de la maquette, direction « Souffle » : fond clair, bleu souffle, bleu-violet nuit du logo, violette de Toulouse ; titres Fraunces, texte Figtree.
